@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DGNB>
+	<Project>
+		<Environment>
+			<Env1_1>
+				<Env1_1_1>
+					<IBK:Flag name="CO2ESOE_HighEnergyStandard">true</IBK:Flag>
+					<IBK:Flag name="CO2ESOE_CO2NeutralOperation">true</IBK:Flag>
+					<IBK:Flag name="CO2ESOE_PreparedCO2NeutralOperation">true</IBK:Flag>
+					<IBK:Flag name="CO2ESOE_SufficiencyStandard">true</IBK:Flag>
+					<IBK:Flag name="CO2ESFV_MaterialOptimization">true</IBK:Flag>
+					<IBK:Flag name="CO2ESFV_CO2ReducedMaterials">true</IBK:Flag>
+					<IBK:Flag name="CO2ESFV_LowTech">true</IBK:Flag>
+					<IBK:Flag name="CO2ESFV_CircularDesign">true</IBK:Flag>
+					<IBK:Flag name="CO2ESFV_Longevity">true</IBK:Flag>
+					<IBK:Flag name="CO2PSOE_ElevatedEnergeticStandard">true</IBK:Flag>
+					<IBK:Flag name="CO2PSOE_NettoGreenhouseGasNeutralOperation">true</IBK:Flag>
+					<IBK:Flag name="CO2PSOE_SufficiencyStandard">true</IBK:Flag>
+					<IBK:Flag name="CO2PSFV_MaterialOptimization">true</IBK:Flag>
+					<IBK:Flag name="CO2PSFV_CO2ReducedMaterials">true</IBK:Flag>
+					<IBK:Flag name="CO2PSFV_LowTech">true</IBK:Flag>
+					<IBK:Flag name="CO2PSFV_CircularDesign">true</IBK:Flag>
+					<IBK:Flag name="CO2PSFV_Longevity">true</IBK:Flag>
+					<IBK:Flag name="CO2PSEO_LogisticsAndSiteOperationsOptimizedForEmission">true</IBK:Flag>
+					<IBK:Flag name="CO2A2030IPB_IntegrationOfPreexistingBuilding">true</IBK:Flag>
+					<IBK:Flag name="CO2A2030MO_ForEmission">true</IBK:Flag>
+				</Env1_1_1>
+				<Env1_1_2>
+					<IBK:Flag name="LCCO2Disc_GreenHouseGasBalance">true</IBK:Flag>
+					<IBK:Flag name="LCCO2Disc_NonRenewablePrimaryEnergyBalance">true</IBK:Flag>
+					<IBK:Flag name="LCCO2IER_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="LCCO2A2030LCCPA_AgendaSubmitted">true</IBK:Flag>
+					<IBK:Flag name="LCCO2A2030CPTS_AgendaSubmitted">true</IBK:Flag>
+					<IBK:Flag name="LCCO2BFO_ClimateProtectionAgendaClimateNeutralOperation">true</IBK:Flag>
+					<IBK:Flag name="LCCO2BFO_AmbitiousClimateProtectionAgenda">true</IBK:Flag>
+					<IBK:Flag name="LCCO2BFO_NetGreenhouseHeutrallyClimateNeutrallyOperatedBuilding">true</IBK:Flag>
+					<IBK:Flag name="LCCO2BFSCO2RCP_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Parameter name="RefEnv1_1_2_2_1" unit="-">100</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_2_2_1" unit="-">45</IBK:Parameter>
+					<IBK:Parameter name="RefEnv1_1_2_5_1" unit="-">100</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_2_5_1" unit="-">45</IBK:Parameter>
+				</Env1_1_2>
+				<Env1_1_3>
+					<IBK:Flag name="CVAEILCPEB_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="CVAEIWRAEI_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Parameter name="RefEnv1_1_3_1_1" unit="kWh/m2a">10</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_3_1_1" unit="kWh/m2a">4</IBK:Parameter>
+					<IBK:Parameter name="RefEnv1_1_3_1_2POCP" unit="-">10</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_3_1_2POCP" unit="-">4</IBK:Parameter>
+					<IBK:Parameter name="RefEnv1_1_3_1_2AP" unit="-">10</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_3_1_2AP" unit="-">4</IBK:Parameter>
+					<IBK:Parameter name="RefEnv1_1_3_1_2EP" unit="-">10</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_3_1_2EP" unit="-">4</IBK:Parameter>
+					<IBK:Parameter name="RefEnv1_1_3_1_2FW" unit="-">10</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_1_3_1_2FW" unit="-">4</IBK:Parameter>
+				</Env1_1_3>
+			</Env1_1>
+			<Env1_2>
+				<Env1_2_1>
+					<IBK:Flag name="EFMA_QS1SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMA_QS2SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMA_QS2MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMA_QS3MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMA_QS4MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBRC_QS1SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMBRC_QS2SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMBRC_QS2MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBRC_QS3MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBRC_QS4MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBSC_QS1SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMBSC_QS2SimplifiedDocumentation">true</IBK:Flag>
+					<IBK:Flag name="EFMBSC_QS2MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBSC_QS3MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMBSC_QS4MaterialEcologicalComponentCatalogue">true</IBK:Flag>
+					<IBK:Flag name="EFMA2030_1WaivingOfCrossOutCriterionQS3">true</IBK:Flag>
+					<IBK:Flag name="EFMA2030_2WaivingOfCrossOutCriterionQS4">true</IBK:Flag>
+					<IBK:Flag name="EFMA2030_MeasurementsTakenForSufficientStructure">true</IBK:Flag>
+					<IBK:Flag name="EFMA2030_WaivingOfUnsolveableConnections">true</IBK:Flag>
+					<IBK:Flag name="EFMA2030_AllRowsOnlyFeatureProductsOfSVHCOfMax0_1Percent">true</IBK:Flag>
+					<IBK:Flag name="EFMEPQS123_RealizationOfCoolingSystemWithoutHalogenatedCoolingAgent">true</IBK:Flag>
+					<IBK:Parameter name="EFMA2030_MeasurementsTakenForSufficientStructureNumberOfRows" unit="-">5</IBK:Parameter>
+					<IBK:Parameter name="EFMA2030_WaivingOfUnsolveableConnectionsNumberOfRows" unit="-">5</IBK:Parameter>
+				</Env1_2_1>
+			</Env1_2>
+			<Env1_3>
+				<Env1_3_1>
+					<IBK:Flag name="RURPESCD_DeclarationOfDiligenceGiven">true</IBK:Flag>
+					<IBK:Flag name="RURPERURP_RegularIntegrationOfMeasures">true</IBK:Flag>
+					<IBK:Flag name="RURPERURED_PartsCatalogue">true</IBK:Flag>
+				</Env1_3_1>
+				<Env1_3_2>
+					<IBK:Flag name="RRMCRRM_ResultSumbitted">true</IBK:Flag>
+					<IBK:Flag name="RRMRRWPSR_DetailedMethod">true</IBK:Flag>
+					<IBK:Flag name="RRMRRWPSR_SimplifiedMethod">false</IBK:Flag>
+					<IBK:Flag name="RRMPWMSF_PercentageMinimum50">true</IBK:Flag>
+					<IBK:Flag name="RRMPRCEWMPS_Percentage">true</IBK:Flag>
+					<IBK:Parameter name="Env1_3_2_1NumberOfPartsFromDiffManufacturers" unit="-">10</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValueEnv1_3_2_2RRMRRWPSR_WeightingCostGroup" unit="-">1</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_3_2_2RRMRRWPSR_DetailedMethodSumOfMassPercentOfPartsOfQS4" unit="-">100</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_3_2_2RRMRRWPSR_DetailedMethodSumOfMassPercentOfPartsOfQS2" unit="-">0</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_3_2_2RRMRRWPSR_SimplifiedMethodSumOfNumberOfPartsOfQS4" unit="-">0</IBK:Parameter>
+					<IBK:Parameter name="CurrentValueEnv1_3_2_2RRMRRWPSR_SimplifiedMethodSumOfNumberOfPartsOfQS2" unit="-">0</IBK:Parameter>
+				</Env1_3_2>
+			</Env1_3>
+			<Env2_2>
+				<Env2_2_1>
+					<IBK:Flag name="DWDWWVSCWU_ConceptDevelopedInEarlyPlanningStage">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSCWU_FlowClassesOfSanitaryEquipment">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSCWU_LocalWaterUsageIndex">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSCWU_PotentialOfRainAndGrayWaterUsage">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSCWU_EfficentWateringOfOutsideAreas">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSCWU_EdequatePlanningOfWaterUsageMeteringPoint">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVUSC_ConceptUpdatedToPlanningProgress">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVUSC_ImplementationOfDemonstrablyRelevantAspects">true</IBK:Flag>
+				</Env2_2_1>
+				<Env2_2_2>
+					<IBK:Flag name="DWDWWVWUI_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_env2_2WaterUsageIndex" unit="-">50</IBK:Parameter>
+					<IBK:Parameter name="RefValue_env2_2DWDWWVWUI_DynamicThreshold" unit="-">200</IBK:Parameter>
+				</Env2_2_2>
+				<Env2_2_3>
+					<IBK:Flag name="DWDWWVIR_NoPlannedIrrigationWithDrinkingWater">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVIR_OutsideAreasIncludeRainwaterIrrigationSetup">true</IBK:Flag>
+				</Env2_2_3>
+				<Env2_2_4>
+					<IBK:Flag name="DWDWWVDIQI_DegreeOfIntegrationIntoPreexistingInfrastructureAndUseOfSeparationReductionEtc">true</IBK:Flag>
+				</Env2_2_4>
+				<Env2_2_5>
+					<IBK:Flag name="DWDWWVSC_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSC_InfiltrationPossible">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVSC_UndercuttingTheDrainagePortion">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVDWS_LowEnergyDrinkingWaterManagementSystem">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVDWS_ObservationOfDrinkingWaterSanitation">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVDWS_WarmWaterReducedToOperativeMinimum">true</IBK:Flag>
+					<IBK:Flag name="DWDWWVDWS_ColdWaterLessThan20Degrees">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_env2_2DWDWWVSC_WaterEconomyTotalDeviation" unit="---">8</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_env2_2DWDWWVSC_DeviationFromEvaporationPortion" unit="---">6</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_env2_2DWDWWVSC_DeviationFromInfiltrationPortion" unit="---">6</IBK:Parameter>
+				</Env2_2_5>
+			</Env2_2>
+			<Env2_3>
+				<Env2_3_1>
+					<IBK:Flag name="ADDC_OutlyingDevelopmentArea">true</IBK:Flag>
+					<IBK:Flag name="ADDC_InternalDevelopmentArea">true</IBK:Flag>
+					<IBK:Flag name="ADDC_DevelopmentAreaInPriorStructuralOrInfrastructuralUse">true</IBK:Flag>
+				</Env2_3_1>
+				<Env2_3_2>
+					<IBK:Flag name="ADDSAM_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="ADDSAM_ImplementationOfAdjustmentMeasures">true</IBK:Flag>
+					<IBK:Flag name="ADCEBU_30PercentOfAreaUnsealedPreConstruction">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_env2_3_2ADDSAM_DegreeOfSealing" unit="---">40</IBK:Parameter>
+				</Env2_3_2>
+				<Env2_3_3>
+					<IBK:Flag name="ADSQISR_ExaminationOfSiteAndPreexistingBuildingForContamination">true</IBK:Flag>
+					<IBK:Flag name="ADSQISR_LowContaminationRecyclingAndDisposal">true</IBK:Flag>
+					<IBK:Flag name="ADSQISR_HighContaminationDisposal">true</IBK:Flag>
+					<IBK:Flag name="ADSQICEBISSRS_InSituRestorationChemicalOrBiologicalNoSoilExchange">true</IBK:Flag>
+					<IBK:Flag name="ADSQICEBISSRS_LowDegreeOfTransformationOfSoilAndSafeguardingOfContaminants">true</IBK:Flag>
+					<IBK:Flag name="ADSQICEBISSRS_RestorationOfGroundWaterDamages">true</IBK:Flag>
+				</Env2_3_3>
+			</Env2_3>
+			<Env2_4>
+				<Env2_4_1>
+					<IBK:Flag name="BDOSCEBDS_ExtensiveAndLongTermStrategy">true</IBK:Flag>
+				</Env2_4_1>
+				<Env2_4_2>
+					<IBK:Flag name="BDOSBBSA_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSBGR_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSBAFA2030VB_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSDS_StructureTypesEmbeddedInBiodiversitySupportingConcept">true</IBK:Flag>
+					<IBK:Flag name="BDOSDS_TwoBiotopeStructureTypesAvailable">true</IBK:Flag>
+					<IBK:Flag name="BDOSA2030FS_EmploymentOfSOTAMethodsForImprovementOfSoilQualityAndCultivationOfHumus">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_env2_4_2BDOSBBSA_PercentageOfBiodiversitySupportingOutdoorArea" unit="---">100</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_env2_4_2BDOSBGR_PercentageOfGreenRoof" unit="---">70</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_env2_4_2BDOSBAFA2030VB_BFFOfSite" unit="-">0.85</IBK:Parameter>
+				</Env2_4_2>
+				<Env2_4_3>
+					<IBK:Flag name="BDOSVNEIPS_NoFurtherEmploymentOfInvasivePlantSpecies">true</IBK:Flag>
+					<IBK:Flag name="BDOSVNEIPS_PlanForControlOfPreexistingInvasiveSpecies">true</IBK:Flag>
+					<IBK:Flag name="BDOSVEDLSSS_SelectionBasedOnBiodiversitySupportingConcept">true</IBK:Flag>
+					<IBK:Flag name="BDOSVEDLSSS_ResultSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSVA2030PVHEV_PreservationOfSaidVegetationDuringConstructionAndAfter">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_env2_4_3BDOSVEDLSSS_SelectionIsLocalDiverseAndSuitedToSitePointResult" unit="-">20</IBK:Parameter>
+				</Env2_4_3>
+				<Env2_4_4>
+					<IBK:Flag name="BDOSRSBI_ConceptDeveloped">true</IBK:Flag>
+				</Env2_4_4>
+				<Env2_4_5>
+					<IBK:Flag name="BDOSRNIIC_IlluminationConceptForAvoidanceOfLightPollution">true</IBK:Flag>
+					<IBK:Flag name="BDOSRNIIC_HarmlessLightSourceOrientation">true</IBK:Flag>
+					<IBK:Flag name="BDOSRNIIC_HarmlessLightColourAndLightSourceTemperature">true</IBK:Flag>
+					<IBK:Flag name="BDOSRNIIC_NoUnwantedBlindingEffects">true</IBK:Flag>
+					<IBK:Flag name="BDOSRNIAT_EvaluationOfDangersToAnimals">true</IBK:Flag>
+					<IBK:Flag name="BDOSRNICSP_AccordanceWithEnvironmentProtectionAndBiodiversityInterests">true</IBK:Flag>
+				</Env2_4_5>
+				<Env2_4_6>
+					<IBK:Flag name="BDOSPCMDMCC_ContractSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMDMCC_EcologicalCarePlanSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMDMCC_NoUseOfTurfMaterials">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMDMCC_NoUseOfHerbicidesOnSite">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMDMCC_NoUseOfBiocidesOnSite">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMDMCC_NoUseOfChemicalFertiliserOnSite">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMMSC_SimpleMonitoringOfNestingAids">true</IBK:Flag>
+					<IBK:Flag name="BDOSPCMMSC_ExtensiveMonitoring">true</IBK:Flag>
+				</Env2_4_6>
+				<Env2_4_Alt>
+					<IBK:Flag name="BDOSAC_AlternativeCertificationSubmitted">false</IBK:Flag>
+				</Env2_4_Alt>
+			</Env2_4>
+			<IBK:Parameter name="PW_Env1_1" unit="-">10.4</IBK:Parameter>
+			<IBK:Parameter name="PW_Env1_2" unit="-">5.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Env1_3" unit="-">2.1</IBK:Parameter>
+			<IBK:Parameter name="PW_Env2_2" unit="-">2.1</IBK:Parameter>
+			<IBK:Parameter name="PW_Env2_3" unit="-">2.1</IBK:Parameter>
+			<IBK:Parameter name="PW_Env2_4" unit="-">3.1</IBK:Parameter>
+			<IBK:Parameter name="PG_Env1_1" unit="-">130</IBK:Parameter>
+			<IBK:Parameter name="PG_Env1_2" unit="-">117.5</IBK:Parameter>
+			<IBK:Parameter name="PG_Env1_3" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Env2_2" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Env2_3" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Env2_4" unit="-">115</IBK:Parameter>
+		</Environment>
+		<Economy>
+			<Eco1_1>
+				<Eco1_1_1>
+					<IBK:Flag name="LCCCPIES_Var1SubmissionOfCO2OrClimateCosts">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIES_Var2SubmissionOfEcologicalSuggestions">true</IBK:Flag>
+					<IBK:Flag name="LCCCPICO_CalculationAndDisclosureOfConstructionAndUtilisationCosts">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIPE_PartialExaminationsDuringLP2">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIPE_PartialExaminationsDuringLP3">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIPE_PartialExaminationsDuringLP4">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIPE_FundingAdviceSessionByEndOfLP4">true</IBK:Flag>
+					<IBK:Flag name="LCCCPIPE_SubmissionOfClimateProtectionAgendaDiscussionWithOwner">true</IBK:Flag>
+				</Eco1_1_1>
+				<Eco1_1_2>
+					<IBK:Flag name="EECBOBEB_BuildingUpToInnovationClauseStandards">true</IBK:Flag>
+					<IBK:Flag name="EECBOBEB_AltBuildingReceivedKFWFundingForEnergyEfficiencyClassAOrBetter">true</IBK:Flag>
+					<IBK:Flag name="EECBOCEBR_CircularEconomySolutionsForReuseSubmitted">true</IBK:Flag>
+					<IBK:Flag name="EECBOCEBR_LCCModelIncludesEndOfLifeCosts">true</IBK:Flag>
+					<IBK:Flag name="EECBOCEBR_DocumentationOfRawMaterialValue">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_eco1_1_2EECBOCEBR_NumberOfCircularEconomySolutionsForReuse" unit="-">5</IBK:Parameter>
+				</Eco1_1_2>
+				<Eco1_1_3>
+					<IBK:Flag name="BRLCCC_NetLifeCycleCostsResultsSubmitted">false</IBK:Flag>
+					<IBK:Flag name="BRLCCC_DisplayCaseFlag">true</IBK:Flag>
+					<IBK:Flag name="BRLCCC_HealthCareTypeIIFlag">true</IBK:Flag>
+					<IBK:Parameter name="ReferenceValue_eco1_1_3netLCCPerBuildingTypeUpperValue" unit="-">7595</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValue_eco1_1_3netLCCPerBuildingTypeIntermediateValue" unit="-">5838</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValue_eco1_1_3netLCCPerBuildingTypeLowerValue" unit="-">4522</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_eco1_1_3BRLCCC_NetLifeCycleCosts" unit="-">4500</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_eco1_1_3BRLCCC_CSAnnualEnergyConsumptionPerMeterRefrigeratedDC" unit="-">0</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValue_eco1_1_3BRLCCC_HealthCareTypeII" unit="-">0</IBK:Parameter>
+				</Eco1_1_3>
+			</Eco1_1>
+			<Eco2_4>
+				<Eco2_4_1>
+					<IBK:Flag name="ASBCSA_GeneralPerceptionOfSite">true</IBK:Flag>
+					<IBK:Flag name="ASBCSA_DemographicAndEconomicDevelopmentOfMacroSite">true</IBK:Flag>
+					<IBK:Flag name="ASBCSA_ImmediateNeighbourhood">true</IBK:Flag>
+					<IBK:Flag name="ASBCBCS_ReactionOfBuildingConceptToSiteAnalysis">true</IBK:Flag>
+					<IBK:Flag name="ASBCBCS_UseAndProvisioningOfEnvironmentSynergyEffects">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_PlanInvolvesRegionalAnalysisConductedByInterdisciplinaryTeam">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConceptInvolvesPatientAndPersonnelRoutes">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConceptInvolvesMaterialTransportAndStorageSpaces">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConceptInvolvesComplianceWithHygienicRequirements">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConceptInvolvesPositioningOfTechnicalUnitsInRegardToAccomodatedFunctionsAndMainBuilding">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConceptInvolvesConsiderationOfFutureUsageScenarios">true</IBK:Flag>
+					<IBK:Flag name="ASBCHCBCS_ConsiderationOfCatastrophicScenariosAndEnsuranceOfContinuedOperation">true</IBK:Flag>
+				</Eco2_4_1>
+				<Eco2_4_2>
+					<IBK:Flag name="ATPUSPR_SameUsageType">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPR_DifferentUsageType">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_CeilingHeight">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_BuildingDepth">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_FloorAllotment">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_GroundPlanFlexibility">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_Construction">true</IBK:Flag>
+					<IBK:Flag name="ATPUSPAIF_BuildingServices">true</IBK:Flag>
+				</Eco2_4_2>
+				<Eco2_4_3>
+					<IBK:Flag name="DUTTCDUT_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="DUTTCCEUT_AtLeastOneUserOrTenantContributesToCircularEconomy">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_eco2_4_3DegreeOfUseOrTenancy" unit="---">100</IBK:Parameter>
+				</Eco2_4_3>
+				<Eco2_4_4>
+					<IBK:Flag name="SERUSGS_ResultsSubmitted">false</IBK:Flag>
+					<IBK:Flag name="SERUSGS_LogisticsAndProductionCostOptimisation">true</IBK:Flag>
+					<IBK:Flag name="SERUSGS_LogisticsAndProductionEnvironmentalOptimisation">true</IBK:Flag>
+					<IBK:Flag name="SERUSGS_LogisticsAndProductionSocialOptimisation">true</IBK:Flag>
+					<IBK:Flag name="SEMUS_ConceptIncludesMultipleUseOfRelevantPortionOfSpace">true</IBK:Flag>
+					<IBK:Flag name="SEMUS_UseIncludesMultipleUseOfRelevantPortionOfSpace">true</IBK:Flag>
+					<IBK:Flag name="SEA2030S_SubmissionAndImplementationOfSufficiencyStrategy">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_eco2_4_4RatioOfUsableSpaceToGroundSpace" unit="-">0.8</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValueeco2_4_4RatioOfUsableSpaceToGroundSpace_lower" unit="-">0.48</IBK:Parameter>
+					<IBK:Parameter name="ReferenceValueeco2_4_4RatioOfUsableSpaceToGroundSpace_upper" unit="-">0.75</IBK:Parameter>
+				</Eco2_4_4>
+				<Eco2_4_5>
+					<IBK:Flag name="RAAEF_RiskAnalysisDuringEarlyPlanningPhases">true</IBK:Flag>
+					<IBK:Flag name="RABCT_AspirationsForVerification">true</IBK:Flag>
+					<IBK:Flag name="RABCT_ImplementationOfStandards">true</IBK:Flag>
+				</Eco2_4_5>
+				<Eco2_4_6>
+					<IBK:Flag name="A2030CDI_QualityOfInternetConnection">true</IBK:Flag>
+				</Eco2_4_6>
+				<Eco2_4_7>
+					<IBK:Flag name="A2030E_Concept">true</IBK:Flag>
+					<IBK:Flag name="A2030IA_AddressEffect">true</IBK:Flag>
+				</Eco2_4_7>
+			</Eco2_4>
+			<Eco2_6>
+				<Eco2_6_1>
+					<IBK:Flag name="BCRMPVPrePH4_ConceptSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BCRMPVPostPH4_ConceptSubmitted">true</IBK:Flag>
+					<IBK:Flag name="BCRMPVPostPH4_ProofOfNoNegativeConcequences">true</IBK:Flag>
+					<IBK:Flag name="A2030CBA_Evaluation">true</IBK:Flag>
+				</Eco2_6_1>
+				<Eco2_6_2>
+					<IBK:Flag name="ACCQEM_RecommendedMeasuresToReduceClimateRisksImplemented">true</IBK:Flag>
+					<IBK:Flag name="ACCQEM_MeasuresImproveResilienceAndInlcudeReductionOfAllHighRiskFactors">true</IBK:Flag>
+					<IBK:Flag name="ACCQEM_MeasuresFurtherIncludeReductionOfAllModerateRiskFactors">true</IBK:Flag>
+					<IBK:Flag name="ACCQEM_MeasuresReduceProbableFutureRisksOnSite">true</IBK:Flag>
+					<IBK:Flag name="ACCQIAM_PreferentialUseOfNaturalAndPassiveSolutions">true</IBK:Flag>
+					<IBK:Flag name="ACCQIAM_MeasuresInAccordanceWithLocalRegionalPlans">true</IBK:Flag>
+					<IBK:Flag name="ACCQIAM_MeasuresInAccordanceWithNationalStrategy">true</IBK:Flag>
+					<IBK:Flag name="ACCQIAM_SurveillanceOfImplementedOrPreparedMeasures">true</IBK:Flag>
+					<IBK:Flag name="ACCQIAM_RegulationOfRemedialMeasures">true</IBK:Flag>
+					<IBK:Flag name="ACCGRED_EssentialMeasuresTaken">true</IBK:Flag>
+					<IBK:Flag name="ACCGRED_GeneralResilienceExists">true</IBK:Flag>
+					<IBK:Flag name="ACCA2030HL_ProbableHighHeatLoad">true</IBK:Flag>
+					<IBK:Flag name="ACCA2030HL_MeasuresTakenToReduceHeatLoadRisksToHealth">true</IBK:Flag>
+				</Eco2_6_2>
+				<Eco2_6_3>
+					<IBK:Flag name="MAFERSCMAQ_PositiveInfluenceOnImmissionInVicinity">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMAQ_RiskAnalysisConducted">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMAQ_RiskAnalysisProtectionMeasuresImplemented">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMN_NoiseProtectionConstruction">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMN_InclusionOfNoiseProtectionGroundPlans">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMN_SurveyReportForBuildingAndSurroundingsOnOptimisationmeasures">false</IBK:Flag>
+					<IBK:Flag name="MAFERSCMN_OptimisationmeasuresImplemented">false</IBK:Flag>
+					<IBK:Flag name="MAFERSRRR_RadonAccessPreventedOrHeavilyHindered">false</IBK:Flag>
+				</Eco2_6_3>
+			</Eco2_6>
+			<Eco2_7>
+				<Eco2_7_1>
+					<IBK:Flag name="DCBCPD_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="DCBCPD_ModelMatchesBuildingAndWasHandedOverToClient">false</IBK:Flag>
+					<IBK:Flag name="DCBCPD_RelevantCertificationsAndCalculationsMatchBuilding">false</IBK:Flag>
+					<IBK:Flag name="DCBCSBD_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="DCBCSBD_PartsCatalogueIncludesEcologicalBalanceData">false</IBK:Flag>
+					<IBK:Flag name="DCBCSBD_PartsCatalogueIncludesEcologicalProductInformation">false</IBK:Flag>
+					<IBK:Flag name="DCBCSBD_PartsCatalogueIncludesCircularPropertiesMatchingBuilding">false</IBK:Flag>
+					<IBK:Flag name="DCBCSBD_PartsCatalogueHandedOverToClient">false</IBK:Flag>
+					<IBK:Flag name="DCBCEDBUM_BuildingRessourcePassIsPartOfSuperordinateDataBaseForUrbanMines">false</IBK:Flag>
+					<IBK:Flag name="DCBA2030DF_DigitalFootprintHeavilyReduced">false</IBK:Flag>
+				</Eco2_7_1>
+				<Eco2_7_2>
+					<IBK:Flag name="ODBUROMP_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="ODBUROMP_CompleteObjectDocumentationChecklistHandedOverToClient">false</IBK:Flag>
+					<IBK:Flag name="ODBUROMP_AllDataKeptOnFileForFiveYearsAndHandedOverToOperatorCompany">false</IBK:Flag>
+					<IBK:Flag name="ODBUOFBM_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="ODBUOFBM_UpToDateCompleteOperatorFriendlyModelHandedOvertoOperatorCompany">false</IBK:Flag>
+					<IBK:Flag name="ODBUOFBM_LifeCycleGreenhouseGasAndEnergyBalanceIncludedOrPreparedForMonitoring">false</IBK:Flag>
+				</Eco2_7_2>
+				<Eco2_7_3>
+					<IBK:Flag name="PPBIMP_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="PPBIMP_UseOfSharedDataEnvironment">false</IBK:Flag>
+					<IBK:Flag name="PPBIMP_NecessaryBasicDocuments">false</IBK:Flag>
+					<IBK:Flag name="PPBIMP_BIMCoordinatorSurveilingModelQuality">false</IBK:Flag>
+					<IBK:Flag name="PPBIMP_CompetenceCheckAndCoordinationOfBEP">false</IBK:Flag>
+					<IBK:Flag name="PPBIMP_BIMInformationRequirementsAndGoalsCommunicated">false</IBK:Flag>
+					<IBK:Flag name="PPBIMC_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="PPBIMC_Level0to1_CAD3D">false</IBK:Flag>
+					<IBK:Flag name="PPBIMC_Level2_BIM4to5D">false</IBK:Flag>
+					<IBK:Flag name="PPBIMC_Level3_IntegratedBIM6to7D">false</IBK:Flag>
+					<IBK:Flag name="PPBIMSO_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="PPBIMSO_VariantsCalculatedAndDocumented">false</IBK:Flag>
+					<IBK:Flag name="PPBIMCEBIM2FMOC_SustainableOperatorConcept">false</IBK:Flag>
+					<IBK:Flag name="PPBIMA2030SC_ModelBasedBuildingSustainabilityCheckConducted">false</IBK:Flag>
+				</Eco2_7_3>
+				<Eco2_7_4>
+					<IBK:Flag name="DTOPCHDBM_CalculationByBGFSmallerThan5000m2Method">false</IBK:Flag>
+					<IBK:Flag name="DTOPCHDBM_AsBuiltControlImplementedAndDocumented">false</IBK:Flag>
+					<IBK:Flag name="DTOPCHDBM_BuildingDocumentationOrModelHasAsBuiltQuality">false</IBK:Flag>
+					<IBK:Flag name="DTOPCHDBM_DigitalBuildingRessourcePassIsPartOfDigitalTwinAndAvailable">false</IBK:Flag>
+					<IBK:Flag name="DTOPCEDPC_DigitalisationConducted">false</IBK:Flag>
+				</Eco2_7_4>
+				<Eco2_7_5>
+					<IBK:Flag name="DCIBR_CompleteDocumentationOnRemovabilityHandedOverToClient">false</IBK:Flag>
+				</Eco2_7_5>
+				<Eco2_7_Alt>
+					<IBK:Flag name="ACCDT_CircularDigitalTwinImplemented">false</IBK:Flag>
+				</Eco2_7_Alt>
+			</Eco2_7>
+			<IBK:Parameter name="PW_Eco1_1" unit="-">10</IBK:Parameter>
+			<IBK:Parameter name="PW_Eco2_4" unit="-">7.5</IBK:Parameter>
+			<IBK:Parameter name="PW_Eco2_6" unit="-">5</IBK:Parameter>
+			<IBK:Parameter name="PW_Eco2_7" unit="-">2.5</IBK:Parameter>
+			<IBK:Parameter name="PG_Eco1_1" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Eco2_4" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Eco2_6" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Eco2_7" unit="-">130</IBK:Parameter>
+		</Economy>
+		<Socioculture>
+			<Soc1_1>
+				<Soc1_1_1>
+					<IBK:Flag name="OTRTOT_Max5PercentDeviationFromDIN_EN_16798_1_Category3">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_Max5PercentDeviationFromDIN_EN_16798_1_Category1and2">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_ShoppingCenterRentalAreaCoolingLoadCertification">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_ShoppingCenterMallStreetMax5PercentDeviationFromDIN_EN_16798_1_Category3">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_ShoppingCenterMallStreetMax5PercentDeviationFromDIN_EN_16798_1_Category1and2">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_LogisticsAndProductionMeasuresTakenAbove26Degrees">true</IBK:Flag>
+					<IBK:Flag name="OTRTOT_LogisticsAndProductionLimitationTo30Degrees">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_1_1_ShoppingCenterRentalAreaCoolingLoad" unit="W/m2">0</IBK:Parameter>
+				</Soc1_1_1>
+				<Soc1_1_2>
+					<IBK:Flag name="RHHP_RelativeHumidityHigherThan30Percent">true</IBK:Flag>
+					<IBK:Flag name="RHHP_HotelRelativeHumidityLowerThan70Percent">true</IBK:Flag>
+					<IBK:Flag name="RHHP_ConditionMetFor95PercentOfTime">true</IBK:Flag>
+					<IBK:Flag name="RHCP_MaxHumidity12GramPerKilogram">true</IBK:Flag>
+				</Soc1_1_2>
+				<Soc1_1_3>
+					<IBK:Flag name="DCP_ObservationOfDIN_EN_ISO_7730_A_A2_KatB">true</IBK:Flag>
+					<IBK:Flag name="DCP_ShoppingCenterPreventionOfDraught">true</IBK:Flag>
+				</Soc1_1_3>
+				<Soc1_1_4>
+					<IBK:Flag name="RTAFTCP_CeilingMin16Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_CeilingMax35Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_GlassSurfacesMin18Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_GlassSurfacesMax35Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_FloorMin19Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_FloorMax29Degrees">true</IBK:Flag>
+					<IBK:Flag name="RTAFTCP_LogisticAndProductionMeasuresTakenToPreventRTA">true</IBK:Flag>
+				</Soc1_1_4>
+				<Soc1_1_5>
+					<IBK:Flag name="A2030CARTC_ExceedanceFrequencyEvaluatedBasedOnPrognosticationsDWDTRYFuture">true</IBK:Flag>
+					<IBK:Flag name="A2030CARTC_ResultsHaveBeenIncludedInPlanningProcess">true</IBK:Flag>
+				</Soc1_1_5>
+				<Soc1_1_6>
+					<IBK:Flag name="UI_PossibilityOfReuse">true</IBK:Flag>
+					<IBK:Flag name="UI_RoomAirCycleIndividuallyManipulable">true</IBK:Flag>
+					<IBK:Flag name="UI_RoomTemperatureIndividuallyManipulable">true</IBK:Flag>
+					<IBK:Flag name="UI_SurveyOnUserSatisfactionAndEnergyEfficiency">true</IBK:Flag>
+				</Soc1_1_6>
+				<Soc1_1_Alt>
+					<IBK:Flag name="AC_AlternativeCertificationForIndicators1to4">true</IBK:Flag>
+				</Soc1_1_Alt>
+			</Soc1_1>
+			<Soc1_2>
+				<Soc1_2_1>
+					<IBK:Flag name="IHTVOCM_TVOCResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCM_FormaldehydeResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCM_AlternativeCertification">false</IBK:Flag>
+					<IBK:Flag name="IHTVOCM_ResidentialDegreeOfRentExtensionHigherThan80Percent">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCM_LP_DeclarationAndVerificationOfProductsForFloors">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCM_LP_DeclarationAndVerificationOfProductsForAllInteriorSurfaces">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCSCCBCS_OnlyLowEmissionMaterialsUsed">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCSCCBCS_RentersHoldUpEnv1_2QS3In50PercentOfSpaces">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCSCCBCS_RentersHoldUpEnv1_2QS3In80PercentOfSpaces">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCA2030IATMRHC_NonSmokerProtection">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCA2030IATMRHC_RespirableDustPrevention">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCWWB_WoodworkApplicable">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCWWB_LimoneneBelowNOW">true</IBK:Flag>
+					<IBK:Flag name="IHTVOCWWB_AlphaPineneBelowNOW">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_2_TVOC" unit="kg/m3">2.5e-07</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_2_Formaldehyde" unit="kg/m3">7.0e-08</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_2_TVOCRenterPromise" unit="kg/m3">2.5e-07</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_2_FormaldehydeRenterPromise" unit="kg/m3">2.5e-08</IBK:Parameter>
+				</Soc1_2_1>
+				<Soc1_2_2>
+					<IBK:Flag name="IHACFOEHAH_RatioSubmitted">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ZonalStreamingSimulation">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_MechanicalDIN_EN_16798_1_Kat3">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_MechanicalDIN_EN_16798_1_Kat2">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_MechanicalDIN_EN_16798_1_Kat1">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ManualNoCertification">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ManualObservationOfASR3_6">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ManualObservationOfASR3_6AndSensorMonitoring">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ZonalDIN_EN_16798_1_Kat4">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ZonalDIN_EN_16798_1_Kat3">true</IBK:Flag>
+					<IBK:Flag name="IHACFOEHAH_ZonalDIN_EN_16798_1_Kat1and2">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat4_CBCSandSCShops">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat3_CBCSandSCShops">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat1and2_CBCSandSCShops">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat4_SCMalls">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat3_SCMalls">true</IBK:Flag>
+					<IBK:Flag name="IHACFSCCBCS_DIN_EN_16798_1_Kat1and2_SCMalls">true</IBK:Flag>
+					<IBK:Flag name="IHACFR_AerationMeasuresAccordingToLevelsFL">true</IBK:Flag>
+					<IBK:Flag name="IHACFR_AerationMeasuresAccordingToLevelsRL">true</IBK:Flag>
+					<IBK:Flag name="IHACFR_AerationMeasuresAccordingToLevelsNL">true</IBK:Flag>
+					<IBK:Flag name="IHACFLP_NoCertification">true</IBK:Flag>
+					<IBK:Flag name="IHACFLP_ObservationOfASR3_6">true</IBK:Flag>
+					<IBK:Flag name="IHACFLP_NeedbasedAeration">true</IBK:Flag>
+					<IBK:Flag name="IHACFLP_AerationExceedsMinimumRateByAtLeast20Percent">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_2_2_1_a_PercentageOfMechanicalAeration" unit="---">100</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_2_2_1_a_ZonalStreamingSimulationResult" unit="-">500</IBK:Parameter>
+				</Soc1_2_2>
+			</Soc1_2>
+			<Soc1_3>
+				<Soc1_3_1>
+					<IBK:Flag name="ORSRHcHA_DIN_4109_5_RaisedSoundproofingMet">true</IBK:Flag>
+					<IBK:Flag name="ORSRO_ObservationOfVDI_2569_ClassAorBRequirements">true</IBK:Flag>
+					<IBK:Flag name="ORSRR_DIN_4109_5_RequirementsMet">true</IBK:Flag>
+					<IBK:Flag name="ORSRR_SoundproofingPassClassCOrBetter">true</IBK:Flag>
+					<IBK:Flag name="BAMOEHAHcR_ConfirmationThroughMeasuring">true</IBK:Flag>
+				</Soc1_3_1>
+				<Soc1_3_2>
+					<IBK:Flag name="PAACRAC_CreationOfPlanningAccompanyingRoomAcousticConcept">true</IBK:Flag>
+				</Soc1_3_2>
+				<Soc1_3_3>
+					<IBK:Flag name="RAHHcAEO_ObservationOfDIN_18041ForRoomTypesAAndB">true</IBK:Flag>
+					<IBK:Flag name="RAHHcAEO_ObservationOfDIN_18041ForInclusiveUse">true</IBK:Flag>
+					<IBK:Flag name="RAHHcAEO_ObservationOfVDI_2569ClassA">true</IBK:Flag>
+					<IBK:Flag name="RAHHcAEO_ObservationOfVDI_2569ClassB">true</IBK:Flag>
+					<IBK:Flag name="RAHHcAEO_MeasuresTakenAndVerified">true</IBK:Flag>
+					<IBK:Flag name="RAR_RoomAcousticMeasuresTakenForSharedHallwaysAndStairways">true</IBK:Flag>
+					<IBK:Flag name="RAR_RoomAcousticMeasuresTakenForSharedGroupMealAndLectureRooms">true</IBK:Flag>
+				</Soc1_3_3>
+			</Soc1_3>
+			<Soc1_4>
+				<Soc1_4_1>
+					<IBK:Flag name="DSOEARHHcP_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="DSOEARHHcP_HotelAlternativeCertification">true</IBK:Flag>
+					<IBK:Flag name="DSOCSSCCB_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="DSOCSSCCB_ConvenienceStoreEqualDistributionOfCeilingLight">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_4_1ET" unit="Lux">350</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_4_1D" unit="---">2.5</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_4_1LitAreaPercentageOfUsableArea" unit="---">70</IBK:Parameter>
+				</Soc1_4_1>
+				<Soc1_4_2>
+					<IBK:Flag name="ARULOEALHc_UsageLightingResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="ARULOEALHc_TranslucentCeilingLightPortionResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="ARULOEALHc_AssemblyAreaType1">true</IBK:Flag>
+					<IBK:Flag name="ARULOEALHc_AssemblyAreaType2">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_4_2UsageLighting" unit="---">80</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_4_2TranslucentCeilingLightPortion" unit="---">5</IBK:Parameter>
+				</Soc1_4_2>
+				<Soc1_4_3>
+					<IBK:Flag name="LOSOCSCBSC_QSMedium_DirectOutsideLOSForAllOfficesAnd80PercentOfBreakAndSocialRooms">true</IBK:Flag>
+					<IBK:Flag name="LOSOCSCBSC_QSLow_CBSC_PercentageOfOpenFacadeResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="LOSOCSCBSC_QSMediumC_BSC_ShopsHaveOutsideLOS">true</IBK:Flag>
+					<IBK:Flag name="LOSOCSCBSC_QSLOW_CBSC_PercentageOfDirectLOSOfShopAreasToOutsideResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="LOSOCSCBSC_QSLOW_CashierAreasOutsideLOS">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_QSLow_OutsideAreasIntervisibility">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_QSMedium_WorkplaceResidentialAreaHotelRoomCommonRoomIntervisibility">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_QShigh_WorkplaceResidentialAreaHotelRoomCommonRoomIntervisibility">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_RHHc_AlternativeRequirementsMet">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_AssemblyType1">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_AssemblyType2">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_AnyDaylightInCommonAreas">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_QSLow_OutsideAreaIntervisibility">true</IBK:Flag>
+					<IBK:Flag name="LOSOOEHLARHc_QSLow_OutsideAreaDirectIntervisibility">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_4_3_1aPercentageOfOpenFacade" unit="---">0</IBK:Parameter>
+					<IBK:Parameter name="CurrentValue_soc1_4_3_1aPercentageOfDirectLOSOfShopAreasToOutside" unit="---">0</IBK:Parameter>
+				</Soc1_4_3>
+				<Soc1_4_4>
+					<IBK:Flag name="DGSOEA12Hc_DGPResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="DGSOEA12Hc_AssemblyType1">true</IBK:Flag>
+					<IBK:Flag name="DGSOEA12Hc_AssemblyType2">true</IBK:Flag>
+					<IBK:Flag name="DGSOEA12Hc_A2_CombinationOfLightDivertingSystemsAndGlareShields">true</IBK:Flag>
+					<IBK:Flag name="DGSOEA12Hc_A2_UseOfHighNorthLightDiffusionCeilingLights">true</IBK:Flag>
+					<IBK:Flag name="DGSCS_ObservationOfASRA3_4Chapter4_2">true</IBK:Flag>
+					<IBK:Flag name="DGSL_UncertifiedGlareShieldSystem">true</IBK:Flag>
+					<IBK:Flag name="DGSL_Class2GlareShieldSystem">true</IBK:Flag>
+					<IBK:Flag name="DGSL_Class3OrHigherGlareShieldSystem">true</IBK:Flag>
+					<IBK:Flag name="DGSP_CombinationOfLightDivertingSystemsAndGlareShields">true</IBK:Flag>
+					<IBK:Flag name="DGSP_UseOfHighNorthLightDiffusionCeilingLights">true</IBK:Flag>
+					<IBK:Parameter name="CurrentValue_soc1_4_4_1DaylightGlareProbability" unit="---">0.3</IBK:Parameter>
+				</Soc1_4_4>
+				<Soc1_4_5>
+					<IBK:Flag name="ALLC_CreationOfLightingConcept">true</IBK:Flag>
+					<IBK:Flag name="ALIPCOR_DIN_EN_12464_1_IlluminationRequirementsMet">true</IBK:Flag>
+					<IBK:Flag name="ALIPCOR_AtLeastTwoOptimisationMeasuresTaken">true</IBK:Flag>
+					<IBK:Flag name="ALIPCOR_AdditionalOptimisationMeasuresTaken">true</IBK:Flag>
+				</Soc1_4_5>
+				<Soc1_4_6>
+					<IBK:Flag name="SEDR_1_5HoursExposureOfAtLeastOneRoomOfResidentialUnit">true</IBK:Flag>
+					<IBK:Flag name="SEDR_2HoursExposureOfAtLeastOneRoomOfResidentialUnit">true</IBK:Flag>
+					<IBK:Flag name="SEDR_3HoursExposureOfAtLeastOneRoomOfResidentialUnit">true</IBK:Flag>
+					<IBK:Flag name="SEDHHC_1_5HoursExposureIn100PercentOfUnitsOrRooms">true</IBK:Flag>
+					<IBK:Flag name="SEDHHC_2HoursExposureIn50PercentOfUnitsOrRooms">true</IBK:Flag>
+					<IBK:Flag name="SEDHHC_2HoursExposureIn60PercentOfUnitsOrRoomsAnd1_5HoursExposureInRemaining40Percent">true</IBK:Flag>
+					<IBK:Flag name="SEDHHC_3HoursExposureIn60PercentOfUnitsOrRoomsAnd1_5HoursExposureInRemaining40Percent">true</IBK:Flag>
+				</Soc1_4_6>
+			</Soc1_4>
+			<Soc1_6>
+				<Soc1_6_1>
+					<IBK:Flag name="CSOCZMU_DifferentCommunicationZones">true</IBK:Flag>
+					<IBK:Flag name="CSOCZMU_CommunicationSupportingRoomDesign">true</IBK:Flag>
+					<IBK:Flag name="CSOCZMU_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Parameter name="AlternativeInnovativeCommunicationConstellations" unit="-">5</IBK:Parameter>
+				</Soc1_6_1>
+				<Soc1_6_2>
+					<IBK:Flag name="AOUAOS_AdditionalOffersMultifunctionRoomsCommonRooms">true</IBK:Flag>
+					<IBK:Flag name="AOUAOS_CSCBSC_LockersChangingRooms">true</IBK:Flag>
+					<IBK:Flag name="AOUAOS_Residential_CommonRoomsAvailableToEveryone">true</IBK:Flag>
+					<IBK:Flag name="AOUAOS_Residential_LaundryAndDryingRoomsFunctionAsCommonRooms_PartialWaivingOfLaundryMachineConnectionsInResidentialUnits">true</IBK:Flag>
+					<IBK:Flag name="AOUAOS_Hc_AdditionalOffersAvailableToEveryone">true</IBK:Flag>
+					<IBK:Flag name="AOUAOS_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Flag name="AOUOI_Signage">true</IBK:Flag>
+					<IBK:Flag name="AOUOI_InformationDesk">true</IBK:Flag>
+					<IBK:Flag name="AOUOI_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Parameter name="Soc1_6_2_1AlternativeInnovativeSolutions" unit="-">5</IBK:Parameter>
+					<IBK:Parameter name="Soc1_6_2_2AlternativeInnovativeSolutions" unit="-">5</IBK:Parameter>
+				</Soc1_6_2>
+				<Soc1_6_3>
+					<IBK:Flag name="FCEFOSO_Daycare">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_BabyChangeAndSeparateBreastFeedingRooms">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_Playground">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_ElderlyCommonRoomsPlayrooms">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_FamilyFriendlyParking">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_Hotel_5PercentOfRoomsOutfittedWithBabyChange">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_Hotel_5PercentOfRoomsOutfittedWithCrib">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_Hotel_5PercentOfRoomsOutfittedWithKitchenette">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_Hotel_5PercentOfRoomsOutfittedWithDarkeningBlind">true</IBK:Flag>
+					<IBK:Flag name="FCEFOSO_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Parameter name="Soc1_6_3_1AlternativeInnovativeSolutions" unit="-">5</IBK:Parameter>
+				</Soc1_6_3>
+				<Soc1_6_4>
+					<IBK:Flag name="QSIAA_WideningsGalleriesNichesStairwellsOfSufficientWidthAndAirSpaceForCrossFloorCommunication">true</IBK:Flag>
+					<IBK:Flag name="QSIAA_DaylightAvailabilityInAllotmentAreas">true</IBK:Flag>
+					<IBK:Flag name="QSIAA_DoorwayOpeningsToBalconiesRoofTerracesAtria">true</IBK:Flag>
+					<IBK:Flag name="QSIAA_AllotmentAreasFeatureHeightenedThermalAcousticOrSoundproofingRequirementsEnablingFlexibleUse">true</IBK:Flag>
+					<IBK:Flag name="QSIAA_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Parameter name="Soc1_6_4_1AlternativeInnovativeSolutions" unit="-">5</IBK:Parameter>
+				</Soc1_6_4>
+				<Soc1_6_5>
+					<IBK:Flag name="QSDCOA_DesignConceptFulfillsUserRequirementsAndFeaturesDifferentFunctions">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_DesignConsidersMaterialQuality">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_DesignConsidersEnvironmentFriendlyAndSociallyAcceptableLighting">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_DesignConsidersIntuitiveOrientation">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_DesignAvoidsPlacesOfAnxiety">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_DesignConsidersIntegrationAndGreeningOfTechnicalFacilities">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_AlternativeCertification_DesignGuidelinesFeatureIndividualPreferencesOfResidents">true</IBK:Flag>
+					<IBK:Flag name="QSDCOA_Healthcare_CommonAreasNotExposedToNoiseMalodorOrSimilarConstrictions">true</IBK:Flag>
+					<IBK:Flag name="QSOCA_MoreThan10PercentOfRooftopAtLeast5m2">true</IBK:Flag>
+					<IBK:Flag name="QSOCA_CSCBSC_MoreThan1PercentOfRooftop">true</IBK:Flag>
+					<IBK:Flag name="QSOCA_BalconiesLoggiasWinterGardenOfAtLeast3m2PerUnit">true</IBK:Flag>
+					<IBK:Flag name="QSOCA_MoreThan25PercentOfOutdoorAreaAtLeast30m2_AccordingToDIN_277">true</IBK:Flag>
+					<IBK:Flag name="QSOCA_Healthcare_BalconiesLoggiasWinterGardenAccessbileForMostUsers">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_AllotmentAndNetworkingFunction">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_AccessibilityToPublic">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_MeetupAndCommunicationFunction">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_ExerciseAndPlayFunction">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_WorkAndConcentrationFunction">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_RestAndRecuperationFunction">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_SocialControlOfOutdoorAreasThroughBuildingExteriorRelation">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_EnvironmentFriendlyAndSociallyAcceptableLighting">true</IBK:Flag>
+					<IBK:Flag name="QSOCASU_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_SolarisationOnDec21AtLeast1Hour">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_SolarisationOnDec21AtLeast3Hours">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_SummerSunblindThroughTreesShadingOrBuildingsOn10PercentOrMore">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_SummerSunblindThroughTreesShadingOrBuildingsOn30PercentOrMore">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_WindShieldNoNegativeEffectsOnCommonAreasOrPreventativeMeasures">true</IBK:Flag>
+					<IBK:Flag name="QSDCOAC_InnovationRoomAlternativeCertification">true</IBK:Flag>
+					<IBK:Flag name="QSA2030_ClimateProtectionFactorOfSurfaceStructures">true</IBK:Flag>
+					<IBK:Flag name="QSA2030_ClimateProtectionProtectionOptimisationOfOutdoorAreas">true</IBK:Flag>
+					<IBK:Parameter name="Soc1_6_5_3AlternativeInnovativeSolutions" unit="-">5</IBK:Parameter>
+					<IBK:Parameter name="Soc1_6_5_4AlternativeInnovativePoints" unit="-">5</IBK:Parameter>
+				</Soc1_6_5>
+			</Soc1_6>
+			<Soc2_1>
+				<Soc2_1_1>
+					<IBK:Flag name="AQST_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="AQST_Residential_StudentHostelBoardingHouses">true</IBK:Flag>
+					<IBK:Flag name="AQST_Residential_NursingHomesHospicesDisabledElderly">true</IBK:Flag>
+					<IBK:Parameter name="Soc2_1_1Qualitystage" unit="-">6</IBK:Parameter>
+				</Soc2_1_1>
+			</Soc2_1>
+			<IBK:Parameter name="PW_Soc1_1" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Soc1_2" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Soc1_3" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Soc1_4" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Soc1_6" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Soc2_1" unit="-">4.2</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc1_1" unit="-">105</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc1_2" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc1_3" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc1_4" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc1_6" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Soc2_1" unit="-">100</IBK:Parameter>
+		</Socioculture>
+		<Technology>
+			<Tec1_3>
+				<Tec1_3_1>
+					<IBK:Flag name="PABEPFE_PotentialOfSolarEnergy">true</IBK:Flag>
+					<IBK:Flag name="PABEPFE_PotentialOfGreening">true</IBK:Flag>
+					<IBK:Flag name="PABEPFE_AnalysisOfDifferentVariationsFocusedOnSustainabilityThroughoutLifeCycle">true</IBK:Flag>
+					<IBK:Flag name="PABEPFE_UseOfSustainableResourcesForInsulationAndCladding">true</IBK:Flag>
+					<IBK:Flag name="PABEPFE_PossibilityOfNondestructiveReplacementOfParts">true</IBK:Flag>
+					<IBK:Flag name="PABEPFE_AnalysisOfDifferentVariationsFocusedOnHeatLossOverBuildingEnvelope">true</IBK:Flag>
+				</Tec1_3_1>
+				<Tec1_3_2>
+					<IBK:Flag name="TOESEP_NominalRoomTemperature19Degrees">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_19Degrees_OpaqueExteriorBuildingElementsHTCLessThan0_18">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_19Degrees_TransparentExteriorBuildingElementsAndFrontsHTCLessThan1_0">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_19Degrees_OtherTransparentElementsLikeGlassRoofsLightBandsLightDomesHTCLessThan1_6">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_NominalRoomTemperatureBetween12And19Degrees">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_12to19Degrees_OpaqueExteriorBuildingElementsHTCLessThan0_24">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_12to19Degrees_TransparentExteriorBuildingElementsAndFrontsHTCLessThan1_3">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_12to19Degrees_OtherTransparentElementsLikeGlassRoofsLightBandsLightDomesHTCLessThan2_0">true</IBK:Flag>
+					<IBK:Flag name="TOESEP_Residential_TransmissionOverHullSurfaceComparedToReferenceBuildingLessThan55Percent">true</IBK:Flag>
+					<IBK:Flag name="TOESTBS_EvaluationImpossible">true</IBK:Flag>
+					<IBK:Flag name="TOESTBS_SurchargeLessThan0_05">true</IBK:Flag>
+					<IBK:Flag name="TOESTBS_SurchargeLessThan0_01">true</IBK:Flag>
+				</Tec1_3_2>
+				<Tec1_3_3>
+					<IBK:Flag name="ABEM_BuildingAirVolumeGreaterThan1500sqm">true</IBK:Flag>
+					<IBK:Flag name="ABEM_BuildingAirVolumeLessThan1500sqm">true</IBK:Flag>
+					<IBK:Flag name="ABEM_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Parameter name="Tec1_3_3AirExchangeRateThroughBuildingEnvelope" unit="1/h">0.5</IBK:Parameter>
+					<IBK:Parameter name="Tec1_3_3AirExchangeRateRelativeToEnvelopeSurface" unit="m3/m2h">1.7</IBK:Parameter>
+				</Tec1_3_3>
+				<Tec1_3_4>
+					<IBK:Flag name="HISVV_ExaminationOfDifferentVariations">true</IBK:Flag>
+					<IBK:Flag name="HISVV_ExaminationOfNonCommonRooms">true</IBK:Flag>
+					<IBK:Flag name="HISVV_ExaminationOfBuildingWithLocalClimateDataAndImplementationOfResultsDuringPlanning">true</IBK:Flag>
+					<IBK:Flag name="HISVV_UndercuttingLegalMinimumRequirementsByAtLeast20PercentResultsSubmitted">true</IBK:Flag>
+					<IBK:Parameter name="Tec1_3_4UntercuttingOfLegalRequirements" unit="---">80</IBK:Parameter>
+				</Tec1_3_4>
+				<Tec1_3_5>
+					<IBK:Flag name="QAMQC_BlowerDoorTest">true</IBK:Flag>
+					<IBK:Flag name="QAMQC_BuildingThermographyDuringBuildingPhase">true</IBK:Flag>
+					<IBK:Flag name="QAMQC_OtherRelevantMeasurements">true</IBK:Flag>
+				</Tec1_3_5>
+			</Tec1_3>
+			<Tec1_4>
+				<Tec1_4_1>
+					<IBK:Flag name="PSP_HighCompactness">true</IBK:Flag>
+					<IBK:Flag name="PSP_BalancedWindowAreaRatioUnderConsiderationOfShading">true</IBK:Flag>
+					<IBK:Flag name="PSP_ConstructionalSunblindToPreventDirectSunlightOnWindowsDuringSummer">true</IBK:Flag>
+					<IBK:Flag name="PSP_AsManyNaturallyLightedRoomsAsPossible">true</IBK:Flag>
+					<IBK:Flag name="PSP_UseOfHighMassElementsForHeatStorage">true</IBK:Flag>
+					<IBK:Flag name="PSP_PassiveCooling">true</IBK:Flag>
+					<IBK:Flag name="PSP_EffectiveNaturalAeration">true</IBK:Flag>
+					<IBK:Flag name="PSI_HighCompactness">true</IBK:Flag>
+					<IBK:Flag name="PSI_BalancedWindowAreaRatioUnderConsiderationOfShading">true</IBK:Flag>
+					<IBK:Flag name="PSI_ConstructionalSunblindToPreventDirectSunlightOnWindowsDuringSummer">true</IBK:Flag>
+					<IBK:Flag name="PSI_AsManyNaturallyLightedRoomsAsPossible">true</IBK:Flag>
+					<IBK:Flag name="PSI_UseOfHighMassElementsForHeatStorage">true</IBK:Flag>
+					<IBK:Flag name="PSI_PassiveCooling">true</IBK:Flag>
+					<IBK:Flag name="PSI_EffectiveNaturalAeration">true</IBK:Flag>
+				</Tec1_4_1>
+				<Tec1_4_2>
+					<IBK:Flag name="AAOTIREW_AverageTemperatureOf50DegreesOrMore">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREW_AverageTemperatureBetween35and50Degrees">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREW_AverageTemperatureOf35DegreesOrLess">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREW_NoHeatingSystemInBuilding">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREW_100PercentOfWarmthDemandCoveredByRegenerativeEnergy">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREC_AverageTemperatureOf14DegreesOrLess">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREC_AverageTemperatureBetween14and19Degrees">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREC_AverageTemperatureOf19DegreesOrMore">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREC_NoCoolingSystemInBuilding">true</IBK:Flag>
+					<IBK:Flag name="AAOTIREC_100PercentOfCoolingDemandCoveredByRegenerativeEnergy">true</IBK:Flag>
+				</Tec1_4_2>
+				<Tec1_4_3>
+					<IBK:Flag name="ABSSEC_GenerallyGoodAccessibilityOfAllSystemComponentsForReplacementAndRetrofitting">true</IBK:Flag>
+					<IBK:Flag name="ABSSEC_SufficientNumberAndSizeOfOpeningsDoorsAndHallways">true</IBK:Flag>
+					<IBK:Flag name="ABSSEC_TransportAndReplacementOfComponentsPossibleWithoutConstructionalMeasures">true</IBK:Flag>
+					<IBK:Flag name="ABSDTA_VerticalDuctsAndTracesOfAllSubsectionsAccessible">true</IBK:Flag>
+					<IBK:Flag name="ABSDTA_PossibilityOfRetrofittingWithoutMajorDisturbanceToBuildingOperation">true</IBK:Flag>
+				</Tec1_4_3>
+				<Tec1_4_4>
+					<IBK:Flag name="ISSU_PlanningAndImplementationAccordingToDIN_EN_ISO_16484_1">true</IBK:Flag>
+					<IBK:Flag name="ISSU_OpenAndStandardizedProtocolsInExistingNetworks">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Sunblind">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Lighting">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Heating">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Aeration">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Cooling">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_EnergyManagement">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_PresenceDetection">true</IBK:Flag>
+					<IBK:Flag name="ISIFSS_Lifts">true</IBK:Flag>
+					<IBK:Flag name="ISPITSMQDS_AnalysisOfExistingEnergyPotentialAndPossibleNetworkingWithExistingSurroundingEnergyInfrastructure">true</IBK:Flag>
+					<IBK:Flag name="ISPITSMQDS_CreationOfQuarterRelatedEnergyBalancesForHeatingCoolingAndElectricityEcologicalComparisonOfTheEmissionsOfAtLeast3PeripheralAndOrCentralHeatSupplyVariants">true</IBK:Flag>
+					<IBK:Flag name="ISPITSMQDS_EconomicalAssessmentOfInvestmentsAndOperatingCostsForAtLeast3SupplyVariants">true</IBK:Flag>
+					<IBK:Flag name="ISPITSMQDS_AnalysisOfAppropriationOfRegenerativelyProducedEnergyForQuarterAndSurroudingsUnterInclusionOfPossibleConsumers">true</IBK:Flag>
+					<IBK:Flag name="ISIITSMQDS_ImplementationWithTheGoalOfSynergisticUseInRelationToQuarterAndDirectSurroundings">true</IBK:Flag>
+					<IBK:Flag name="ISIEIQDSQS_BuildingUsesEnergyFromNearbyQuartersOrDirectSurroundingsToFulfillEnergyDemand">true</IBK:Flag>
+					<IBK:Flag name="ISIEIQDSQS_BuildingProvidesGeneratedRegenerativeEnergyToNearbyQuartersAndDirectSurroundings">true</IBK:Flag>
+					<IBK:Flag name="ISIITSMQNES_BuildingProvidesRelevantStorageCapacity">true</IBK:Flag>
+					<IBK:Flag name="ISIITSMQNES_BuildingUsesExistingIntegratedEnergyAndLoadManagement">true</IBK:Flag>
+				</Tec1_4_4>
+				<Tec1_4_5>
+					<IBK:Flag name="UREES_PortionOfEnergyFromRenewableSourcesAtLeast85Percent">true</IBK:Flag>
+					<IBK:Flag name="UREES_PortionOfEnergyFromRenewableSourcesAtLeast95Percent">true</IBK:Flag>
+					<IBK:Flag name="UREP_AtLeast60PercentOfSuitableRoofAreaUsedForSolarEnergyProduction">false</IBK:Flag>
+					<IBK:Flag name="UREP_AtLeast60PercentOfSuitableParkingAreaUsedForSolarEnergyProduction">true</IBK:Flag>
+					<IBK:Flag name="UREP_Residential_MinimumPowerOf0_06kWPeakPerSQMOfPlot">true</IBK:Flag>
+					<IBK:Flag name="UREP_AtLeast80PercentOfSuitableRoofAreaUsedForSolarEnergyProduction">false</IBK:Flag>
+					<IBK:Flag name="UREP_AtLeast80PercentOfSuitableParkingAreaUsedForSolarEnergyProduction">true</IBK:Flag>
+					<IBK:Flag name="UREP_Residential_MinimumPowerOf0_08kWPeakPerSQMOfPlot">true</IBK:Flag>
+				</Tec1_4_5>
+			</Tec1_4>
+			<Tec1_6>
+				<Tec1_6_1>
+					<IBK:Flag name="CCPID161_DemolitionOrPartialDemolition">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDA_CircularConstructionPotentialsOfSiteAndRegionResourcesHasBeenAnalysed">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDCEBSPU_StockPreserved">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDCEBSPU_StockExpanded">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDCEBSPU_StockElementsPutToUse">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDJ_JustificationProvided">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDJ_InventoryOfPartsMaterialFlowBalanceStockAnalysisTaken">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDE_ProactiveSearchForBuyersOrAcceptorsOfPartsAndProductsDuringDemolition">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDE_InventoryTakenForMassesAndTransportDistances">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDE_MeasuresTakenToOptimiseReuseAndDisposal">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDE_RecommendedOrOtherSuitableMeasuresAgainstHazardousMaterialsTaken">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDDAC_DGNBDemolitionCertificationFollowed">true</IBK:Flag>
+					<IBK:Flag name="SSAPPDCERS_MaterialsOrElementsLeftFromDemolitionReusedInProject">true</IBK:Flag>
+				</Tec1_6_1>
+				<Tec1_6_2>
+					<IBK:Flag name="CCPID162_DemolitionOrPartialDemolition">true</IBK:Flag>
+					<IBK:Flag name="CCCPGFD_PlanningWithCircularGoal">true</IBK:Flag>
+					<IBK:Flag name="CCCPGFD_Alt_PlanIncludesPreexistingRecyclableMaterials">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCEP_CreationAndEvaluationOfVariantsOfAtLeast4Topics">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCEP_Alt_UseOfToolsForCreationOfCircularityOptimisationBalancesAndIndices">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCAEP_CreationAndEvaluationOfVariantsOfAtLeast4Topics">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCAEP_Alt_UseOfToolsForCreationOfCircularityOptimisationBalancesAndIndices">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCAEP_Alt_GenerationOfABuildingResourcePass">true</IBK:Flag>
+					<IBK:Flag name="CCCPPRCDCAEP_ParallelEvaluationOfClimateInfluenceAndCosts">true</IBK:Flag>
+				</Tec1_6_2>
+				<Tec1_6_3>
+					<IBK:Flag name="CCPID163_DemolitionOrPartialDemolition">true</IBK:Flag>
+					<IBK:Flag name="CCEDDCBPBP_ReducedBuildingPass">true</IBK:Flag>
+					<IBK:Flag name="CCEDDCBPBP_CompleteBuildingPass">true</IBK:Flag>
+					<IBK:Flag name="CCEDERCPBL_ModerateGoalQuotaReachedForAllProperties">true</IBK:Flag>
+					<IBK:Flag name="CCEDERCPBL_HighGoalQuotaReachedForAtLeast2Properties">true</IBK:Flag>
+					<IBK:Flag name="CCEDUCPCEL_UseOfProductsOfQS4">true</IBK:Flag>
+					<IBK:Flag name="CCEDUCPCEL_UseOfProductsOfQS3">true</IBK:Flag>
+					<IBK:Flag name="CCEDUCPCEL_UseOfProductsOfQS2">true</IBK:Flag>
+					<IBK:Flag name="CCEDUCPCEL_UseOfProductsOfQS1">true</IBK:Flag>
+					<IBK:Flag name="CCEDUCPCEL_RequirementsOfSimplifiedMethodFulfilled">true</IBK:Flag>
+					<IBK:Flag name="CCEDCERMACAMMCI_UseOfRecycledMaterials">true</IBK:Flag>
+					<IBK:Flag name="CCEDCERMACAMMCI_NumberOfConstructionsUsingMaterialAppropriateConstructionsResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="CCEDCERMACAMMCI_NumberOfConstructionsAvoidingMaterialMixingOrLayeringResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="CCEDCERMACAMMCI_CircularAspectsImplementedInConstructiveIntegrations">true</IBK:Flag>
+					<IBK:Flag name="CCEDRRDI_InstructionsIncludeReuseRebuildingAndDemolition">true</IBK:Flag>
+					<IBK:Flag name="CCEDRRDI_InstructionsIncludeRebuildingAndDemolition">true</IBK:Flag>
+					<IBK:Flag name="CCEDCECBACE_MoreThan90PercentOfPartsOriginateFromCircularEconomy">true</IBK:Flag>
+					<IBK:Flag name="CCEDCECBACE_MoreThan90PercentOfBuildingMassSuitedForReuseInCircularEconomy">true</IBK:Flag>
+					<IBK:Flag name="CCEDCECBACE_AggregatedCircularyIndexEvaluationDocumentedInBuildingPassAndRatedGoodOrAbove">true</IBK:Flag>
+					<IBK:Parameter name="CCEDCERMACAMMCI_NumberOfConstructionsUsingMaterialAppropriateConstructions" unit="-">5</IBK:Parameter>
+					<IBK:Parameter name="CCEDCERMACAMMCI_NumberOfConstructionsAvoidingMaterialMixingOrLayering" unit="-">5</IBK:Parameter>
+				</Tec1_6_3>
+			</Tec1_6>
+			<Tec3_1>
+				<Tec3_1_1>
+					<IBK:Flag name="MIMC_ConceptIncludesGoalsForSustainableMobility">true</IBK:Flag>
+					<IBK:Flag name="MIMC_ConceptIncludesFutureTrafficDemands">true</IBK:Flag>
+				</Tec3_1_1>
+				<Tec3_1_2>
+					<IBK:Flag name="IPI_TransparentSafeAndBarrierFreeRoutingVisibleAndComprehensiveSignage">true</IBK:Flag>
+					<IBK:Flag name="IPI_DesignatedParkingSpotsForMobilityAidsLikeWalkersOrStrollers">true</IBK:Flag>
+					<IBK:Flag name="IBI_AtLeast80PerceptOfBicycleParkingSpotsAreClearlyRelatedToTheBuildingNearTheEntranceAccessibleAndHaveProtectionAgainstTheft">true</IBK:Flag>
+					<IBK:Flag name="IBI_Residential100PercentAllOthers80PercentOfParkingSpotsAreEquippedWithWeatherProtection">true</IBK:Flag>
+					<IBK:Flag name="IBI_SufficientNumberOfParkingSpotsForCargoBikesWithTheftProtection">true</IBK:Flag>
+					<IBK:Flag name="IMIT_ParkingSpacesReducedAccordingToRegulations">true</IBK:Flag>
+					<IBK:Flag name="IMIT_ReducedParkingDemandRedirectedToMobilityHubThatFeaturesFurtherReductionsOfTransportationNeeds">true</IBK:Flag>
+					<IBK:Flag name="IMIT_ParkingSpacesOnSiteFulfillOrganisationalAndConstructionalRequirementsForCarsharing">true</IBK:Flag>
+					<IBK:Flag name="IMIT_AtLeast80PercentOfParkingSpacesHaveNoDesignatedSpecificOccupant">true</IBK:Flag>
+					<IBK:Flag name="IMIT_Alternative_MobilityConceptForgoesParkingSpacesWithTheExceptionOfDisabledParkingAndCarsharingSpaces">true</IBK:Flag>
+					<IBK:Flag name="IA2030MMC_MobilityConceptIncludesMobilityManagementConcept">true</IBK:Flag>
+				</Tec3_1_2>
+				<Tec3_1_3>
+					<IBK:Flag name="IAFSBTEB_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="IAFSMIT_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="IAFSILTS_IntegrationIntoBuildingEnergyManagement">true</IBK:Flag>
+					<IBK:Flag name="IAFSILTS_IntegrationIntoLoadingManagementNetwork">true</IBK:Flag>
+					<IBK:Flag name="IAFSA2030CPG_VehicleToGrid_SetupForBidirectionalLoadingAndUnloadingOfElectricVehicles">true</IBK:Flag>
+					<IBK:Parameter name="Tec3_1_3_1IAFSBTEB_NumberOfRequiredBicycleParkingSpots" unit="-">20</IBK:Parameter>
+					<IBK:Parameter name="Tec3_1_3_1IAFSBTEB_NumberOfBicycleParkingSpotsEquippedWithLoadingDock" unit="-">15</IBK:Parameter>
+					<IBK:Parameter name="Tec3_1_3_2IAFSMIT_PercentageOfParkingsSpotsOfPermanentelyDesignatedOccupantsOrResidentsEquippedWithLoadingDock" unit="---">60</IBK:Parameter>
+					<IBK:Parameter name="Tec3_1_3_2IAFSMIT_PercentageOfOtherParkingsSpotsEquippedWithLoadingDock" unit="---">20</IBK:Parameter>
+					<IBK:Parameter name="Tec3_1_3_2IAFSMIT_TotalNumberOfParkingsSpotsEquippedWithLoadingDock" unit="-">20</IBK:Parameter>
+					<IBK:Parameter name="Tec3_1_3_2IAFSMIT_PercentageOfOtherParkingsSpotsPreparedToBeEquippedWithLoadingDock" unit="---">40</IBK:Parameter>
+				</Tec3_1_3>
+				<Tec3_1_4>
+					<IBK:Flag name="RSMS_ResultsSubmitted">true</IBK:Flag>
+					<IBK:Flag name="RSMS_Alt_BuildingAndOccupantsArePartOfAQuarterMobilityConceptIncludingOrganisationAndSupportOfSharingsystems">true</IBK:Flag>
+					<IBK:Parameter name="Tec3_1_4NumberOfIndividualNonOverlappingMobilitySharingOffers" unit="-">3</IBK:Parameter>
+				</Tec3_1_4>
+				<Tec3_1_5>
+					<IBK:Flag name="OCBGO_SufficientAvailabilityOfShowers">true</IBK:Flag>
+					<IBK:Flag name="OCBGO_SufficientAvailabilityOfChangingRoomsAndDryingRoomsForBikeWear">true</IBK:Flag>
+					<IBK:Flag name="OCBGO_SufficientAvailabilityOfMaintenanceFacilitiesForBikes">true</IBK:Flag>
+					<IBK:Flag name="OCBGO_Residential_ParkingSpacesForBikeTrailers">true</IBK:Flag>
+				</Tec3_1_5>
+			</Tec3_1>
+			<IBK:Parameter name="PW_Tec1_3" unit="-">2.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Tec1_4" unit="-">2.2</IBK:Parameter>
+			<IBK:Parameter name="PW_Tec1_6" unit="-">3.3</IBK:Parameter>
+			<IBK:Parameter name="PW_Tec3_1" unit="-">2.2</IBK:Parameter>
+			<IBK:Parameter name="PG_Tec1_3" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Tec1_4" unit="-">130</IBK:Parameter>
+			<IBK:Parameter name="PG_Tec1_6" unit="-">155</IBK:Parameter>
+			<IBK:Parameter name="PG_Tec3_1" unit="-">115</IBK:Parameter>
+		</Technology>
+		<Process>
+			<Pro1_1>
+				<Pro1_1_1>
+					<IBK:Flag name="RPB_ImplementationOfDeclarationSustainabilityArchitecture">true</IBK:Flag>
+					<IBK:Flag name="RPB_ComplianceWithEuropeanSustainableReportFrameworkLevels">true</IBK:Flag>
+					<IBK:Flag name="RPRP_PlanFollowsChecklist1OrAnnexe1A">true</IBK:Flag>
+					<IBK:Flag name="RPRP_PlanFollowsChecklist12OrAnnexe1B">true</IBK:Flag>
+					<IBK:Flag name="RPRP_PlanFollowsChecklist123OrAnnexe1C">true</IBK:Flag>
+					<IBK:Flag name="RPA2030FS_FeasibilitySurveyConductedAllowingForImplementationOfSustainableConcepts">true</IBK:Flag>
+				</Pro1_1_1>
+				<Pro1_1_2>
+					<IBK:Flag name="A2030P_CounselDuringRequirementAnalysis">true</IBK:Flag>
+					<IBK:Flag name="A2030P_ParticipationDuringRequirementAnalysis">true</IBK:Flag>
+					<IBK:Flag name="A2030P_CounselDuringConceptionPhase">true</IBK:Flag>
+					<IBK:Flag name="A2030P_ParticipationDuringConceptionPhase">true</IBK:Flag>
+					<IBK:Flag name="A2030P_CounselDuringImplementationPhase">true</IBK:Flag>
+					<IBK:Flag name="A2030P_ParticipationDuringImplementationPhase">true</IBK:Flag>
+				</Pro1_1_2>
+				<Pro1_1_3>
+					<IBK:Flag name="CSSR_SpecificationsIncludeDetailedRequirementsToBuildingsSustainabilityFromEcologicalEconomicalSocioculturalFunctionalTechnicalAspectsAsWellAsPlanningAndConstructionPhase">true</IBK:Flag>
+					<IBK:Flag name="CSSR_SpecificationsFurtherIncludeDefinitionsOfResponsibilitiesAndPlanningMethodAndEssentialPlanningPhasesDecidedByAPlanningTeam">true</IBK:Flag>
+				</Pro1_1_3>
+			</Pro1_1>
+			<Pro1_4>
+				<Pro1_4_1>
+					<IBK:Flag name="SATOEI_SelectSustainabilityAspectsOfHealthCompatibilityOrEnvironmentCompatibilityOrRelevantTechnicalAspectsIncludedInOffersGeneralPreliminaryRemarks">true</IBK:Flag>
+					<IBK:Flag name="SATOEI_RequirementsToHealthCompatibilityOrEnvironmentCompatibilityAspectsOfConstructionProductsIncludedInOffersGeneralPreliminaryRemarks">true</IBK:Flag>
+					<IBK:Flag name="SATOEI_RequirementsToHealthCompatibilityOrEnvironmentCompatibilityAspectsOfConstructionProductsIncludedCraftSpecificallyAndSelectivelyOnAServiceItemLevelInOffer">true</IBK:Flag>
+					<IBK:Flag name="SATOEI_RequirementsToHealthCompatibilityOrEnvironmentCompatibilityAndTechnicalAspectsOfConstructionProductsIncludedCraftSpecificallyAndSelectivelyOnAServiceItemLevelInOffer">true</IBK:Flag>
+					<IBK:Flag name="SATOCERM_NoExclusionOfRecycledMaterialsInTenderOffer">true</IBK:Flag>
+				</Pro1_4_1>
+			</Pro1_4>
+			<Pro1_6>
+				<Pro1_6_1>
+					<IBK:Flag name="CEVPEVPC_PreemptiveExaminationButNoPlanningCompetitionConducted">true</IBK:Flag>
+					<IBK:Flag name="CEVCAMSM_ImplementationOfConceptAssignment">true</IBK:Flag>
+					<IBK:Flag name="CEVCAMSM_ImplementationOfConceptAssignmentWithSpecialConcernForSustainableConstruction">true</IBK:Flag>
+					<IBK:Flag name="CEVCAQE_CompetentDecisionMakingBoard">true</IBK:Flag>
+					<IBK:Flag name="CEVCAQE_PostProcedureQualityEnsurance">true</IBK:Flag>
+					<IBK:Flag name="CEVMASM_ImplementationOfMultipleAssignments">true</IBK:Flag>
+					<IBK:Flag name="CEVMASM_ImplementationOfMultipleAssignmentsWithSpecialConcernForSustainableConstruction">true</IBK:Flag>
+					<IBK:Flag name="CEVMAQE_CompetentDecisionMakingBoardOrSupervisionBySuch">true</IBK:Flag>
+					<IBK:Flag name="CEVMAIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH3">true</IBK:Flag>
+					<IBK:Flag name="CEVMAIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH5">true</IBK:Flag>
+					<IBK:Flag name="CEVMAIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH8">true</IBK:Flag>
+					<IBK:Flag name="CEVPCSQM_ImplementationOfPlanningCompetition">true</IBK:Flag>
+					<IBK:Flag name="CEVPCSQM_ImplementationOfPlanningCompetitionWithSpecialConcernForSustainableConstruction">true</IBK:Flag>
+					<IBK:Flag name="CEVPCMCM_CooperativeMethod">true</IBK:Flag>
+					<IBK:Flag name="CEVPCMCM_OneOrTwoPhases_OpenCompetitionOrClosedCompetitionWithPreliminaryRound">true</IBK:Flag>
+					<IBK:Flag name="CEVPCIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH3">true</IBK:Flag>
+					<IBK:Flag name="CEVPCIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH5">true</IBK:Flag>
+					<IBK:Flag name="CEVPCIAWD_CommissioningOfAwardWinnerAndImplementationOfDesignUntilAtLeastHOAI_LPH8">true</IBK:Flag>
+					<IBK:Flag name="CEVPCCAWPT_CommissioningOfAwardWinnersPlanningTeamUntilAtLeastHOAI_LPH3">true</IBK:Flag>
+					<IBK:Flag name="CEVPCCAWPT_CommissioningOfAwardWinnersPlanningTeamUntilAtLeastHOAI_LPH5">true</IBK:Flag>
+					<IBK:Flag name="CEVPCCAWPT_CommissioningOfAwardWinnersPlanningTeamUntilAtLeastHOAI_LPH8">true</IBK:Flag>
+				</Pro1_6_1>
+				<Pro1_6_2>
+					<IBK:Flag name="RIDB_ProjectPresentationInFrontOfDesignBoardOfCommuneAndArchitecturalAssociation">true</IBK:Flag>
+					<IBK:Flag name="RIDB_ImplementationOfDesignBoardsRecommendations">true</IBK:Flag>
+				</Pro1_6_2>
+				<Pro1_6_3>
+					<IBK:Flag name="HAAR_RecognitionOfGoodConstructionalCulturalQuality">true</IBK:Flag>
+					<IBK:Flag name="HAAR_RecognitionOfFinishedProjectWithArchitectureAwardDGNBDiamond">true</IBK:Flag>
+				</Pro1_6_3>
+			</Pro1_6>
+			<Pro2_1>
+				<Pro2_1_1>
+					<IBK:Flag name="NRCSC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="NRCSIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="NRCSEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+				</Pro2_1_1>
+				<Pro2_1_2>
+					<IBK:Flag name="DRCSC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="DRCSIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="DRCSEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+				</Pro2_1_2>
+				<Pro2_1_3>
+					<IBK:Flag name="SGPCSC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="SGPCSIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="SGPCSEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+				</Pro2_1_3>
+				<Pro2_1_4>
+					<IBK:Flag name="WRCSC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="WRCSIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="WRCSEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+					<IBK:Flag name="WRCSCEWP_UseOfNovelAndLargelyWastePreventiveConceptsMethodsAndTechnologies">true</IBK:Flag>
+				</Pro2_1_4>
+				<Pro2_1_5>
+					<IBK:Flag name="CESI_NotificationOfNearbyResidentsOnProjectAndSite">true</IBK:Flag>
+					<IBK:Flag name="CECR_DetailsOnHowResidentsAreInformedOnAndIncludedInProjectAsideFromSignage">true</IBK:Flag>
+					<IBK:Flag name="CISI_ParticipantsInProjectProvidedWithAllRelevantInformation">true</IBK:Flag>
+					<IBK:Flag name="CISI_GuaranteeOfFixedInformationFlowBetweenPlannersAndSite">true</IBK:Flag>
+					<IBK:Flag name="CISI_ContinuousCommunicationOfRelevantInformationOnConstructionProgress">true</IBK:Flag>
+					<IBK:Flag name="CISI_AvailabilityOfCompleteAndUpToDateListsOfProvidersPlannersAndConstructors">true</IBK:Flag>
+					<IBK:Flag name="CISI_OnlineAvailabilityOfAllInformation">true</IBK:Flag>
+				</Pro2_1_5>
+				<Pro2_1_6>
+					<IBK:Flag name="RCWUDT_MeasuringAndDocumentationOfWaterUsageOnConstructionSite">true</IBK:Flag>
+					<IBK:Flag name="RCWUC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="RCWUIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="RCWUEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+					<IBK:Flag name="RCEUDT_MeasuringAndDocumentationOfWaterUsageOnConstructionSite">true</IBK:Flag>
+					<IBK:Flag name="RCEUC_CompilationOfConceptIncludingIdentificationOfRelevantCrafts">true</IBK:Flag>
+					<IBK:Flag name="RCEUIO_InstructionOrBriefungOfOperators">true</IBK:Flag>
+					<IBK:Flag name="RCEUEI_ExaminationOrVerificationOfImplementation">true</IBK:Flag>
+				</Pro2_1_6>
+				<Pro2_1_7>
+					<IBK:Flag name="MP_CreationAndImplementationOfAnAerationProgrammSuitedToConstructionSituationGuaranteeingSufficientDryingOutOfSite">true</IBK:Flag>
+				</Pro2_1_7>
+			</Pro2_1>
+			<Pro2_3>
+				<Pro2_3_1>
+					<IBK:Flag name="TMPP_DesignOfAMonitoringConceptIncludingEnergeticMonitoring">false</IBK:Flag>
+					<IBK:Flag name="TMPP_CertifiedAlternativeSolution">false</IBK:Flag>
+				</Pro2_3_1>
+				<Pro2_3_2>
+					<IBK:Flag name="TMCP_ContinuationOfAMonitoringConcept">true</IBK:Flag>
+					<IBK:Flag name="TMCP_CertifiedAlternativeSolution">true</IBK:Flag>
+				</Pro2_3_2>
+				<Pro2_3_3>
+					<IBK:Flag name="TO_TrialOperationConductedPriorToApprovalAndHandover">true</IBK:Flag>
+					<IBK:Flag name="TO_CertifiedAlternativeSolution">true</IBK:Flag>
+				</Pro2_3_3>
+				<Pro2_3_4>
+					<IBK:Flag name="TMFOP_AssignmentOfARegulationMonitoringToOptimiseOperation">true</IBK:Flag>
+					<IBK:Flag name="TMFOP_CertifiedAlternativeSolution">true</IBK:Flag>
+				</Pro2_3_4>
+				<Pro2_3_5>
+					<IBK:Flag name="TMCM_AssignmentOfACompleteTechnicalMonitoring">false</IBK:Flag>
+				</Pro2_3_5>
+				<Pro2_3_6>
+					<IBK:Flag name="OSUM_StartUpManagementInAdditionToTechnicalManagement">true</IBK:Flag>
+				</Pro2_3_6>
+				<Pro2_3_7>
+					<IBK:Flag name="BP_AssignmentOfContinuousImprovementProcessAfterHandover">true</IBK:Flag>
+				</Pro2_3_7>
+			</Pro2_3>
+			<Pro2_5>
+				<Pro2_5_1>
+					<IBK:Flag name="FMC_ConductionWithRegardToAccessibilityOperationRoutingAndAreaUsage">true</IBK:Flag>
+				</Pro2_5_1>
+				<Pro2_5_2>
+					<IBK:Flag name="MIOSI_CreationOfInstructionsAndHandoverToHiredServiceCompaniesOrConductors">true</IBK:Flag>
+					<IBK:Flag name="MIOSI_CreationOfMaintenanceAndUpkeepPlansForHighCareElementsOfCostGroups300And400">true</IBK:Flag>
+					<IBK:Flag name="MIOSI_IncorporationOfGuidelinesForSustainableBuildingOperation">true</IBK:Flag>
+				</Pro2_5_2>
+				<Pro2_5_3>
+					<IBK:Flag name="FMG_CreationAndHandoverToFacilityManager">true</IBK:Flag>
+				</Pro2_5_3>
+				<Pro2_5_4>
+					<IBK:Flag name="CWU_CreationAndHandoverTechnicalOperationHandbook">true</IBK:Flag>
+					<IBK:Flag name="CWU_PreparationAndHandoverOfQuestionaryOnUserSatisfactionDuringOperationPhase">true</IBK:Flag>
+				</Pro2_5_4>
+				<Pro2_5_5>
+					<IBK:Flag name="SISI_CreationOfConceptIncludingImplementationPlan">true</IBK:Flag>
+					<IBK:Flag name="SISI_InstallationOfSustainabilityInformationSystem">true</IBK:Flag>
+					<IBK:Flag name="SISA2030NEKI_InfluenceOfNatureExperienceAndKnowledgeImpartationOnOutdoorAreaDesignConcept">true</IBK:Flag>
+					<IBK:Flag name="SISA2030NEKI_AppealingOfferForUsersToExperienceNatureWithAllOrSeveralSenses">true</IBK:Flag>
+				</Pro2_5_5>
+				<Pro2_5_6>
+					<IBK:Flag name="OCPE_CreationOfExtendedOperationCostPrognosis">true</IBK:Flag>
+				</Pro2_5_6>
+			</Pro2_5>
+			<IBK:Parameter name="PW_Pro1_1" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PW_Pro1_4" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PW_Pro1_6" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PW_Pro2_1" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PW_Pro2_3" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PW_Pro2_5" unit="-">1.7</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro1_1" unit="-">115</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro1_4" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro1_6" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro2_1" unit="-">110</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro2_3" unit="-">100</IBK:Parameter>
+			<IBK:Parameter name="PG_Pro2_5" unit="-">105</IBK:Parameter>
+		</Process>
+		<Site>
+			<Site1_1>
+				<Site1_1_1>
+					<IBK:Flag name="CRCA_ConductionOfAnalysis">true</IBK:Flag>
+					<IBK:Flag name="CRCA_ConductionOfQualifiedAnalysisByExperts">true</IBK:Flag>
+					<IBK:Flag name="CRS_AppendixA3TableA">true</IBK:Flag>
+					<IBK:Flag name="CRS_AppendixA3TableB">true</IBK:Flag>
+					<IBK:Flag name="CRS_AdditionallyAppendixA3TableC">true</IBK:Flag>
+					<IBK:Flag name="CRSEP_AnalysisEvaluatesClimateDevelopmentOverTheNext10To25Years">true</IBK:Flag>
+					<IBK:Flag name="CRSEP_AnalysisEvaluatesClimateDevelopmentOverTheNext26To50Years">true</IBK:Flag>
+					<IBK:Flag name="CRSEP_AnalysisEvaluatesClimateDevelopmentOverTheEntireBuildingLifeExpectancy">true</IBK:Flag>
+					<IBK:Flag name="CRAT_EvaluationOfEnvironmentAndClimateHazardProbability">true</IBK:Flag>
+					<IBK:Flag name="CRAT_Vulnerability_EvaluationOfImpactOnBuildingOperationUsersAndAssetValue">true</IBK:Flag>
+					<IBK:Flag name="CRA2030CPG_ConsiderationOfSurroundingConditionsAndAdaptationSolutionsOfOthers">true</IBK:Flag>
+					<IBK:Flag name="CRDB_DamageProbabilityEvaluationBasedOnIPCCAssessmentReportWorstCaseScenarioRCP85">true</IBK:Flag>
+					<IBK:Flag name="CRDB_AdditionallyScenarioRCP6_0">true</IBK:Flag>
+					<IBK:Flag name="CRDB_AdditionallyScenarioRCP4_5">true</IBK:Flag>
+					<IBK:Flag name="CRDB_AdditionallyScenarioRCP2_6">true</IBK:Flag>
+					<IBK:Flag name="CRRA_PhysicalRiskAndVulnerabilityAnalysisConductedPreConstruction">true</IBK:Flag>
+				</Site1_1_1>
+				<Site1_1_2>
+					<IBK:Flag name="ECRSCFPRECC_DeterminedRisksAndVulnerabilitiesOnSiteExclusivelyMinorToOperationUsersAndAssetValue">true</IBK:Flag>
+				</Site1_1_2>
+				<Site1_1_3>
+					<IBK:Flag name="EEISN_EvaluationOfSurroundingNoiseLevelBasedOnExistingNoiseLevelAccordingToDIN4109_LessThan75dB">true</IBK:Flag>
+					<IBK:Flag name="EEISN_EvaluationOfSurroundingNoiseLevelBasedOnExistingNoiseLevelAccordingToDIN4109_LessThan65dB">true</IBK:Flag>
+					<IBK:Flag name="EEISN_EvaluationOfSurroundingNoiseLevelBasedOnExistingNoiseLevelAccordingToDIN4109_LessThan55dB">true</IBK:Flag>
+					<IBK:Flag name="EEIAQ_PM10ExceedsLimitOnNoMoreThan35DaysAnnually">true</IBK:Flag>
+					<IBK:Flag name="EEIAQ_PM10NeverExceedsLimit">true</IBK:Flag>
+					<IBK:Flag name="EEIAQ_PM2_5NeverExceedsLimit">true</IBK:Flag>
+					<IBK:Flag name="EEIAQ_NO2ExceedsLimitOnNoMoreThan18IntervalsOf3HoursBeyondThe1HourDailyLimitAnnually">true</IBK:Flag>
+					<IBK:Flag name="EEIAQ_NO2NeverExceedsExceedsLimit">true</IBK:Flag>
+					<IBK:Flag name="EEIR_ExaminationIfSiteIsInARadonPreventionZoneBasedOnZonePassOrGovernmentalInformation">true</IBK:Flag>
+					<IBK:Flag name="EEIR_ConclusionThatSiteIsNotInARadonPreventionZoneBasedOnZonePassOrGovernmentalInformation">true</IBK:Flag>
+					<IBK:Flag name="EEIR_RadonConcentrationOfCompartmentOrBasementAirMeasured">true</IBK:Flag>
+					<IBK:Flag name="EEIR_ReferenceValueMeasuredOrExpectedInLessThan75PercentOfAdministrationUnitZoneOrNoMoreThan10PercentOfBuildings">true</IBK:Flag>
+				</Site1_1_3>
+			</Site1_1>
+			<Site1_3>
+				<Site1_3_1>
+					<IBK:Flag name="MITS_ConnectionToBundesstrasseA_Road">true</IBK:Flag>
+					<IBK:Flag name="MITS_ConnectionToFreeway">true</IBK:Flag>
+					<IBK:Flag name="MITS_ConnectionToMainStreet">true</IBK:Flag>
+					<IBK:Flag name="MITRB_BuildingParkingSpacesAreIntegratedIntoSuperordinateParkingConceptOfParkingAreasUsedMostlyByUserGroupsOfSeveralBuildingsInTheQuarter">true</IBK:Flag>
+				</Site1_3_1>
+				<Site1_3_2>
+					<IBK:Flag name="PTS_DistancedWithin350Meters">true</IBK:Flag>
+					<IBK:Flag name="PTDTSHD_NoMoreThan20Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTDTSHD_NoMoreThan15Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTDTSHD_NoMoreThan10Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTI_NoMoreThan15Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTI_NoMoreThan10Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTI_NoMoreThan5Minutes">true</IBK:Flag>
+					<IBK:Flag name="PTRB_BuildingBulletinBoardOrSimilarFeaturesNearbyStationSchedulesOrDigitalDisplay">true</IBK:Flag>
+					<IBK:Flag name="PTRB_BuildingBulletinBoardOrSimilarFeaturesPlanOfSurroundingsWithStationsAndDistances">true</IBK:Flag>
+					<IBK:Flag name="PTRB_BuildingFeaturesSignageToStations">true</IBK:Flag>
+				</Site1_3_2>
+				<Site1_3_3>
+					<IBK:Flag name="BTCT500M_PartialMixWithMotorTraffic">true</IBK:Flag>
+					<IBK:Flag name="BTCT500M_NoMixWithMotorTrafficOrSharedSpaceOrCycleTracks">true</IBK:Flag>
+					<IBK:Flag name="BTC_ContinuousRegionalConnection">true</IBK:Flag>
+					<IBK:Flag name="BTC_ContinuousInterregionalConnectionMoreThan10KM">true</IBK:Flag>
+					<IBK:Flag name="BTRB_RoutingOnSiteAllowsRidingUpToBuildingOrBicycleRacks">true</IBK:Flag>
+				</Site1_3_3>
+				<Site1_3_4>
+					<IBK:Flag name="FTWN350M_50PercentOrMoreCoverage">true</IBK:Flag>
+					<IBK:Flag name="FTWN350M_80PercentOrMoreCoverage">true</IBK:Flag>
+					<IBK:Flag name="FTWN350M_100PercentCoverage">true</IBK:Flag>
+					<IBK:Flag name="FTCO350M_80PercentOfStreetsAreSafeToCrossAndCrossingsAreSafeToReach">true</IBK:Flag>
+					<IBK:Flag name="FTCO350M_100PercentOfStreetsAreSafeToCrossAndCrossingsAreSafeToReach">true</IBK:Flag>
+					<IBK:Flag name="FTSS_SignageCoversSurroundingArea">true</IBK:Flag>
+					<IBK:Flag name="FTSS_SignageAndOrientationPlansCoverSurroundingArea">true</IBK:Flag>
+				</Site1_3_4>
+				<Site1_3_5>
+					<IBK:Flag name="ASW350M_80PercentOfWalkwaysBetweenEntranceAndStationFeatureHeightDifferencesSmallerThan3cmAndMarkedBoardingSpots">true</IBK:Flag>
+					<IBK:Flag name="ASW350M_100PercentOfWalkwaysBetweenEntranceAndStationFeatureHeightDifferencesSmallerThan3cmAndMarkedBoardingSpots">true</IBK:Flag>
+					<IBK:Flag name="ASADRBS_TactileGuidingElementsPrivateWalkwayLoweringsAndCrossingsSeparatedFromCycletracksNoSightObstructionOrStairs">true</IBK:Flag>
+				</Site1_3_5>
+				<Site1_3_6>
+					<IBK:Flag name="A2030UPLI_PublicLoadingInfrastructureForMotorisedIndividualTransportWithin350Meters">true</IBK:Flag>
+				</Site1_3_6>
+			</Site1_3>
+			<Site1_4>
+				<Site1_4_1>
+					<IBK:Flag name="SIQS_DaycareWithin5MinutesOnFootOrByPublicTransportAndWithin350Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_SecondaryOrVocationalSchoolWithin15MinutesOnFootOrByPublicTransportAndWithin1300Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_CinemaTheatreOrGalleryWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_BookstoreWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_QuarterCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_ParishHallWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_YouthCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_ElderlyCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_FitnessCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_PubliclyAccessibleFitnessProgramInTheBuildingAndOpenToExternalUsers">true</IBK:Flag>
+					<IBK:Flag name="SIQS_PlaygroundWithin5MinutesOnFootOrByPublicTransportAndWithin350Meters">true</IBK:Flag>
+					<IBK:Flag name="SIQS_GymSportsFieldOrSwimmingPoolWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="SIOUIOBS_ThirdPartiesHaveTheOptionToRentBuildingSpacesTemporarily">true</IBK:Flag>
+					<IBK:Flag name="SIOUIOBS_SC_NeccessaryRoutingAccessibleOutsideOfBusinessHours">true</IBK:Flag>
+					<IBK:Flag name="SIOUIOBS_OutdoorBuildingSpacesAccessibleToPublicAtAllTimes">true</IBK:Flag>
+				</Site1_4_1>
+				<Site1_4_2>
+					<IBK:Flag name="POEIQS_LocalAmeneties1_ShoppingCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_LocalAmeneties2_Retailers_BakeryButcherDrugstoreEtcWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_LocalAmeneties3_FarmersMarketWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_Gastronomy_RestaurantCafeBakeryEtcWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_OtherServices_BankPostOfficeBarberFitnessCenterWellnessCenterWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_Healthcare1_GeneralPractitionerWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+					<IBK:Flag name="POEIQS_Healthcare2_MedicalSpecialistPharmacyEtcWithin10MinutesOnFootOrByPublicTransportAndWithin700Meters">true</IBK:Flag>
+				</Site1_4_2>
+				<Site1_4_3>
+					<IBK:Flag name="BAIUDIHD_Daycare">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_SecondaryOrVocationalSchool">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_CinemaTheatreOrGallery">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_Bookstore">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_QuarterCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_ParishHall">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_YouthCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_ElderlyCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_FitnessCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_FitnessProgramOpenToExternalUsers">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_Playground">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_GymSportsFieldOrSwimmingPool">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_LocalAmeneties1_ShoppingCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_LocalAmeneties2_Retailers_BakeryButcherDrugstoreEtc">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_LocalAmeneties3_FarmersMarket">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_Gastronomy_RestaurantCafeBakeryEtc">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_OtherServices_BankPostOfficeBarberFitnessCenterWellnessCenter">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_Healthcare1_GeneralPractitioner">true</IBK:Flag>
+					<IBK:Flag name="BAIUDIHD_Healthcare2_MedicalSpecialistPharmacyEtc">true</IBK:Flag>
+					<IBK:Flag name="BAIUDCEODNE_UnconventionalOffersPresentedToUsersAndExternals">true</IBK:Flag>
+					<IBK:Flag name="BAIUDCEODNE_ConstructionalImplementationOrPreparationOfOffers">true</IBK:Flag>
+				</Site1_4_3>
+			</Site1_4>
+			<IBK:Parameter name="PW_Site1_1" unit="-">2.5</IBK:Parameter>
+			<IBK:Parameter name="PW_Site1_3" unit="-">1.3</IBK:Parameter>
+			<IBK:Parameter name="PW_Site1_4" unit="-">1.3</IBK:Parameter>
+			<IBK:Parameter name="PG_Site1_1" unit="-">105</IBK:Parameter>
+			<IBK:Parameter name="PG_Site1_3" unit="-">105</IBK:Parameter>
+			<IBK:Parameter name="PG_Site1_4" unit="-">110</IBK:Parameter>
+		</Site>
+	</Project>
+</DGNB>

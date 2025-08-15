@@ -1,0 +1,18 @@
+D6OARLZ! 007.000
+TYPE          = FIELD
+PROJECT_FILE  = Project.d6p
+CREATED       = Wed Aug 23 14:31:16 2023
+GEO_FILE      = Project_3079178559.g6a
+GEO_FILE_HASH = 2034935005
+QUANTITY      = Total energy loss/gain from entire pipe
+QUANTITY_KW   = 
+SPACE_TYPE    = SINGLE
+TIME_TYPE     = NONE
+VALUE_UNIT    = W
+TIME_UNIT     = h
+START_YEAR    = 2007
+INDICES       = 0 
+
+0            	-0             	
+24           	715.134        	
+48           	713.953        	

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DelphinProject xmlns="https://www.bauklimatik-dresden.de" fileVersion="6.1">
+	<ProjectInfo created="Do Dez 19 10:28:54 2024" lastEdited="Do Dez 19 10:28:54 2024">
+		<Comment>&#x0A;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;</Comment>
+		<ProjectName />
+		<ConstructionID />
+		<UserName />
+		<Company />
+		<Description />
+		<Location />
+	</ProjectInfo>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--DirectoryPlaceholders section defines strings to be substituted with directories-->
+	<DirectoryPlaceholders>
+		
+		<Placeholder name="Material Database">${MatBase}</Placeholder>
+	</DirectoryPlaceholders>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Model data, solver settings, general parameters-->
+	<Init>
+		<SimulationParameter>
+			<BalanceEquationModule>BEHeatMoisture</BalanceEquationModule>
+			<Interval>
+				<IBK:Parameter name="Duration" unit="a">10</IBK:Parameter>
+			</Interval>
+			<ClimateDataFilePath>${CLIMATE}</ClimateDataFilePath>
+			<StartYear>2020</StartYear>
+		</SimulationParameter>
+	</Init>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--List of all materials used in this construction-->
+	<Materials>
+	
+	
+		${ADDMATERIALS}
+	${INSULATIONGLUE1}	<!-- Dämmkleber -->					<!-- <MaterialReference name="Calsitherm KP-Kleber [705]" color="#ff8000ff" hatchCode="9">${Material Database}/GlueMortarForClimateBoard_705.m6</MaterialReference> -->
+	${INTERIORINSULATION1} <!-- Innendämmung -->			<!-- <MaterialReference name="Calsitherm KP-Innenputz [722]" color="#ff409020" hatchCode="13">${Material Database}/KPInnenputz_722.m6</MaterialReference> -->
+	${INTERIORPLASTER}	<!-- Innenputz -->					<!-- <MaterialReference name="Calsitherm Klimaplatte WF [707]" color="#ff5eaeae" hatchCode="10">${Material Database}/ClimateBoardWF_707.m6</MaterialReference> -->
+	</Materials>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Discretization data (grid and sketches)-->
+	<Discretization>
+		<XSteps unit="m"> ${XSteps} </XSteps>
+
+		<!--<XSteps unit="m">0.01 0.365 ${INSULATIONGLUETHICKNESS1} ${INTERIORINSULATIONTHICKNESS1} ${INTERIORPLASTERTHICKNESS} </XSteps>-->
+	</Discretization>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Conditions data, specifies how construction interacts with environment-->
+	<Conditions>
+
+		<Interfaces>
+			<Interface name="Inside" type="EngineeringIndoor">
+				<IBK:Parameter name="CustomIndoorHeatTransferCoefficient" unit="W/m2K">8</IBK:Parameter>
+				<IBK:Parameter name="CustomIndoorVaporTransferCoefficient" unit="s/m">2.5e-08</IBK:Parameter>
+				<ClimateTypeIndoor>IndoorWTA</ClimateTypeIndoor>
+				<IndoorWTAType>IndoorWTANormalp5Load</IndoorWTAType>
+			</Interface>
+			<Interface name="Outside" type="EngineeringOutdoor">
+				<IBK:Parameter name="Orientation" unit="Deg">${ORIENTATION}</IBK:Parameter>
+				
+				<IBK:Parameter name="Inclination" unit="Deg">${INCLINATION}</IBK:Parameter>
+				<IBK:Parameter name="OutdoorHeatTransferCoefficient" unit="W/m2K">12</IBK:Parameter>
+				<IBK:Parameter name="OutdoorConvectiveHeatTransferCoefficient" unit="W/m2K">12</IBK:Parameter>
+				<IBK:Parameter name="OutdoorVaporTransferCoefficient" unit="s/m">7.5e-08</IBK:Parameter>
+				<IBK:Parameter name="OutdoorAdsorptionCoefficient" unit="-">0.7</IBK:Parameter>
+				<IBK:Parameter name="OutdoorEmissionCoefficient" unit="-">0.9</IBK:Parameter>
+				<IBK:Parameter name="OutdoorRainShelteringCoefficient" unit="-">${OUTDOORRAINSHELTERINGCOEFFICIENT}</IBK:Parameter>
+				<IBK:Flag name="UseHeatCond">true</IBK:Flag>
+				<IBK:Flag name="UseVapDiff">true</IBK:Flag>
+				<IBK:Flag name="UseShortWaveRadiation">true</IBK:Flag>
+				<IBK:Flag name="UseLongWaveRadiation">true</IBK:Flag>
+				<IBK:Flag name="UseStandardRain">true</IBK:Flag>
+				<ClimateTypeOutdoor>OutdoorUserData</ClimateTypeOutdoor>
+			</Interface>
+		</Interfaces>
+		
+		${INITIALCONDITION}
+		
+	</Conditions>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Contains definitions of output files and schedules for outputs.-->
+	<Outputs>
+		<!--General parameters-->
+		<IBK:Unit name="TimeUnit">h</IBK:Unit>
+		<!--List of all Output schedules-->
+		<OutputGrids>
+			<OutputGrid name="Felder/Profile (1.5 d)">
+				<Interval>
+					<IBK:Parameter name="Duration" unit="a">0</IBK:Parameter>
+					<IBK:Parameter name="StepSize" unit="d">1.5</IBK:Parameter>
+				</Interval>
+			</OutputGrid>
+			<OutputGrid name="Einzelwerte (1 h)">
+				<Interval>
+					<IBK:Parameter name="Duration" unit="a">0</IBK:Parameter>
+					<IBK:Parameter name="StepSize" unit="h">1</IBK:Parameter>
+				</Interval>
+			</OutputGrid>
+		</OutputGrids>
+		<!--List of all Output files-->
+		<OutputFiles>
+			<OutputFile name="Temperaturprofil">
+				<Quantity unit="C">Temperature</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>Felder/Profile (1.5 d)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Luftfeuchteprofil">
+				<Quantity unit="%">RelativeHumidity</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>Felder/Profile (1.5 d)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Feuchtegehaltsprofil">
+				<Quantity unit="kg/m3">MoistureMassDensity</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>Felder/Profile (1.5 d)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Feuchtegehaltsintegral">
+				<Quantity unit="kg">MoistureMassDensity</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Integral</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Oberflächentemperatur - Außenoberfläche">
+				<Quantity unit="C">Temperature</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Oberflächentemperatur - Innenoberfläche">
+				<Quantity unit="C">Temperature</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Relative Luftfeuchte an der Oberfläche - Außenoberfläche">
+				<Quantity unit="%">RelativeHumidity</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Relative Luftfeuchte an der Oberfläche - Innenoberfläche">
+				<Quantity unit="%">RelativeHumidity</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Oberflächenwärmestrom - Außenoberfläche">
+				<Quantity unit="W/m2">TotalFluxHeat</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Oberflächenwärmestrom - Innenoberfläche">
+				<Quantity unit="W/m2">TotalFluxHeat</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Mean</SpaceType>
+				<OutputGrid>Einzelwerte (1 h)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Eis Kriterium 4108-3">
+				<Quantity unit="a">IceCriteriaDIN4108_3</Quantity>
+				<TimeType>Integral</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>Felder/Profile (1.5 d)</OutputGrid>
+			</OutputFile>
+			<OutputFile name="Sättigungsgradprofil">
+				<Quantity unit="---">DegreeOfSaturation</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>Felder/Profile (1.5 d)</OutputGrid>
+			</OutputFile>
+		</OutputFiles>
+	</Outputs>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--List of all assignments of materials and conditions-->
+	<Assignments>
+		
+		${ASSIGNMENTS}
+		<!--
+		<Assignment type="Material" location="Element">
+			<Reference>Kalkzementputz [145]</Reference>
+			<Range>0 0 0 0</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>Mauerziegel MZ16 [1781]</Reference>
+			<Range>1 0 1 0</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>Calsitherm KP-Kleber [705]</Reference>
+			<Range>2 0 2 0</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>Calsitherm Klimaplatte WF [707]</Reference>
+			<Range>3 0 3 0</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>Calsitherm KP-Innenputz [722]</Reference>
+			<Range>4 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Left">
+			<Reference>Outside</Reference>
+			<Range>0 0 0 0</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Right">
+			<Reference>Inside</Reference>
+			<Range>4 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Temperaturprofil</Reference>
+			<Range>0 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Luftfeuchteprofil</Reference>
+			<Range>0 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Feuchtegehaltsprofil</Reference>
+			<Range>0 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Feuchtegehaltsintegral</Reference>
+			<Range>0 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Oberflächentemperatur - Außenoberfläche</Reference>
+			<Range>0 0 0 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Oberflächentemperatur - Innenoberfläche</Reference>
+			<Range>4 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Relative Luftfeuchte an der Oberfläche - Außenoberfläche</Reference>
+			<Range>0 0 0 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>Relative Luftfeuchte an der Oberfläche - Innenoberfläche</Reference>
+			<Range>4 0 4 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Left">
+			<Reference>Oberflächenwärmestrom - Außenoberfläche</Reference>
+			<Range>0 0 0 0</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Right">
+			<Reference>Oberflächenwärmestrom - Innenoberfläche</Reference>
+			<Range>4 0 4 0</Range>
+		</Assignment>
+		-->
+	</Assignments>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+	<Assessments>
+		<AssessmentTypes>MoistureAccumulation,MoistureAccumulationSingle,MoldGrowth,IceCriteriaDIN4108</AssessmentTypes>
+	</Assessments>
+</DelphinProject>

@@ -1,0 +1,5 @@
+/debug/
+/release/
+/release_x64/
+/Makefile.SuiteSparse.Debug
+/Makefile.SuiteSparse.Release

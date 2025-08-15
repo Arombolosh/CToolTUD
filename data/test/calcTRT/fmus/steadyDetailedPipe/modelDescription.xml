@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+	fmiVersion="2.0"
+	modelName="steadyDetailedPipe"
+	guid="{8ecd3982-c786-11eb-b594-28c63f8cd9ef}"
+	version="1.0.0"
+	author="not specified"
+	copyright="not specified"
+	license="not specified"
+	description=""
+	generationTool="ghorwin/FMICodeGenerator@github - C++ Code using FMI support functions from IBK@TU Dresden"
+	generationDateAndTime="2021-06-07T01:50:30Z"
+	variableNamingConvention="structured"
+	numberOfEventIndicators="0">
+
+	<!-- The following properties are the defaults and can be omitted
+		needsExecutionTool="false"
+		canBeInstantiatedOnlyOncePerProcess="false"
+		providesDirectionalDerivative="false"
+
+		CoSim only:
+		canRunAsynchronuously = "false"
+
+	-->
+
+	<ModelExchange
+		modelIdentifier="steadyDetailedPipe"
+		completedIntegratorStepNotNeeded="true"
+		canNotUseMemoryManagementFunctions="true"
+		canGetAndSetFMUstate="true"
+		canSerializeFMUstate="true"
+	/>
+
+	<CoSimulation
+		modelIdentifier="steadyDetailedPipe"
+		canHandleVariableCommunicationStepSize="true"
+		canInterpolateInputs="false"
+		maxOutputDerivativeOrder="0"
+		canNotUseMemoryManagementFunctions="true"
+		canGetAndSetFMUstate="true"
+		canSerializeFMUstate="true"
+	/>
+
+	<LogCategories>
+		<Category name="logStatusWarning" />
+		<Category name="logStatusError" />
+		<Category name="logAll" />
+		<Category name="logFmi2Call" />
+	</LogCategories>
+
+	<DefaultExperiment startTime="0.0" stopTime="10.0" tolerance="1e-06"/>
+
+	<ModelVariables>
+
+		<!-- For input variables we need to give a 'start' attribute -->
+		<!-- For output variables with initial="exact" we need to give a 'start' attribute -->
+		
+
+		<!-- Index of variable = "1" -->
+		<ScalarVariable
+			name="ResultRootDir"
+            description="A writeable directory generated for each slave of this FMU to store slave-specific output/data files."
+			valueReference="42"
+			variability="fixed"
+			causality="parameter"
+			initial="exact">
+			<String start=""/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "2" -->
+		<ScalarVariable
+			name="Tin"
+			valueReference="50"
+			variability="continuous"
+			causality="input"
+			initial="exact">
+			<Real start="10" unit="C"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "3" -->
+		<ScalarVariable
+			name="mdot"
+			valueReference="51"
+			variability="continuous"
+			causality="input"
+			initial="exact">
+			<Real start="0" unit="kg/s"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "4" -->
+		<ScalarVariable
+			name="Tsoil"
+			valueReference="52"
+			variability="continuous"
+			causality="input"
+			initial="exact">
+			<Real start="10" unit="C"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "5" -->
+		<ScalarVariable
+			name="Pipe_length"
+			valueReference="60"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="100" unit="m"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "6" -->
+		<ScalarVariable
+			name="Pipe_outer_diameter"
+			valueReference="61"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="0.032" unit="m"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "7" -->
+		<ScalarVariable
+			name="Pipe_wall_thickness"
+			valueReference="62"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="0.0029" unit="m"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "8" -->
+		<ScalarVariable
+			name="Pipe_thermal_conductivity"
+			valueReference="63"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="0.4" unit="W/(m*K)"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "9" -->
+		<ScalarVariable
+			name="Fluid_heat_capacity"
+			valueReference="64"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="3800" unit="J/(kg*K)"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "10" -->
+		<ScalarVariable
+			name="Fluid_Density"
+			valueReference="65"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="1050" unit="J/(kg*K)"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "11" -->
+		<ScalarVariable
+			name="Fluid_thermal_conductivity"
+			valueReference="66"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="0.6" unit="W/(m*K)"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "12" -->
+		<ScalarVariable
+			name="Fluid_kinematic_viscosity"
+			valueReference="67"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="5e-6" unit="m2/s"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "13" -->
+		<ScalarVariable
+			name="Number_of_parallel_pipes"
+			valueReference="68"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="1" unit="-"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "14" -->
+		<ScalarVariable
+			name="Collector_Volume"
+			valueReference="69"
+			variability="continuous"
+			causality="parameter"
+			initial="exact">
+			<Real start="1" unit="m3"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "15" -->
+		<ScalarVariable
+			name="Tout"
+			valueReference="70"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="C"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "16" -->
+		<ScalarVariable
+			name="Qdot_one_pipe"
+			valueReference="71"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="W"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "17" -->
+		<ScalarVariable
+			name="qdot_Delphin"
+			valueReference="72"
+			variability="continuous"
+			causality="output"
+			initial="exact">
+			<Real start="0" unit="W"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "18" -->
+		<ScalarVariable
+			name="Convection_coefficient"
+			valueReference="73"
+			variability="continuous"
+			causality="output"
+			initial="exact">
+			<Real start="0" unit="W/(m2K)"/>
+		</ScalarVariable>		
+		
+
+		<!-- Index of variable = "19" -->
+		<ScalarVariable
+			name="Reynolds_number"
+			valueReference="74"
+			variability="continuous"
+			causality="output"
+			initial="exact">
+			<Real start="0" unit="-"/>
+		</ScalarVariable>		
+		
+
+	</ModelVariables>
+
+	<ModelStructure>
+		<Outputs>
+			<!-- dependencies must be defined for all output quantities. 'dependencyKind' is only needed
+				when some dependencies are constant factors or parameters.
+			-->
+			
+			<Unknown index="15" dependencies="2 3 4"/>
+		
+			<Unknown index="16" dependencies="2 3 4"/>
+		
+			<Unknown index="17" dependencies="2 3 4"/>
+		
+			<Unknown index="18" dependencies="2 3 4"/>
+		
+			<Unknown index="19" dependencies="2 3 4"/>
+		
+
+		</Outputs>
+	</ModelStructure>
+
+</fmiModelDescription>
+

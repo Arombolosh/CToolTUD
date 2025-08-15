@@ -1,0 +1,20 @@
+<IBK:Parameter name="HeatTransferCoefficient" unit="W/m2K">25</IBK:Parameter> auf 20 runter nehmen
+"heatConvectionCoeff": 25, --> 20
+
+
+bei adiabten nimmst du immer doppelte Dicke an
+also bsp. 2x 20 cm Beton -> darf nur 1x 20 cm Beton sein
+
+Auswertung:
+
+	Heizung:
+
+		IdealHeating -> Heizleistung und Heizenergiebedarf pro Raum und fürs Gebäude aufsummieren (bei Leistung Maximum für jede Stunde bilden für alle Räume und nur diesen Zeitschritt summieren)
+		IdealCooling wie Heating
+		Klima nach DWD Anbindung prüfen (API)
+
+		AirTemperature -> Raumlufttemperaturen 
+		Location.Temperature -> Außenlufttemperatur
+	
+	Sommerl. Wärmeschutz
+		Operative Temperatur auswerten (Anderes Klima -> Stephan 3 Stück A,B,C)

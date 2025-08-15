@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DGNB fileVersion="0.1">
+
+	<Environment>
+		<Env1_1>
+			<SubCat2>
+				<IBK:Parameter name="CO2ReferenceValue2_1" unit="kg">0.4</IBK:Parameter>
+				<IBK:Parameter name="CO2ReferenceValue5_1" unit="kg">0.4</IBK:Parameter>
+			</SubCat2>
+			<SubCat3>
+				<IBK:Parameter name="CO2ReferenceValue1_1" unit="kg">0.4</IBK:Parameter>
+				<IBK:Parameter name="CO2ReferenceValue1_2" unit="kg">0.4</IBK:Parameter>
+			</SubCat3>
+		</Env1_1>
+		<Env1_3>
+			<SubCat2>
+				<IBK:Parameter name="WeightingOfCostGroup" unit="kg">50</IBK:Parameter>
+			</SubCat2>
+		</Env1_3>
+		<Env2_2>
+			<SubCat2>
+				<IBK:Parameter name="DWDWWMDynamicThresholdReferenceValue" unit="kg">0.8</IBK:Parameter>
+				<IBK:Flag name="hugo">true</IBK:Flag>
+			</SubCat2>
+		</Env2_2>
+	</Environment>
+	
+	<!-- move me -->
+	<Environment>
+		<Env1_1>
+			<Subcat2>
+				<IBK:Parameter name="CO2InputValue2_1" unit="kg">0.3</IBK:Parameter>
+				<IBK:Parameter name="CO2InputValue5_1" unit="kg">0.3</IBK:Parameter>
+			</Subcat2>
+			<Subcat3>
+				<IBK:Parameter name="CO2InputValue1_1" unit="kg">0.3</IBK:Parameter>
+				<IBK:Parameter name="CO2InputValue1_2" unit="kg">0.3</IBK:Parameter>
+			</Subcat3>
+		</Env1_1>
+		<Env1_2>
+			<Subcat1>
+				<IBK:Parameter name="SufficientStructureNumberOfRows" unit="kg">5</IBK:Parameter>
+				<IBK:Parameter name="UnsolveableConnectionsNumberOfRows" unit="kg">5</IBK:Parameter>
+			</Subcat1>
+		</Env1_2>
+		<Env1_3>
+			<Subcat2>
+				<IBK:Parameter name="NumberOfPartsFromDifferentManufacturers" unit="kg">5</IBK:Parameter>
+				<IBK:Parameter name="DMethodMassPercentQS4" unit="kg">50</IBK:Parameter>
+				<IBK:Parameter name="DMethodMassPercentQS2" unit="kg">50</IBK:Parameter>
+				<IBK:Parameter name="SMethodNumberOfPartsQS4" unit="kg">500</IBK:Parameter>
+				<IBK:Parameter name="SMethodNumberOfPartsQS2" unit="kg">500</IBK:Parameter>				
+			</Subcat2>
+		</Env1_3>
+		<Env2_2>
+			<Subcat2>
+				<IBK:Parameter name="DWDWWMWaterUsageIndex" unit="kg">0.6</IBK:Parameter>
+			</Subcat2>
+			<Subcat5>
+			</Subcat5>
+		</Env2_2>
+	</Environment>
+	
+	<!-- move me -->
+
+</DGNB>
+<!--
+ENV1
+ENV1_1
+ENV1_1_1
+	
+	m_env1_1.m_env1_1_2.m_refEnv1_1_2_2_1 = 1;                 // TODO: reference Value from file
+	m_env1_1.m_env1_1_2.m_refEnv1_1_2_5_1 = 1;                 // TODO: reference Value from file
+	m_env1_1.m_env1_1_3.m_refEnv1_1_3_1_1 = 1;                 // TODO: reference Value from file
+	m_env1_1.m_env1_1_3.m_refEnv1_1_3_1_2 = 1;                 // TODO: reference Value from file
+
+	m_env1_3.m_env1_3_2.m_referenceValueEnv1_3_2_2RRMRRWPSR_WeightingCostGroup = 1;                 // TODO: reference Value from file
+
+	m_env2_2.m_env2_2_2.m_refValue_env2_2DWDWWVWUI_DynamicThreshold = 1;	 // with dynamic reference value and dynamic target value calculated from threshold value
+	
+-->

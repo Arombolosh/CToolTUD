@@ -1,0 +1,1112 @@
+
+{"geo":
+	{"lat":"00","lon":"00"}
+	,"id":"222f","segments":[
+	{"name":"vorne_links_Storey0",
+		"zone":"Residential",
+		"area":46.25,
+		"volume":138.75,
+		"floor":
+			{"SurfaceID":0,
+			"position":[0,0,0],
+			"rotation":[0,0,0],
+			"facet":[[250,250,0],[9400,250,0],[9400,5150,0],[250,5150,0]],
+			"profile":
+				{"layers":[
+					{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+					{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+					{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+				],
+				"inside":
+					{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},
+				"outside":
+					{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+				},	
+			"meshes":[
+				{"name":"basic_shell",
+					"color":"#e0bd4d",
+					"opacity":0.2,
+					"positions":[250,250,0,9400,250,0,9400,5150,0,250,5150,0,250,250,0],
+					"indices":[0,1,2,0,2,3]}
+				]},
+		"ceiling":
+				{"SurfaceID":1,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,250,3000],[9400,250,3000],[9400,5150,3000],[250,5150,3000]],"meshes":[
+					{"name":"basic_shell",
+						"color":"#e0bd4d",
+						"opacity":0.2,
+						"positions":[250,250,3000,9400,250,3000,9400,5150,3000,250,5150,3000,250,250,3000],
+						"indices":[0,1,2,0,2,3]}
+				],
+				"ConnectedSurfaceID":100},
+		"walls":[
+			{"name":"wall0",
+				"SurfaceID":2,
+				"position":[0,0,0],
+				"rotation":[0,0,0],
+				"facet":[[250,250,0],[250,250,3000],[9400,250,3000],[9400,250,0]],
+				"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,250,0,250,250,3000,9400,250,3000,9400,250,0,250,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":4,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,250,0],[9400,250,3000],[9400,5150,3000],[9400,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9400,250,0,9400,250,3000,9400,5150,3000,9400,5150,0,9400,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":6,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,5150,0],[9400,5150,3000],[250,5150,3000],[250,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9400,5150,0,9400,5150,3000,250,5150,3000,250,5150,0,9400,5150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":8,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5150,0],[250,5150,3000],[250,250,3000],[250,250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5150,0,250,5150,3000,250,250,3000,250,250,0,250,5150,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"treppe_Storey0","zone":"Stairs","area":30,"volume":90,"floor":
+{"SurfaceID":10,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,0],[15400,250,0],[15400,5150,0],[9600,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,0,15400,250,0,15400,5150,0,9600,5150,0,9600,250,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":11,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,3000],[15400,250,3000],[15400,5150,3000],[9600,5150,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,3000,15400,250,3000,15400,5150,3000,9600,5150,3000,9600,250,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":110},"walls":[
+{"name":"wall0","SurfaceID":12,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,0],[9600,250,3000],[15400,250,3000],[15400,250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,0,9600,250,3000,15400,250,3000,15400,250,0,9600,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":14,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,250,0],[15400,250,3000],[15400,5150,3000],[15400,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15400,250,0,15400,250,3000,15400,5150,3000,15400,5150,0,15400,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":16,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,5150,0],[15400,5150,3000],[9500,5150,3000],[9500,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15400,5150,0,15400,5150,3000,9500,5150,3000,9500,5150,0,15400,5150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":18,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,5150,0],[9600,5150,3000],[9600,250,3000],[9600,250,0]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,5150,0,9600,5150,3000,9600,250,3000,9600,250,0,9600,5150,0],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":4}
+]},
+{"name":"vorne_rechts_Storey0","zone":"Residential","area":46.25,"volume":138.75,"floor":
+{"SurfaceID":20,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,0],[24750,250,0],[24750,5150,0],[15600,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,0,24750,250,0,24750,5150,0,15600,5150,0,15600,250,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":21,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,3000],[24750,250,3000],[24750,5150,3000],[15600,5150,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,3000,24750,250,3000,24750,5150,3000,15600,5150,3000,15600,250,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":120},"walls":[
+{"name":"wall0","SurfaceID":22,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,0],[15600,250,3000],[24750,250,3000],[24750,250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,0,15600,250,3000,24750,250,3000,24750,250,0,15600,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":24,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,250,0],[24750,250,3000],[24750,5150,3000],[24750,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,250,0,24750,250,3000,24750,5150,3000,24750,5150,0,24750,250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":26,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24650,5150,0],[24650,5150,3000],[15500,5150,3000],[15500,5150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24650,5150,0,24650,5150,3000,15500,5150,3000,15500,5150,0,24650,5150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":28,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,5150,0],[15600,5150,3000],[15600,250,3000],[15600,250,0]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,5150,0,15600,5150,3000,15600,250,3000,15600,250,0,15600,5150,0],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":14}
+]},
+{"name":"flur_Storey0","zone":"Floor","area":49,"volume":147,"floor":
+{"SurfaceID":30,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,0],[24750,5350,0],[24750,7150,0],[250,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,0,24750,5350,0,24750,7150,0,250,7150,0,250,5350,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":31,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,3000],[24750,5350,3000],[24750,7150,3000],[250,7150,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,3000,24750,5350,3000,24750,7150,3000,250,7150,3000,250,5350,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":130},"walls":[
+{"name":"wall0","SurfaceID":32,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,0],[250,5350,3000],[9400,5350,3000],[9400,5350,0]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,0,250,5350,3000,9400,5350,3000,9400,5350,0,250,5350,0],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":6},
+{"name":"wall1","SurfaceID":34,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,5350,0],[9400,5350,3000],[9600,5350,3000],[9600,5350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[9400,5350,0,9400,5350,3000,9600,5350,3000,9600,5350,0,9400,5350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":36,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,5350,0],[9600,5350,3000],[15400,5350,3000],[15400,5350,0]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,5350,0,9600,5350,3000,15400,5350,3000,15400,5350,0,9600,5350,0],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":16},
+{"name":"wall3","SurfaceID":38,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,5350,0],[15400,5350,3000],[15600,5350,3000],[15600,5350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[15400,5350,0,15400,5350,3000,15600,5350,3000,15600,5350,0,15400,5350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall4","SurfaceID":40,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,5350,0],[15600,5350,3000],[24750,5350,3000],[24750,5350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,5350,0,15600,5350,3000,24750,5350,3000,24750,5350,0,15600,5350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall5","SurfaceID":42,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,5350,0],[24750,5350,3000],[24750,7150,3000],[24750,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,5350,0,24750,5350,3000,24750,7150,3000,24750,7150,0,24750,5350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall6","SurfaceID":44,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,7150,0],[5525,7150,3000],[250,7150,3000],[250,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,7150,0,5525,7150,3000,250,7150,3000,250,7150,0,5525,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall7","SurfaceID":46,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7150,0],[5725,7150,3000],[5525,7150,3000],[5525,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[5725,7150,0,5725,7150,3000,5525,7150,3000,5525,7150,0,5725,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall8","SurfaceID":48,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,7150,0],[11900,7150,3000],[5725,7150,3000],[5725,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,7150,0,11900,7150,3000,5725,7150,3000,5725,7150,0,11900,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall9","SurfaceID":50,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7150,0],[12100,7150,3000],[11900,7150,3000],[11900,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[12100,7150,0,12100,7150,3000,11900,7150,3000,11900,7150,0,12100,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall10","SurfaceID":52,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,7150,0],[18275,7150,3000],[12100,7150,3000],[12100,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,7150,0,18275,7150,3000,12100,7150,3000,12100,7150,0,18275,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall11","SurfaceID":54,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7150,0],[18475,7150,3000],[18275,7150,3000],[18275,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[18475,7150,0,18475,7150,3000,18275,7150,3000,18275,7150,0,18475,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall12","SurfaceID":56,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,7150,0],[24750,7150,3000],[18475,7150,3000],[18475,7150,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,7150,0,24750,7150,3000,18475,7150,3000,18475,7150,0,24750,7150,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall13","SurfaceID":58,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7150,0],[250,7150,3000],[250,5350,3000],[250,5350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7150,0,250,7150,3000,250,5350,3000,250,5350,0,250,7150,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten0_Storey0","zone":"Residential","area":45.6875,"volume":137.0625,"floor":
+{"SurfaceID":60,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,0],[5525,7350,0],[5525,15750,0],[250,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,0,5525,7350,0,5525,15750,0,250,15750,0,250,7350,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":61,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,3000],[5525,7350,3000],[5525,15750,3000],[250,15750,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,3000,5525,7350,3000,5525,15750,3000,250,15750,3000,250,7350,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":160},"walls":[
+{"name":"wall0","SurfaceID":62,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,0],[250,7350,3000],[5525,7350,3000],[5525,7350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,0,250,7350,3000,5525,7350,3000,5525,7350,0,250,7350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":64,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,7250,0],[5525,7250,3000],[5525,15650,3000],[5525,15650,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,7250,0,5525,7250,3000,5525,15650,3000,5525,15650,0,5525,7250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":66,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,15750,0],[5525,15750,3000],[250,15750,3000],[250,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,15750,0,5525,15750,3000,250,15750,3000,250,15750,0,5525,15750,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":68,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,15750,0],[250,15750,3000],[250,7350,3000],[250,7350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,15750,0,250,15750,3000,250,7350,3000,250,7350,0,250,15750,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten1_Storey0","zone":"Residential","area":54.1875,"volume":162.5625,"floor":
+{"SurfaceID":70,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7350,0],[11900,7350,0],[11900,15750,0],[5725,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,7350,0,11900,7350,0,11900,15750,0,5725,15750,0,5725,7350,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":71,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7350,3000],[11900,7350,3000],[11900,15750,3000],[5725,15750,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,7350,3000,11900,7350,3000,11900,15750,3000,5725,15750,3000,5725,7350,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":170},"walls":[
+{"name":"wall0","SurfaceID":72,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5625,7350,0],[5625,7350,3000],[11900,7350,3000],[11900,7350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5625,7350,0,5625,7350,3000,11900,7350,3000,11900,7350,0,5625,7350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":74,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,7250,0],[11900,7250,3000],[11900,15650,3000],[11900,15650,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,7250,0,11900,7250,3000,11900,15650,3000,11900,15650,0,11900,7250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":76,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,15750,0],[11900,15750,3000],[5725,15750,3000],[5725,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,15750,0,11900,15750,3000,5725,15750,3000,5725,15750,0,11900,15750,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":78,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,15650,0],[5725,15650,3000],[5725,7250,3000],[5725,7250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,15650,0,5725,15650,3000,5725,7250,3000,5725,7250,0,5725,15650,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten2_Storey0","zone":"Residential","area":54.1875,"volume":162.5625,"floor":
+{"SurfaceID":80,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7350,0],[18275,7350,0],[18275,15750,0],[12100,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,7350,0,18275,7350,0,18275,15750,0,12100,15750,0,12100,7350,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":81,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7350,3000],[18275,7350,3000],[18275,15750,3000],[12100,15750,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,7350,3000,18275,7350,3000,18275,15750,3000,12100,15750,3000,12100,7350,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":180},"walls":[
+{"name":"wall0","SurfaceID":82,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12000,7350,0],[12000,7350,3000],[18275,7350,3000],[18275,7350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12000,7350,0,12000,7350,3000,18275,7350,3000,18275,7350,0,12000,7350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":84,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,7250,0],[18275,7250,3000],[18275,15650,3000],[18275,15650,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,7250,0,18275,7250,3000,18275,15650,3000,18275,15650,0,18275,7250,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":86,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,15750,0],[18275,15750,3000],[12100,15750,3000],[12100,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,15750,0,18275,15750,3000,12100,15750,3000,12100,15750,0,18275,15750,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":88,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,15650,0],[12100,15650,3000],[12100,7250,3000],[12100,7250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,15650,0,12100,15650,3000,12100,7250,3000,12100,7250,0,12100,15650,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten3_Storey0","zone":"Residential","area":54.1875,"volume":162.5625,"floor":
+{"SurfaceID":90,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7350,0],[24750,7350,0],[24750,15750,0],[18475,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":1,"emissivity":2,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,7350,0,24750,7350,0,24750,15750,0,18475,15750,0,18475,7350,0],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":91,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7350,3000],[24750,7350,3000],[24750,15750,3000],[18475,15750,3000]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,7350,3000,24750,7350,3000,24750,15750,3000,18475,15750,3000,18475,7350,3000],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":190},"walls":[
+{"name":"wall0","SurfaceID":92,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18375,7350,0],[18375,7350,3000],[24650,7350,3000],[24650,7350,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18375,7350,0,18375,7350,3000,24650,7350,3000,24650,7350,0,18375,7350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":94,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,7350,0],[24750,7350,3000],[24750,15750,3000],[24750,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,7350,0,24750,7350,3000,24750,15750,3000,24750,15750,0,24750,7350,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":96,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,15750,0],[24750,15750,3000],[18475,15750,3000],[18475,15750,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,15750,0,24750,15750,3000,18475,15750,3000,18475,15750,0,24750,15750,0],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":98,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,15650,0],[18475,15650,3000],[18475,7250,3000],[18475,7250,0]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,15650,0,18475,15650,3000,18475,7250,3000,18475,7250,0,18475,15650,0],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"vorne_links_Storey1","zone":"Residential","area":46.25,"volume":291.375,"floor":
+{"SurfaceID":100,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,250,3300],[9400,250,3300],[9400,5150,3300],[250,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,250,3300,9400,250,3300,9400,5150,3300,250,5150,3300,250,250,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":101,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,250,6300],[9400,250,6300],[9400,5150,6300],[250,5150,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,250,6300,9400,250,6300,9400,5150,6300,250,5150,6300,250,250,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":102,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,250,3300],[250,250,6300],[9400,250,6300],[9400,250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,250,3300,250,250,6300,9400,250,6300,9400,250,3300,250,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":104,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,250,3300],[9400,250,6300],[9400,5150,6300],[9400,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9400,250,3300,9400,250,6300,9400,5150,6300,9400,5150,3300,9400,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":106,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,5150,3300],[9400,5150,6300],[250,5150,6300],[250,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9400,5150,3300,9400,5150,6300,250,5150,6300,250,5150,3300,9400,5150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":108,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5150,3300],[250,5150,6300],[250,250,6300],[250,250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5150,3300,250,5150,6300,250,250,6300,250,250,3300,250,5150,3300],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"treppe_Storey1","zone":"Stairs","area":30,"volume":189,"floor":
+{"SurfaceID":110,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,3300],[15400,250,3300],[15400,5150,3300],[9600,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,3300,15400,250,3300,15400,5150,3300,9600,5150,3300,9600,250,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":111,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,6300],[15400,250,6300],[15400,5150,6300],[9600,5150,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,6300,15400,250,6300,15400,5150,6300,9600,5150,6300,9600,250,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":112,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,250,3300],[9600,250,6300],[15400,250,6300],[15400,250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,250,3300,9600,250,6300,15400,250,6300,15400,250,3300,9600,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":114,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,250,3300],[15400,250,6300],[15400,5150,6300],[15400,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15400,250,3300,15400,250,6300,15400,5150,6300,15400,5150,3300,15400,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":116,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,5150,3300],[15400,5150,6300],[9500,5150,6300],[9500,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15400,5150,3300,15400,5150,6300,9500,5150,6300,9500,5150,3300,15400,5150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":118,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,5150,3300],[9600,5150,6300],[9600,250,6300],[9600,250,3300]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,5150,3300,9600,5150,6300,9600,250,6300,9600,250,3300,9600,5150,3300],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":104}
+]},
+{"name":"vorne_rechts_Storey1","zone":"Residential","area":46.25,"volume":291.375,"floor":
+{"SurfaceID":120,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,3300],[24750,250,3300],[24750,5150,3300],[15600,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,3300,24750,250,3300,24750,5150,3300,15600,5150,3300,15600,250,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":121,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,6300],[24750,250,6300],[24750,5150,6300],[15600,5150,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,6300,24750,250,6300,24750,5150,6300,15600,5150,6300,15600,250,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":122,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,250,3300],[15600,250,6300],[24750,250,6300],[24750,250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,250,3300,15600,250,6300,24750,250,6300,24750,250,3300,15600,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":124,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,250,3300],[24750,250,6300],[24750,5150,6300],[24750,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,250,3300,24750,250,6300,24750,5150,6300,24750,5150,3300,24750,250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":126,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24650,5150,3300],[24650,5150,6300],[15500,5150,6300],[15500,5150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24650,5150,3300,24650,5150,6300,15500,5150,6300,15500,5150,3300,24650,5150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":128,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,5150,3300],[15600,5150,6300],[15600,250,6300],[15600,250,3300]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,5150,3300,15600,5150,6300,15600,250,6300,15600,250,3300,15600,5150,3300],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":114}
+]},
+{"name":"flur_Storey1","zone":"Floor","area":49,"volume":308.70000000000005,"floor":
+{"SurfaceID":130,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,3300],[24750,5350,3300],[24750,7150,3300],[250,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,3300,24750,5350,3300,24750,7150,3300,250,7150,3300,250,5350,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":131,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,6300],[24750,5350,6300],[24750,7150,6300],[250,7150,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,6300,24750,5350,6300,24750,7150,6300,250,7150,6300,250,5350,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":132,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,5350,3300],[250,5350,6300],[9400,5350,6300],[9400,5350,3300]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,5350,3300,250,5350,6300,9400,5350,6300,9400,5350,3300,250,5350,3300],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":106},
+{"name":"wall1","SurfaceID":134,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9400,5350,3300],[9400,5350,6300],[9600,5350,6300],[9600,5350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[9400,5350,3300,9400,5350,6300,9600,5350,6300,9600,5350,3300,9400,5350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":136,"position":[0,0,0],"rotation":[0,0,0],"facet":[[9600,5350,3300],[9600,5350,6300],[15400,5350,6300],[15400,5350,3300]],"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[9600,5350,3300,9600,5350,6300,15400,5350,6300,15400,5350,3300,9600,5350,3300],"indices":[0,1,2,0,2,3]}
+],"ConnectedSurfaceID":116},
+{"name":"wall3","SurfaceID":138,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15400,5350,3300],[15400,5350,6300],[15600,5350,6300],[15600,5350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[15400,5350,3300,15400,5350,6300,15600,5350,6300,15600,5350,3300,15400,5350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall4","SurfaceID":140,"position":[0,0,0],"rotation":[0,0,0],"facet":[[15600,5350,3300],[15600,5350,6300],[24750,5350,6300],[24750,5350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[15600,5350,3300,15600,5350,6300,24750,5350,6300,24750,5350,3300,15600,5350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall5","SurfaceID":142,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,5350,3300],[24750,5350,6300],[24750,7150,6300],[24750,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,5350,3300,24750,5350,6300,24750,7150,6300,24750,7150,3300,24750,5350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall6","SurfaceID":144,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,7150,3300],[5525,7150,6300],[250,7150,6300],[250,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,7150,3300,5525,7150,6300,250,7150,6300,250,7150,3300,5525,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall7","SurfaceID":146,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7150,3300],[5725,7150,6300],[5525,7150,6300],[5525,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[5725,7150,3300,5725,7150,6300,5525,7150,6300,5525,7150,3300,5725,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall8","SurfaceID":148,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,7150,3300],[11900,7150,6300],[5725,7150,6300],[5725,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,7150,3300,11900,7150,6300,5725,7150,6300,5725,7150,3300,11900,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall9","SurfaceID":150,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7150,3300],[12100,7150,6300],[11900,7150,6300],[11900,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[12100,7150,3300,12100,7150,6300,11900,7150,6300,11900,7150,3300,12100,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall10","SurfaceID":152,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,7150,3300],[18275,7150,6300],[12100,7150,6300],[12100,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,7150,3300,18275,7150,6300,12100,7150,6300,12100,7150,3300,18275,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall11","SurfaceID":154,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7150,3300],[18475,7150,6300],[18275,7150,6300],[18275,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":1000}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#ff5300","opacity":0.2,"positions":[18475,7150,3300,18475,7150,6300,18275,7150,6300,18275,7150,3300,18475,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall12","SurfaceID":156,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,7150,3300],[24750,7150,6300],[18475,7150,6300],[18475,7150,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,7150,3300,24750,7150,6300,18475,7150,6300,18475,7150,3300,24750,7150,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall13","SurfaceID":158,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7150,3300],[250,7150,6300],[250,5350,6300],[250,5350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7150,3300,250,7150,6300,250,5350,6300,250,5350,3300,250,7150,3300],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten0_Storey1","zone":"Residential","area":45.6875,"volume":287.83125,"floor":
+{"SurfaceID":160,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,3300],[5525,7350,3300],[5525,15750,3300],[250,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,3300,5525,7350,3300,5525,15750,3300,250,15750,3300,250,7350,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":161,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,6300],[5525,7350,6300],[5525,15750,6300],[250,15750,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,6300,5525,7350,6300,5525,15750,6300,250,15750,6300,250,7350,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":162,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,7350,3300],[250,7350,6300],[5525,7350,6300],[5525,7350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,7350,3300,250,7350,6300,5525,7350,6300,5525,7350,3300,250,7350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":164,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,7250,3300],[5525,7250,6300],[5525,15650,6300],[5525,15650,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,7250,3300,5525,7250,6300,5525,15650,6300,5525,15650,3300,5525,7250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":166,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5525,15750,3300],[5525,15750,6300],[250,15750,6300],[250,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5525,15750,3300,5525,15750,6300,250,15750,6300,250,15750,3300,5525,15750,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":168,"position":[0,0,0],"rotation":[0,0,0],"facet":[[250,15750,3300],[250,15750,6300],[250,7350,6300],[250,7350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,15750,3300,250,15750,6300,250,7350,6300,250,7350,3300,250,15750,3300],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten1_Storey1","zone":"Residential","area":54.1875,"volume":341.38125,"floor":
+{"SurfaceID":170,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7350,3300],[11900,7350,3300],[11900,15750,3300],[5725,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,7350,3300,11900,7350,3300,11900,15750,3300,5725,15750,3300,5725,7350,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":171,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,7350,6300],[11900,7350,6300],[11900,15750,6300],[5725,15750,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,7350,6300,11900,7350,6300,11900,15750,6300,5725,15750,6300,5725,7350,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":172,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5625,7350,3300],[5625,7350,6300],[11900,7350,6300],[11900,7350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5625,7350,3300,5625,7350,6300,11900,7350,6300,11900,7350,3300,5625,7350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":174,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,7250,3300],[11900,7250,6300],[11900,15650,6300],[11900,15650,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,7250,3300,11900,7250,6300,11900,15650,6300,11900,15650,3300,11900,7250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":176,"position":[0,0,0],"rotation":[0,0,0],"facet":[[11900,15750,3300],[11900,15750,6300],[5725,15750,6300],[5725,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[11900,15750,3300,11900,15750,6300,5725,15750,6300,5725,15750,3300,11900,15750,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":178,"position":[0,0,0],"rotation":[0,0,0],"facet":[[5725,15650,3300],[5725,15650,6300],[5725,7250,6300],[5725,7250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[5725,15650,3300,5725,15650,6300,5725,7250,6300,5725,7250,3300,5725,15650,3300],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten2_Storey1","zone":"Residential","area":54.1875,"volume":341.38125,"floor":
+{"SurfaceID":180,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7350,3300],[18275,7350,3300],[18275,15750,3300],[12100,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,7350,3300,18275,7350,3300,18275,15750,3300,12100,15750,3300,12100,7350,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":181,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,7350,6300],[18275,7350,6300],[18275,15750,6300],[12100,15750,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,7350,6300,18275,7350,6300,18275,15750,6300,12100,15750,6300,12100,7350,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":182,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12000,7350,3300],[12000,7350,6300],[18275,7350,6300],[18275,7350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12000,7350,3300,12000,7350,6300,18275,7350,6300,18275,7350,3300,12000,7350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":184,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,7250,3300],[18275,7250,6300],[18275,15650,6300],[18275,15650,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,7250,3300,18275,7250,6300,18275,15650,6300,18275,15650,3300,18275,7250,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":186,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18275,15750,3300],[18275,15750,6300],[12100,15750,6300],[12100,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18275,15750,3300,18275,15750,6300,12100,15750,6300,12100,15750,3300,18275,15750,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":188,"position":[0,0,0],"rotation":[0,0,0],"facet":[[12100,15650,3300],[12100,15650,6300],[12100,7250,6300],[12100,7250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[12100,15650,3300,12100,15650,6300,12100,7250,6300,12100,7250,3300,12100,15650,3300],"indices":[0,1,2,0,2,3]}
+]}
+]},
+{"name":"hinten3_Storey1","zone":"Residential","area":54.1875,"volume":341.38125,"floor":
+{"SurfaceID":190,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7350,3300],[24750,7350,3300],[24750,15750,3300],[18475,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"schwimmender Zementestrich 2 Boden","HeatConductivity":1.4,"Density":1990,"SpecHeatCapacity":1000,"Thickness":40},
+{"Idx":1,"Name":"EPS 040 15","HeatConductivity":0.04,"Density":15,"SpecHeatCapacity":1500,"Thickness":60},
+{"Idx":2,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":160}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,7350,3300,24750,7350,3300,24750,15750,3300,18475,15750,3300,18475,7350,3300],"indices":[0,1,2,0,2,3]}
+]},"ceiling":
+{"SurfaceID":191,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,7350,6300],[24750,7350,6300],[24750,15750,6300],[18475,15750,6300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":150},
+{"Idx":1,"Name":"Schaumglasplatte","HeatConductivity":0.65,"Density":130,"SpecHeatCapacity":840,"Thickness":120},
+{"Idx":2,"Name":"Schotter einfacher Granulat","HeatConductivity":0.814,"Density":1500,"SpecHeatCapacity":840,"Thickness":30}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,7350,6300,24750,7350,6300,24750,15750,6300,18475,15750,6300,18475,7350,6300],"indices":[0,1,2,0,2,3]}
+]},"walls":[
+{"name":"wall0","SurfaceID":192,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18375,7350,3300],[18375,7350,6300],[24650,7350,6300],[24650,7350,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18375,7350,3300,18375,7350,6300,24650,7350,6300,24650,7350,3300,18375,7350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall1","SurfaceID":194,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,7350,3300],[24750,7350,6300],[24750,15750,6300],[24750,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,7350,3300,24750,7350,6300,24750,15750,6300,24750,15750,3300,24750,7350,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall2","SurfaceID":196,"position":[0,0,0],"rotation":[0,0,0],"facet":[[24750,15750,3300],[24750,15750,6300],[18475,15750,6300],[18475,15750,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200},
+{"Idx":1,"Name":"Daemmung","HeatConductivity":1.2,"Density":2000,"SpecHeatCapacity":1000,"Thickness":100},
+{"Idx":2,"Name":"Putz","HeatConductivity":0.14,"Density":800,"SpecHeatCapacity":1500,"Thickness":5}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[24750,15750,3300,24750,15750,6300,18475,15750,6300,18475,15750,3300,24750,15750,3300],"indices":[0,1,2,0,2,3]}
+]},
+{"name":"wall3","SurfaceID":198,"position":[0,0,0],"rotation":[0,0,0],"facet":[[18475,15650,3300],[18475,15650,6300],[18475,7250,6300],[18475,7250,3300]],"profile":
+{"layers":[
+{"Idx":0,"Name":"Beton CEM II BS325R wz05","HeatConductivity":2.1,"Density":2420,"SpecHeatCapacity":1000,"Thickness":200}
+],"inside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},"outside":
+{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6}
+},"meshes":[
+{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[18475,15650,3300,18475,15650,6300,18475,7250,6300,18475,7250,3300,18475,15650,3300],"indices":[0,1,2,0,2,3]}
+]}
+]}
+]}

@@ -1,0 +1,5 @@
+/debug/
+/moc/
+/release/
+/Makefile.qwt.Debug
+/Makefile.qwt.Release

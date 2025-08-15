@@ -1,0 +1,45 @@
+/*!
+  \mainpage EmfEngine Commercial
+
+  EmfEngine enables Qt based applications to easily export graphics to the Enhanced Metafile format which is the native vector graphics file format on Windows.
+
+  \par License
+  The \ref licencefile of EmfEngine is the appropriate license to use for the development of proprietary and/or commercial software.\n
+  This license is for developers who do not want to share the source code with others or otherwise comply with the terms of the GNU GPL version 3.0.
+
+  \par Platforms
+  The commercial version of EmfEngine can only be used on Windows platforms.
+  
+ \par Dependencies
+  The commercial version of EmfEngine depends on the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms533798%28v=vs.85%29.aspx">GDI+</a> library.
+
+  \par Downloads
+  <a href="http://soft.proindependent.com/emf/download.html">EmfEngineCommercial-2.0.2.zip</a>
+
+  \par Build options
+  Have a look at the configuration file \ref configfile. It is prepared for building a static, release version of the library.\n
+  Also please read the \ref readmefile file.
+
+  \par Contact
+    Please don't hesitate to <a href="http://software.proindependent.com/contact.html">contact us</a> for any questions related to pricing/licensing.
+*/
+
+/*!
+  \page licencefile Commercial Licence
+  \include "EmfEngine Commercial Licence.txt"
+*/
+
+/*!
+  \page readmefile README.txt
+  \include "README.txt"
+*/
+
+/*!
+  \page configfile config.pri
+  \include "config.pri"
+*/
+
+/*!
+  \page changelog CHANGELOG
+  \include "CHANGES.txt"
+*/

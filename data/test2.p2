@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PostProc version="2.3.0">
+	<!--List of all directories-->
+	<Directories>
+		<Directory>
+			<Path>test</Path>
+			<SubDir Color="#416fce" Checked="1">calcTRT</SubDir>
+			<SubDir Color="#ffaa00" Checked="1">calcTRT/slaves/TRTSonde</SubDir>
+			<SubDir Color="#ff007f" Checked="1">fmus</SubDir>
+			<ExpandedSubDir>calcTRT</ExpandedSubDir>
+			<ExpandedSubDir>.</ExpandedSubDir>
+			<ExpandedSubDir>calcTRT/slaves</ExpandedSubDir>
+		</Directory>
+	</Directories>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--All mappers.-->
+	<Mappers>
+		<Mapper name="$project: $basename">
+			<Extractors>
+				<Extractor>
+					<DataIOFileName>test/fmus/profiles.tsv?1</DataIOFileName>
+					<CutType>NoCut</CutType>
+					<DataFormat>DF_2D</DataFormat>
+					<DataType>T_REFERENCE</DataType>
+					<ColumnIndex>0</ColumnIndex>
+				</Extractor>
+				<Extractor>
+					<DataIOFileName>test/calcTRT/results/values.csv?6|8|10|12|14|17|22|24|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58</DataIOFileName>
+					<CutType>NoCut</CutType>
+					<DataFormat>DF_2D</DataFormat>
+					<DataType>T_REFERENCE</DataType>
+					<ColumnIndex>19</ColumnIndex>
+				</Extractor>
+				<Extractor>
+					<DataIOFileName>test/calcTRT/results/values.csv?6|8|10|12|14|17|22|24|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58</DataIOFileName>
+					<CutType>NoCut</CutType>
+					<DataFormat>DF_2D</DataFormat>
+					<DataType>T_REFERENCE</DataType>
+					<ColumnIndex>8</ColumnIndex>
+				</Extractor>
+				<Extractor>
+					<DataIOFileName>test/calcTRT/results/values.csv?1|2|3|4|5|20|21|28|29|30|31|33</DataIOFileName>
+					<CutType>NoCut</CutType>
+					<DataFormat>DF_2D</DataFormat>
+					<DataType>T_REFERENCE</DataType>
+					<ColumnIndex>0</ColumnIndex>
+				</Extractor>
+			</Extractors>
+			<ChartModel chartType="2D">
+				<SeriesProperties>
+					<Series>
+						<TitleText>$quantity</TitleText>
+						<MarkerColor>#000000</MarkerColor>
+					</Series>
+					<Series>
+						<TitleText>$quantity</TitleText>
+						<PenWidth>5</PenWidth>
+						<PenColor>#ff420e</PenColor>
+						<MarkerColor>#ff420e</MarkerColor>
+					</Series>
+					<Series>
+						<TitleText>$quantity</TitleText>
+						<PenColor>#004586</PenColor>
+						<MarkerColor>#004586</MarkerColor>
+					</Series>
+					<Series leftAxis="false">
+						<TitleText>$quantity</TitleText>
+						<PenColor>#aecf00</PenColor>
+						<MarkerColor>#aecf00</MarkerColor>
+					</Series>
+				</SeriesProperties>
+				<AxisProperties>
+					<Axis index="0">
+						<TitleText>Zeit [$unit]</TitleText>
+						<IBK:Unit name="AxisUnit">h</IBK:Unit>
+						<Maximum>1.0677618069815193</Maximum>
+						<Minimum>-0.14373716632443531</Minimum>
+					</Axis>
+					<Axis index="1">
+						<TitleText>$quantity [$unit]</TitleText>
+						<IBK:Unit name="AxisUnit">C</IBK:Unit>
+						<Maximum>18.431372549019606</Maximum>
+						<Minimum>14.649859943977591</Minimum>
+					</Axis>
+					<Axis index="2" enabled="false" autoscale="false">
+						<TitleText>$quantity [$unit]</TitleText>
+						<IBK:Unit name="AxisUnit">-</IBK:Unit>
+						<Maximum>25</Maximum>
+					</Axis>
+				</AxisProperties>
+				<ChartProperties>
+					<TitleText>$project: $basename</TitleText>
+					<Legend />
+				</ChartProperties>
+			</ChartModel>
+		</Mapper>
+	</Mappers>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Split window state.-->
+	<Splitting>
+		<Widget id="1" parent="0" viewTable="0" mapperIndex="0" size1="1" size2="1" orientation="2" />
+		<FocusedWidget>0</FocusedWidget>
+	</Splitting>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+</PostProc>

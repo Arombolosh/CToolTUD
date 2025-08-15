@@ -1,0 +1,5 @@
+*.qmake.stash
+/Makefile
+/Makefile.IBKMK
+/Makefile.IBKMK.Debug
+/Makefile.IBKMK.Release

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DelphinProject xmlns="https://www.bauklimatik-dresden.de" fileVersion="6.1">
+	<ProjectInfo created="Do Jul 20 10:16:25 2023" lastEdited="Do Jul 20 10:16:25 2023">
+		<Comment>&#x0A;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;</Comment>
+		<ProjectName />
+		<ConstructionID />
+		<UserName />
+		<Company />
+		<Description />
+		<Location />
+	</ProjectInfo>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Model data, solver settings, general parameters-->
+	<Init>
+		<SimulationParameter>
+			<BalanceEquationModule>BEHeat</BalanceEquationModule>
+			<Interval>
+				<IBK:Parameter name="Duration" unit="a">1</IBK:Parameter>
+			</Interval>
+			<LambdaSelection>LambdaDesign</LambdaSelection>
+		</SimulationParameter>
+		<SolverParameter>
+			<LESSolver>KLU</LESSolver>
+		</SolverParameter>
+	</Init>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--List of all materials used in this construction-->
+	<Materials>
+		<MaterialReference name="soil" color="#ffff8040" hatchCode="13">${Project Directory}/materials/soil.m6</MaterialReference>
+		<MaterialReference name="grout" color="#ff409020" hatchCode="13">${Project Directory}/materials/grout.m6</MaterialReference>
+	</Materials>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Discretization data (grid and sketches)-->
+	<Discretization>
+		<XSteps unit="m">0.260765 0.260765 0.260765 0.260765 0.260765 0.202478 0.144627 0.103305 0.0737895 0.0527068 0.0376477 0.0268912 0.019208 0.01372 0.0098 0.007 0.005 0.005 0.009 0.005 0.005 0.005 0.005 0.005 0.005 0.005 0.00666667 0.00666667 0.00666667 0.005 0.005 0.005 0.005 0.005 0.005 0.005 0.009 0.005 0.005 0.007 0.0098 0.01372 0.019208 0.0268912 0.0376477 0.0527068 0.0737895 0.103305 0.144627 0.202478 0.260765 0.260765 0.260765 0.260765 0.260765 </XSteps>
+		<YSteps unit="m">0.260765 0.260765 0.260765 0.260765 0.260765 0.202478 0.144627 0.103305 0.0737895 0.0527068 0.0376477 0.0268912 0.019208 0.01372 0.0098 0.007 0.005 0.005 0.009 0.005 0.005 0.005 0.005 0.005 0.005 0.005 0.00666667 0.00666667 0.00666667 0.005 0.005 0.005 0.005 0.005 0.005 0.005 0.009 0.005 0.005 0.007 0.0098 0.01372 0.019208 0.0268912 0.0376477 0.0527068 0.0737895 0.103305 0.144627 0.202478 0.260765 0.260765 0.260765 0.260765 0.260765 </YSteps>
+	</Discretization>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Conditions data, specifies how construction interacts with environment-->
+	<Conditions>
+
+		<Interfaces>
+			<Interface name="supply_0a" type="Detailed">
+				<BCReference>supply_0a_bc</BCReference>
+			</Interface>
+			<Interface name="return_0a" type="Detailed">
+				<BCReference>return_0a_bc</BCReference>
+			</Interface>
+			<Interface name="supply_0b" type="Detailed">
+				<BCReference>supply_0b_bc</BCReference>
+			</Interface>
+			<Interface name="return_0b" type="Detailed">
+				<BCReference>return_0b_bc</BCReference>
+			</Interface>
+		</Interfaces>
+
+		<ClimateConditions>
+
+			<ClimateCondition name="Tin" type="Temperature" kind="External">
+				<IBK:Parameter name="ConstantValue" unit="C">10</IBK:Parameter>
+			</ClimateCondition>
+
+			<ClimateCondition name="mdot" type="MassFlowRate" kind="External">
+				<IBK:Parameter name="ConstantValue" unit="kg/s">0.1</IBK:Parameter>
+			</ClimateCondition>
+
+			<ClimateCondition name="hconv" type="HeatTransferCoefficient" kind="External">
+				<IBK:Parameter name="ConstantValue" unit="W/m2K">150</IBK:Parameter>
+			</ClimateCondition>
+		</ClimateConditions>
+
+		<BoundaryConditions>
+
+			<BoundaryCondition name="return_0a_bc" type="HeatConduction" kind="PipeCollectorModel">
+				<IBK:Parameter name="PipeCollectorDiameter" unit="mm">32</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorThickness" unit="mm">3</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorLength" unit="m">${PipeLength}</IBK:Parameter><!-- 120-->
+				<IBK:Parameter name="PipeCollectorThermalConductivity" unit="W/mK">0.4</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorModelFraction" unit="%">100</IBK:Parameter>
+				<Output name="PipeCollectorTr">true</Output>
+				<Output name="PipeCollectorQdot">true</Output>
+				<CCReference type="HeatTransferCoefficient">hconv</CCReference>
+				<OtherInterfaceReference>supply_0a</OtherInterfaceReference>
+			</BoundaryCondition>
+
+			<BoundaryCondition name="return_0b_bc" type="HeatConduction" kind="PipeCollectorModel">
+				<IBK:Parameter name="PipeCollectorDiameter" unit="mm">32</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorThickness" unit="mm">3</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorLength" unit="m">${PipeLength}</IBK:Parameter><!-- 120-->
+				<IBK:Parameter name="PipeCollectorThermalConductivity" unit="W/mK">0.4</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorModelFraction" unit="%">100</IBK:Parameter>
+				<Output name="PipeCollectorTr">true</Output>
+				<Output name="PipeCollectorQdot">true</Output>
+				<CCReference type="HeatTransferCoefficient">hconv</CCReference>
+				<OtherInterfaceReference>supply_0b</OtherInterfaceReference>
+			</BoundaryCondition>
+
+			<BoundaryCondition name="supply_0a_bc" type="HeatConduction" kind="PipeCollectorModel">
+				<IBK:Parameter name="PipeCollectorDiameter" unit="mm">32</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorThickness" unit="mm">3</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorLength" unit="m">${PipeLength}</IBK:Parameter><!-- 120-->
+				<IBK:Parameter name="PipeCollectorThermalConductivity" unit="W/mK">0.4</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorFluidHeatCapacity" unit="J/kgK">4180</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorModelFraction" unit="%">100</IBK:Parameter>
+				<Output name="PipeCollectorTr">true</Output>
+				<Output name="PipeCollectorQdot">true</Output>
+				<CCReference type="Temperature">Tin</CCReference>
+				<CCReference type="MassFlowRate">mdot</CCReference>
+				<CCReference type="HeatTransferCoefficient">hconv</CCReference>
+			</BoundaryCondition>
+
+			<BoundaryCondition name="supply_0b_bc" type="HeatConduction" kind="PipeCollectorModel">
+				<IBK:Parameter name="PipeCollectorDiameter" unit="mm">32</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorThickness" unit="mm">3</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorLength" unit="m">${PipeLength}</IBK:Parameter><!-- 120-->
+				<IBK:Parameter name="PipeCollectorThermalConductivity" unit="W/mK">0.4</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorFluidHeatCapacity" unit="J/kgK">4180</IBK:Parameter>
+				<IBK:Parameter name="PipeCollectorModelFraction" unit="%">100</IBK:Parameter>
+				<Output name="PipeCollectorTr">true</Output>
+				<Output name="PipeCollectorQdot">true</Output>
+				<CCReference type="Temperature">Tin</CCReference>
+				<CCReference type="MassFlowRate">mdot</CCReference>
+				<CCReference type="HeatTransferCoefficient">hconv</CCReference>
+			</BoundaryCondition>
+		</BoundaryConditions>
+
+		<InitialConditions>
+
+			<InitialCondition name="initial_temperature" type="Temperature">
+				<IBK:Parameter name="Value" unit="C">${InitTemp}</IBK:Parameter><!-- 11 -->
+			</InitialCondition>
+		</InitialConditions>
+	</Conditions>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--Contains definitions of output files and schedules for outputs.-->
+	<Outputs>
+		<!--General parameters-->
+		<IBK:Unit name="TimeUnit">h</IBK:Unit>
+		<!--List of all Output schedules-->
+		<OutputGrids>
+			<OutputGrid name="daily">
+				<Interval>
+					<IBK:Parameter name="Duration" unit="d">0</IBK:Parameter>
+					<IBK:Parameter name="StepSize" unit="d">1</IBK:Parameter>
+				</Interval>
+			</OutputGrid>
+		</OutputGrids>
+		<!--List of all Output files-->
+		<OutputFiles>
+			<OutputFile name="TemperaturFeld">
+				<Quantity unit="C">Temperature</Quantity>
+				<TimeType>None</TimeType>
+				<SpaceType>Single</SpaceType>
+				<OutputGrid>daily</OutputGrid>
+			</OutputFile>
+		</OutputFiles>
+	</Outputs>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--List of all assignments of materials and conditions-->
+	<Assignments>
+
+		<Assignment type="Material" location="Element">
+			<Reference>soil</Reference>
+			<Name />
+			<Range>0 0 54 54</Range>
+		</Assignment>
+
+		<Assignment type="InitialCondition" location="Element">
+			<Reference>initial_temperature</Reference>
+			<Name />
+			<Range>0 0 54 54</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>grout</Reference>
+			<Name />
+			<Range>17 17 37 54</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Bottom">
+			<Reference>supply_0a</Reference>
+			<Name />
+			<Range>20 35 24 35</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Left">
+			<Reference>supply_0a</Reference>
+			<Name />
+			<Range>25 30 25 34</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Top">
+			<Reference>supply_0a</Reference>
+			<Name />
+			<Range>20 29 24 29</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Right">
+			<Reference>supply_0a</Reference>
+			<Name />
+			<Range>19 30 19 34</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>VOID</Reference>
+			<Name />
+			<Range>20 30 24 34</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Bottom">
+			<Reference>return_0a</Reference>
+			<Name />
+			<Range>30 35 34 35</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Left">
+			<Reference>return_0a</Reference>
+			<Name />
+			<Range>35 30 35 34</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Top">
+			<Reference>return_0a</Reference>
+			<Name />
+			<Range>30 29 34 29</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Right">
+			<Reference>return_0a</Reference>
+			<Name />
+			<Range>29 30 29 34</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>VOID</Reference>
+			<Name />
+			<Range>30 30 34 34</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Bottom">
+			<Reference>supply_0b</Reference>
+			<Name />
+			<Range>20 25 24 25</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Left">
+			<Reference>supply_0b</Reference>
+			<Name />
+			<Range>25 20 25 24</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Top">
+			<Reference>supply_0b</Reference>
+			<Name />
+			<Range>20 19 24 19</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Right">
+			<Reference>supply_0b</Reference>
+			<Name />
+			<Range>19 20 19 24</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>VOID</Reference>
+			<Name />
+			<Range>20 20 24 24</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Bottom">
+			<Reference>return_0b</Reference>
+			<Name />
+			<Range>30 25 34 25</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Left">
+			<Reference>return_0b</Reference>
+			<Name />
+			<Range>35 20 35 24</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Top">
+			<Reference>return_0b</Reference>
+			<Name />
+			<Range>30 19 34 19</Range>
+		</Assignment>
+
+		<Assignment type="Interface" location="Right">
+			<Reference>return_0b</Reference>
+			<Name />
+			<Range>29 20 29 24</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>VOID</Reference>
+			<Name />
+			<Range>30 20 34 24</Range>
+		</Assignment>
+
+		<Assignment type="Output" location="Element">
+			<Reference>TemperaturFeld</Reference>
+			<Name />
+			<Range>0 0 54 54</Range>
+		</Assignment>
+
+		<Assignment type="Material" location="Element">
+			<Reference>soil</Reference>
+			<Name />
+			<Range>0 38 54 54</Range>
+		</Assignment>
+	</Assignments>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+</DelphinProject>

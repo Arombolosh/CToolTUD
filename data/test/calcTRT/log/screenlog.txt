@@ -1,0 +1,307 @@
+2023-08-23 14:31:16	[Progress]	[MasterSim::writeVersionInfo]           	MasterSimulator, version 0.9.4
+2023-08-23 14:31:16	[Progress]	[MasterSim::writeVersionInfo]           	Copyright by Andreas Nicolai, released under GPL license (see LICENSE file).
+2023-08-23 14:31:16	[Progress]	[MasterSim::writeVersionInfo]           	
+2023-08-23 14:31:16	[Progress]	[main]                                  	Reading project '/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT.msim'
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::importFMUs]           	
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::importFMUs]           	Importing FMUs
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	  FMUAverage.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	    /home/dirk/git/EconomicEfficiencyCalculation/data/test/fmus/FMUAverage.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Unzipping FMU
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      into directory: /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/FMUAverage
+2023-08-23 14:31:16	[Warning ]	[FMUManager::importFMUAt]               	      Directory exists, unzipping will overwrite files!
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Reading modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::parseModelDescription]	      /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/FMUAverage/modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::readXMLDoc]          	      CoSimulation, version 2
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Importing shared library
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      CoSimulation Interface v2
+2023-08-23 14:31:16	[Progress]	[FMUPrivate::loadLibrary]               	    Loading shared library '/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/FMUAverage/binaries/linux64/FMUAverage.so'.
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	  HeatExchangerDynamic.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	    /home/dirk/git/EconomicEfficiencyCalculation/data/test/fmus/HeatExchangerDynamic.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Unzipping FMU
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      into directory: /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/HeatExchangerDynamic
+2023-08-23 14:31:16	[Warning ]	[FMUManager::importFMUAt]               	      Directory exists, unzipping will overwrite files!
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Reading modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::parseModelDescription]	      /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/HeatExchangerDynamic/modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::readXMLDoc]          	      CoSimulation, version 2
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Importing shared library
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      CoSimulation Interface v2
+2023-08-23 14:31:16	[Progress]	[FMUPrivate::loadLibrary]               	    Loading shared library '/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/HeatExchangerDynamic/binaries/linux64/HeatExchangerDynamicFMU.so'.
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	  TRTSonde.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	    /home/dirk/git/EconomicEfficiencyCalculation/data/test/fmus/TRTSonde.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Unzipping FMU
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      into directory: /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/TRTSonde
+2023-08-23 14:31:16	[Warning ]	[FMUManager::importFMUAt]               	      Directory exists, unzipping will overwrite files!
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Reading modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::parseModelDescription]	      /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/TRTSonde/modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::readXMLDoc]          	      CoSimulation, version 2
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Importing shared library
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      CoSimulation Interface v2
+2023-08-23 14:31:16	[Progress]	[FMUPrivate::loadLibrary]               	    Loading shared library '/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/TRTSonde/binaries/linux64/TRTSonde.so'.
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	  steadyDetailedPipe.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMU]                 	    /home/dirk/git/EconomicEfficiencyCalculation/data/test/fmus/steadyDetailedPipe.fmu
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Unzipping FMU
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      into directory: /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/steadyDetailedPipe
+2023-08-23 14:31:16	[Warning ]	[FMUManager::importFMUAt]               	      Directory exists, unzipping will overwrite files!
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Reading modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::parseModelDescription]	      /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/steadyDetailedPipe/modelDescription.xml
+2023-08-23 14:31:16	[Progress]	[ModelDescription::readXMLDoc]          	      CoSimulation, version 2
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	    Importing shared library
+2023-08-23 14:31:16	[Progress]	[FMUManager::importFMUAt]               	      CoSimulation Interface v2
+2023-08-23 14:31:16	[Progress]	[FMUPrivate::loadLibrary]               	    Loading shared library '/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/fmus/steadyDetailedPipe/binaries/linux64/steadyDetailedPipe.so'.
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::checkCapabilities]    	
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::checkCapabilities]    	Checking capabilities of FMUs
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::checkCapabilities]    	  Iteration disabled (maximum number of iterations == 1).
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialize]                 	Collecting value references for output quantities
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialize]                 	  Outputs generated from FMU 'FMUAverage.fmu':
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'avg' (Real) [C], valueRef = 11
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in1' (Real) [C], valueRef = 1
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in2' (Real) [C], valueRef = 2
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in3' (Real) [C], valueRef = 3
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in4' (Real) [C], valueRef = 4
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in5' (Real) [C], valueRef = 5
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in6' (Real) [C], valueRef = 6
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in7' (Real) [C], valueRef = 7
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in8' (Real) [C], valueRef = 8
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in9' (Real) [C], valueRef = 9
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'in10' (Real) [C], valueRef = 10
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'avg' [Real] has valueReference 11 which is already selected for output (variable 'avg').
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialize]                 	  Outputs generated from FMU 'HeatExchangerDynamic.fmu':
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Tout' (Real) [], valueRef = 2
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ResultRootDir' (String), valueRef = 42
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Tin' (Real) [], valueRef = 1
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'Tout' [Real] has valueReference 2 which is already selected for output (variable 'Tout').
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'cp' (Real) [], valueRef = 3
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Qdot' (Real) [], valueRef = 4
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'mdot' (Real) [], valueRef = 5
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialize]                 	  Outputs generated from FMU 'TRTSonde.fmu':
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'supply_0a-PipeCollectorTr' (Real) [C], valueRef = 104
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'supply_0a-PipeCollectorQdot' (Real) [W], valueRef = 105
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'return_0a-PipeCollectorTr' (Real) [C], valueRef = 106
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'return_0a-PipeCollectorQdot' (Real) [W], valueRef = 107
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'supply_0b-PipeCollectorTr' (Real) [C], valueRef = 108
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'supply_0b-PipeCollectorQdot' (Real) [W], valueRef = 109
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'return_0b-PipeCollectorTr' (Real) [C], valueRef = 110
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'return_0b-PipeCollectorQdot' (Real) [W], valueRef = 111
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ClimateCond.Tin' (Real) [C], valueRef = 101
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ClimateCond.mdot' (Real) [kg/s], valueRef = 102
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ClimateCond.hconv' (Real) [W/m2K], valueRef = 103
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'supply_0a-PipeCollectorTr' [Real] has valueReference 104 which is already selected for output (variable 'supply_0a-PipeCollectorTr').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'supply_0a-PipeCollectorQdot' [Real] has valueReference 105 which is already selected for output (variable 'supply_0a-PipeCollectorQdot').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'return_0a-PipeCollectorTr' [Real] has valueReference 106 which is already selected for output (variable 'return_0a-PipeCollectorTr').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'return_0a-PipeCollectorQdot' [Real] has valueReference 107 which is already selected for output (variable 'return_0a-PipeCollectorQdot').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'supply_0b-PipeCollectorTr' [Real] has valueReference 108 which is already selected for output (variable 'supply_0b-PipeCollectorTr').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'supply_0b-PipeCollectorQdot' [Real] has valueReference 109 which is already selected for output (variable 'supply_0b-PipeCollectorQdot').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'return_0b-PipeCollectorTr' [Real] has valueReference 110 which is already selected for output (variable 'return_0b-PipeCollectorTr').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'return_0b-PipeCollectorQdot' [Real] has valueReference 111 which is already selected for output (variable 'return_0b-PipeCollectorQdot').
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ResultsRootDir' (String), valueRef = 42
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialize]                 	  Outputs generated from FMU 'steadyDetailedPipe.fmu':
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Tout' (Real) [C], valueRef = 70
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Qdot_one_pipe' (Real) [W], valueRef = 71
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'qdot_Delphin' (Real) [W], valueRef = 72
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Convection_coefficient' (Real) [W/(m2K)], valueRef = 73
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Reynolds_number' (Real) [-], valueRef = 74
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'ResultRootDir' (String), valueRef = 42
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Tin' (Real) [C], valueRef = 50
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'mdot' (Real) [kg/s], valueRef = 51
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Tsoil' (Real) [C], valueRef = 52
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Pipe_length' (Real) [m], valueRef = 60
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Pipe_outer_diameter' (Real) [m], valueRef = 61
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Pipe_wall_thickness' (Real) [m], valueRef = 62
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Pipe_thermal_conductivity' (Real) [W/(m*K)], valueRef = 63
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Fluid_heat_capacity' (Real) [J/(kg*K)], valueRef = 64
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Fluid_Density' (Real) [J/(kg*K)], valueRef = 65
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Fluid_thermal_conductivity' (Real) [W/(m*K)], valueRef = 66
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Fluid_kinematic_viscosity' (Real) [m2/s], valueRef = 67
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Number_of_parallel_pipes' (Real) [-], valueRef = 68
+2023-08-23 14:31:16	[Progress]	[FMU::addIfNotInList]                   	    Variable 'Collector_Volume' (Real) [m3], valueRef = 69
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'Tout' [Real] has valueReference 70 which is already selected for output (variable 'Tout').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'Qdot_one_pipe' [Real] has valueReference 71 which is already selected for output (variable 'Qdot_one_pipe').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'qdot_Delphin' [Real] has valueReference 72 which is already selected for output (variable 'qdot_Delphin').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'Convection_coefficient' [Real] has valueReference 73 which is already selected for output (variable 'Convection_coefficient').
+2023-08-23 14:31:16	[Warning ]	[FMU::addIfNotInList]                   	    Variable 'Reynolds_number' [Real] has valueReference 74 which is already selected for output (variable 'Reynolds_number').
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	Instantiating simulation slaves
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  HeatExchangerDynamicFMU (fmus/HeatExchangerDynamic.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  TRTSonde (fmus/TRTSonde.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  steadyDetailedPipe (fmus/steadyDetailedPipe.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  Measurements (fmus/profiles.tsv)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  MeanReturnTemperature (fmus/FMUAverage.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  Tf (fmus/FMUAverage.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	Cycles
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	  Cycle 1:
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    HeatExchangerDynamicFMU (HeatExchangerDynamic.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    TRTSonde (TRTSonde.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    steadyDetailedPipe (steadyDetailedPipe.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    Measurements (profiles.tsv)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    MeanReturnTemperature (FMUAverage.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSimulator::instatiateSlaves]     	    Tf (FMUAverage.fmu)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	Resolving connection graph and building variable mapping
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  1 	'HeatExchangerDynamicFMU.Tout' -> 'steadyDetailedPipe.Tin'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  2 	'steadyDetailedPipe.Convection_coefficient' -> 'TRTSonde.ClimateCond.hconv'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  3 	'HeatExchangerDynamicFMU.Tout' -> 'TRTSonde.ClimateCond.Tin'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  4 	'Measurements.Heizleistung' -> 'HeatExchangerDynamicFMU.Qdot'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	    Variable 'Measurements.Heizleistung' from csv slave is assigned type 'Real'
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  5 	'Measurements.Massenstrom' -> 'HeatExchangerDynamicFMU.mdot'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	    Variable 'Measurements.Massenstrom' from csv slave is assigned type 'Real'
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  6 	'Measurements.Massenstrom' -> 'steadyDetailedPipe.mdot'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  7 	'Measurements.Massenstrom' -> 'TRTSonde.ClimateCond.mdot'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  8 	'TRTSonde.return_0a-PipeCollectorTr' -> 'MeanReturnTemperature.in2'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  9 	'TRTSonde.return_0b-PipeCollectorTr' -> 'MeanReturnTemperature.in4'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  10 	'MeanReturnTemperature.avg' -> 'HeatExchangerDynamicFMU.Tin'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  11 	'MeanReturnTemperature.avg' -> 'Tf.in2'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::composeVariableVector]      	  12 	'HeatExchangerDynamicFMU.Tout' -> 'Tf.in1'    (Real)
+2023-08-23 14:31:16	[Progress]	[MasterSim::setupDefaultParameters]     	
+2023-08-23 14:31:16	[Progress]	[MasterSim::setupDefaultParameters]     	Setting up default parameters
+2023-08-23 14:31:16	[Progress]	[MasterSim::setupDefaultParameters]     	  TRTSonde.ResultsRootDir = /home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/slaves/TRTSonde
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	Setting up experiment (calling initializeSlave()/setupExperiment() in slaves)
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	Initial conditions (parameters, input values, initial condition iteration)
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Setting default start values for input variables/parameters
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'HeatExchangerDynamicFMU'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (String)   ResultRootDir=
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Tin=10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   cp=4180
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Qdot=0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   mdot=1
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'TRTSonde'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   ClimateCond.Tin=23
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   ClimateCond.mdot=0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   ClimateCond.hconv=0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (String)   ResultsRootDir=
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'steadyDetailedPipe'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (String)   ResultRootDir=
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Tin=10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   mdot=0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Tsoil=10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Pipe_length=100
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Pipe_outer_diameter=0.032
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Pipe_wall_thickness=0.0029
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Pipe_thermal_conductivity=0.4
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_heat_capacity=3800
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_Density=1050
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_thermal_conductivity=0.6
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_kinematic_viscosity=5e-6
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Number_of_parallel_pipes=1
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Collector_Volume=1
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'MeanReturnTemperature'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in1=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in2=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in3=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in4=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in5=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in6=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in7=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in8=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in9=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in10=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'Tf'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in1=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in2=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in3=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in4=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in5=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in6=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in7=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in8=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in9=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   in10=-9999.9999
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Setting user-defined parameters and start values for input variables.
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'HeatExchangerDynamicFMU'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'TRTSonde'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (String)   ResultsRootDir=/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT/slaves/TRTSonde
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'steadyDetailedPipe'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_Density=1000
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_heat_capacity=4180
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Fluid_kinematic_viscosity=1e-6
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	      (Real)   Pipe_wall_thickness=0.003
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'MeanReturnTemperature'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'Tf'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Entering initialization mode (calling enterInitializationMode() in FMI 2 slaves)
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'HeatExchangerDynamicFMU'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'TRTSonde'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'steadyDetailedPipe'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'Measurements'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'MeanReturnTemperature'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    Slave 'Tf'
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Initial condition iteration (Gauss-Jacobi-Iteration only with get/set functions)
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Gauss-Jacobi-Iteration, loop #1.
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[0] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[1] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[2] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[3] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[4] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[5] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[6] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[7] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[8] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[9] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[10] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[11] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Gauss-Jacobi-Iteration, loop #2.
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[0] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[1] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[2] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[3] = 5416
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[4] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[5] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[6] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[7] = 14.8484
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[8] = 14.8484
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[9] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[10] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[11] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Gauss-Jacobi-Iteration, loop #3.
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[0] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[1] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[2] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[3] = 5416
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[4] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[5] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[6] = 0.372222
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[7] = 14.8484
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[8] = 14.8484
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[9] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[10] = 0
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	    real[11] = 10
+2023-08-23 14:31:16	[Progress]	[MasterSim::initialConditions]          	  Leaving initialization mode (calling exitInitializationMode() in FMI 2 slaves)
+2023-08-23 14:31:16	[Progress]	[OutputWriter::openOutputFile]          	Creating output file 'strings.csv' with 3 outputs.
+2023-08-23 14:31:16	[Progress]	[OutputWriter::openOutputFile]          	Creating output file 'values.csv'.
+2023-08-23 14:31:16	[Progress]	[SolverFeedback::writeFeedback]         	Simtime     Simdate           Realtime    MeanSpeed    CurrentSpeed ETC
+2023-08-23 14:31:16	[Progress]	[SolverFeedback::writeFeedback]         	 0.000 s    01.01.00  0:00:00  0.001 s     0.000 s/s    0.000 s/s   ---
+2023-08-23 14:31:17	[Progress]	[SolverFeedback::writeFeedback]         	 4.000 h    01.01.00  4:00:00  0.584 s     6.854 h/s    6.860 h/s    8.163 s
+2023-08-23 14:31:17	[Progress]	[SolverFeedback::writeFeedback]         	 1.500 d    02.01.00 12:00:00  1.094 s     1.371 d/s    1.371 d/s    0.729 s
+2023-08-23 14:31:18	[Progress]	[SolverFeedback::writeFeedback]         	/home/dirk/git/EconomicEfficiencyCalculation/data/test/calcTRT.msim
+2023-08-23 14:31:18	[Progress]	[SolverFeedback::writeFeedback]         	 2.500 d    03.01.00 12:00:00  1.519 s     1.646 d/s    1.646 d/s    0.000 s
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Solver statistics
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	------------------------------------------------------------------------------
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Wall clock time                            =    1.519 s   
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	------------------------------------------------------------------------------
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Output writing                             =    0.008 s   
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Master-Algorithm                           =    1.510 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Convergence failures                       =                       0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Convergence iteration limit exceeded       =                       0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Error test time and failure count          =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	------------------------------------------------------------------------------
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	HeatExchangerDynamicFMU             doStep =    0.001 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	TRTSonde                            doStep =    1.498 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	steadyDetailedPipe                  doStep =    0.003 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Measurements                        doStep =    0.001 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	MeanReturnTemperature               doStep =    0.001 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	Tf                                  doStep =    0.000 s          720
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  getState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	                                  setState =    0.000 s            0
+2023-08-23 14:31:18	[Progress]	[MasterSim::writeMetrics]               	------------------------------------------------------------------------------

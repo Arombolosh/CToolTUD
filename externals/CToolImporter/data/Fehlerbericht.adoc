@@ -1,0 +1,66 @@
+# Fehler beim geoJson Export
+
+* Teilweise wurde im Layer SpecHeatCapacity und HeatConductivity vertauscht
+
+[,geoJson]
+----
+"walls":[
+				{"name":"wall0",
+					"position":[0,0,0],
+					"rotation":[0,0,0],
+					"facet":[[250,250,0],[250,250,3000],[9400,250,3000],[9400,250,0]],
+					"profile":
+						{
+						"layers":[
+						{"Idx":0,
+							"Name":"Beton CEM II BS325R wz05",
+							"HeatConductivity":2.1,
+							"Density":2420,
+							"SpecHeatCapacity":1000,
+							"Thickness":200},
+						{"Idx":1,
+							"Name":"Daemmung",
+							"HeatConductivity":1000,
+							"Density":2000,
+							"SpecHeatCapacity":1.2,
+							"Thickness":100},
+						{"Idx":2,
+							"Name":"Putz",
+							"HeatConductivity":1500,
+							"Density":800,
+							"SpecHeatCapacity":0.14,
+							"Thickness":5}],
+						"inside":{"heatConvectionCoeff":8,"emissivity":0.9,"shortWaveAbsorption":0.6},
+						"outside":{"heatConvectionCoeff":25,"emissivity":0.9,"shortWaveAbsorption":0.6}},
+					"meshes":[
+						{"name":"basic_shell","color":"#e0bd4d","opacity":0.2,"positions":[250,250,0,250,250,3000,9400,250,3000,9400,250,0,250,250,0],"indices":[0,1,2,0,2,3]}]
+				},
+
+----
+
+* Verknüpfungen sind nicht vorhanden
+** am besten bekommt jede Fläche eine ID zusätzlich bekommen verknüpfte Flächen die ID der anderen Fläche eingetragen
+** SurfaceID = ...
+** ConnectedSurfaceID = ...
+* Raumvolumina fehlt für NANDRAD (bitte unter dem Raum einordnen)
+** Volume = ... [m3]
+* Raumgrundfläche fehlt für NANDRAD Modell-Referenz (bitte unter dem Raum einordnen)
+** Area = ... [m2] (hier kannst du die Flächen aller Bodenelemente des Raumes zusammen addieren)
+
+[,geoJson]
+----
+
+[{"name":"vorne_links",
+			"zone":"Residential",
+			"Volume": 300,
+			"Area": 100,
+
+----
+
+
+## Fehler in der Version vom 15. April
+
+* emissivity muss einen Wert zwischen 0 .. 1; 0 und 1 dürfen nicht enthalten sein
+* meiner Meinung nach sind da zu wenig connected surfaces drin. Da liegt noch ein Fehler bei dir
+** ich komm auf 9x2 (Wände) + 8 (Decken) bei dir sind aber nur gesamt 16 drin.
+* und wir müssen nochmal reden wie wir das erdreich anbinden, das haben wir noch net

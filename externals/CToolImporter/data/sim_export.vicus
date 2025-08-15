@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VicusProject fileVersion="1.1">
+	<Project>
+		<SolverParameter>
+			<IBK:Parameter name="RelTol" unit="---">1e-05</IBK:Parameter>
+			<IBK:Parameter name="AbsTol" unit="---">1e-10</IBK:Parameter>
+			<IBK:Parameter name="MaxTimeStep" unit="h">1</IBK:Parameter>
+			<IBK:Parameter name="MinTimeStep" unit="s">1e-08</IBK:Parameter>
+			<IBK:Parameter name="InitialTimeStep" unit="s">0.1</IBK:Parameter>
+			<IBK:Parameter name="NonlinSolverConvCoeff" unit="---">0.1</IBK:Parameter>
+			<IBK:Parameter name="IterativeSolverConvCoeff" unit="---">0.05</IBK:Parameter>
+			<IBK:Parameter name="DiscMinDx" unit="mm">2</IBK:Parameter>
+			<IBK:Parameter name="DiscStretchFactor" unit="---">4</IBK:Parameter>
+			<IBK:Parameter name="ViewfactorTileWidth" unit="cm">50</IBK:Parameter>
+			<IBK:Parameter name="SurfaceDiscretizationDensity" unit="---">1</IBK:Parameter>
+			<IBK:Parameter name="ControlTemperatureTolerance" unit="K">1e-05</IBK:Parameter>
+			<IBK:IntPara name="PreILUWidth">3</IBK:IntPara>
+			<IBK:IntPara name="MaxKrylovDim">50</IBK:IntPara>
+			<IBK:IntPara name="MaxNonlinIter">3</IBK:IntPara>
+			<IBK:IntPara name="MaxOrder">5</IBK:IntPara>
+			<IBK:IntPara name="DiscMaxElementsPerLayer">20</IBK:IntPara>
+			<IBK:Flag name="DetectMaxTimeStep">true</IBK:Flag>
+			<IBK:Flag name="KinsolDisableLineSearch">false</IBK:Flag>
+		</SolverParameter>
+		<SimulationParameter>
+			<IBK:Parameter name="InitialTemperature" unit="C">20</IBK:Parameter>
+			<IBK:Parameter name="InitialRelativeHumidity" unit="%">50</IBK:Parameter>
+			<IBK:Parameter name="DomesticWaterSensitiveHeatGainFraction" unit="---">0</IBK:Parameter>
+			<IBK:IntPara name="StartYear">2001</IBK:IntPara>
+			<Interval>
+				<IBK:Parameter name="Start" unit="d">0</IBK:Parameter>
+				<IBK:Parameter name="End" unit="d">365</IBK:Parameter>
+			</Interval>
+			<SolarLoadsDistributionModel>
+				<DistributionType>SurfaceTypeFactor</DistributionType>
+				<IBK:Parameter name="RadiationLoadFractionZone" unit="---">0.1</IBK:Parameter>
+				<IBK:Parameter name="RadiationLoadFractionFloor" unit="---">0.5</IBK:Parameter>
+				<IBK:Parameter name="RadiationLoadFractionCeiling" unit="---">0.2</IBK:Parameter>
+				<IBK:Parameter name="RadiationLoadFractionWalls" unit="---">0.3</IBK:Parameter>
+			</SolarLoadsDistributionModel>
+		</SimulationParameter>
+		<Location>
+			<IBK:Flag name="PerezDiffuseRadiationModel">true</IBK:Flag>
+			<TimeZone>13</TimeZone>
+		</Location>
+		<Buildings>
+			<Building id="2" displayName="Building">
+				<BuildingLevels>
+					<BuildingLevel id="3" displayName="GroundFloor">
+						<Elevation>0</Elevation>
+						<Height>2.7</Height>
+						<Rooms>
+							<Room id="4" displayName="vorne_links">
+								<Surfaces>
+									<Surface id="5" displayName="Floor">
+										<Polygon3D offset="0.25 0.25 0" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="6" displayName="Roof">
+										<Polygon3D offset="0.25 0.25 3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="7" displayName="Wall">
+										<Polygon3D offset="0.25 0.25 0" normal="0 -1 0" localX="1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="8" displayName="Wall">
+										<Polygon3D offset="9.4 0.25 0" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="9" displayName="Wall">
+										<Polygon3D offset="9.4 5.15 0" normal="0 1 0" localX="-1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="10" displayName="Wall">
+										<Polygon3D offset="0.25 5.15 0" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="11" displayName="treppe">
+								<Surfaces>
+									<Surface id="12" displayName="Floor">
+										<Polygon3D offset="9.6 0.25 0" normal="0 0 1" localX="1 0 0">0 0, 5.8 0, 5.8 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="13" displayName="Roof">
+										<Polygon3D offset="9.6 0.25 3" normal="0 0 1" localX="1 0 0">0 0, 5.8 0, 5.8 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="14" displayName="Wall">
+										<Polygon3D offset="9.6 0.25 0" normal="0 -1 0" localX="1 0 0">0 0, 5.8 0, 5.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="15" displayName="Wall">
+										<Polygon3D offset="15.4 0.25 0" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="16" displayName="Wall">
+										<Polygon3D offset="15.4 5.15 0" normal="0 1 0" localX="-1 0 0">0 0, 5.8 0, 5.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="17" displayName="Wall">
+										<Polygon3D offset="9.6 5.15 0" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="18" displayName="vorne_rechts">
+								<Surfaces>
+									<Surface id="19" displayName="Floor">
+										<Polygon3D offset="15.6 0.25 0" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="20" displayName="Roof">
+										<Polygon3D offset="15.6 0.25 3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="21" displayName="Wall">
+										<Polygon3D offset="15.6 0.25 0" normal="0 -1 0" localX="1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="22" displayName="Wall">
+										<Polygon3D offset="24.75 0.25 0" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="23" displayName="Wall">
+										<Polygon3D offset="24.75 5.15 0" normal="0 1 0" localX="-1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="24" displayName="Wall">
+										<Polygon3D offset="15.6 5.15 0" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="25" displayName="flur">
+								<Surfaces>
+									<Surface id="26" displayName="Floor">
+										<Polygon3D offset="0.25 5.35 0" normal="0 0 1" localX="1 0 0">0 0, 24.5 0, 24.5 1.8, 0 1.8</Polygon3D>
+									</Surface>
+									<Surface id="27" displayName="Roof">
+										<Polygon3D offset="0.25 5.35 3" normal="0 0 1" localX="1 0 0">0 0, 24.5 0, 24.5 1.8, 0 1.8</Polygon3D>
+									</Surface>
+									<Surface id="28" displayName="Wall">
+										<Polygon3D offset="0.25 5.35 0" normal="0 -1 0" localX="1 0 0">0 0, 24.5 0, 24.5 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="29" displayName="Wall">
+										<Polygon3D offset="24.75 5.35 0" normal="1 0 0" localX="0 1 0">0 0, 1.8 0, 1.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="30" displayName="Wall">
+										<Polygon3D offset="24.75 7.15 0" normal="0 1 0" localX="-1 0 0">0 0, 24.5 0, 24.5 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="31" displayName="Wall">
+										<Polygon3D offset="0.25 7.15 0" normal="-1 0 0" localX="0 -1 0">0 0, 1.8 0, 1.8 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="32" displayName="hinten0">
+								<Surfaces>
+									<Surface id="33" displayName="Floor">
+										<Polygon3D offset="0.25 7.35 0" normal="0 0 1" localX="1 0 0">0 0, 5.275 0, 5.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="34" displayName="Roof">
+										<Polygon3D offset="0.25 7.35 3" normal="0 0 1" localX="1 0 0">0 0, 5.275 0, 5.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="35" displayName="Wall">
+										<Polygon3D offset="0.25 7.35 0" normal="0 -1 0" localX="1 0 0">0 0, 5.275 0, 5.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="36" displayName="Wall">
+										<Polygon3D offset="5.525 7.35 0" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="37" displayName="Wall">
+										<Polygon3D offset="5.525 15.75 0" normal="0 1 0" localX="-1 0 0">0 0, 5.275 0, 5.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="38" displayName="Wall">
+										<Polygon3D offset="0.25 15.75 0" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="39" displayName="hinten1">
+								<Surfaces>
+									<Surface id="40" displayName="Floor">
+										<Polygon3D offset="5.725 7.35 0" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="41" displayName="Roof">
+										<Polygon3D offset="5.725 7.35 3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="42" displayName="Wall">
+										<Polygon3D offset="5.725 7.35 0" normal="0 -1 0" localX="1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="43" displayName="Wall">
+										<Polygon3D offset="11.9 7.35 0" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="44" displayName="Wall">
+										<Polygon3D offset="11.9 15.75 0" normal="0 1 0" localX="-1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="45" displayName="Wall">
+										<Polygon3D offset="5.725 15.75 0" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="46" displayName="hinten2">
+								<Surfaces>
+									<Surface id="47" displayName="Floor">
+										<Polygon3D offset="12.1 7.35 0" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="48" displayName="Roof">
+										<Polygon3D offset="12.1 7.35 3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="49" displayName="Wall">
+										<Polygon3D offset="12.1 7.35 0" normal="0 -1 0" localX="1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="50" displayName="Wall">
+										<Polygon3D offset="18.275 7.35 0" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="51" displayName="Wall">
+										<Polygon3D offset="18.275 15.75 0" normal="0 1 0" localX="-1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="52" displayName="Wall">
+										<Polygon3D offset="12.1 15.75 0" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="53" displayName="hinten3">
+								<Surfaces>
+									<Surface id="54" displayName="Floor">
+										<Polygon3D offset="18.475 7.35 0" normal="0 0 1" localX="1 0 0">0 0, 6.275 0, 6.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="55" displayName="Roof">
+										<Polygon3D offset="18.475 7.35 3" normal="0 0 1" localX="1 0 0">0 0, 6.275 0, 6.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="56" displayName="Wall">
+										<Polygon3D offset="18.475 7.35 0" normal="0 -1 0" localX="1 0 0">0 0, 6.275 0, 6.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="57" displayName="Wall">
+										<Polygon3D offset="24.75 7.35 0" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="58" displayName="Wall">
+										<Polygon3D offset="24.75 15.75 0" normal="0 1 0" localX="-1 0 0">0 0, 6.275 0, 6.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="59" displayName="Wall">
+										<Polygon3D offset="18.475 15.75 0" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="60" displayName="vorne_links">
+								<Surfaces>
+									<Surface id="61" displayName="Floor">
+										<Polygon3D offset="0.25 0.25 3.3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="62" displayName="Roof">
+										<Polygon3D offset="0.25 0.25 6.3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="63" displayName="Wall">
+										<Polygon3D offset="0.25 0.25 3.3" normal="0 -1 0" localX="1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="64" displayName="Wall">
+										<Polygon3D offset="9.4 0.25 3.3" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="65" displayName="Wall">
+										<Polygon3D offset="9.4 5.15 3.3" normal="0 1 0" localX="-1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="66" displayName="Wall">
+										<Polygon3D offset="0.25 5.15 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="67" displayName="treppe">
+								<Surfaces>
+									<Surface id="68" displayName="Floor">
+										<Polygon3D offset="9.6 0.25 3.3" normal="0 0 1" localX="1 0 0">0 0, 5.8 0, 5.8 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="69" displayName="Roof">
+										<Polygon3D offset="9.6 0.25 6.3" normal="0 0 1" localX="1 0 0">0 0, 5.8 0, 5.8 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="70" displayName="Wall">
+										<Polygon3D offset="9.6 0.25 3.3" normal="0 -1 0" localX="1 0 0">0 0, 5.8 0, 5.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="71" displayName="Wall">
+										<Polygon3D offset="15.4 0.25 3.3" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="72" displayName="Wall">
+										<Polygon3D offset="15.4 5.15 3.3" normal="0 1 0" localX="-1 0 0">0 0, 5.8 0, 5.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="73" displayName="Wall">
+										<Polygon3D offset="9.6 5.15 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="74" displayName="vorne_rechts">
+								<Surfaces>
+									<Surface id="75" displayName="Floor">
+										<Polygon3D offset="15.6 0.25 3.3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="76" displayName="Roof">
+										<Polygon3D offset="15.6 0.25 6.3" normal="0 0 1" localX="1 0 0">0 0, 9.15 0, 9.15 4.9, 0 4.9</Polygon3D>
+									</Surface>
+									<Surface id="77" displayName="Wall">
+										<Polygon3D offset="15.6 0.25 3.3" normal="0 -1 0" localX="1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="78" displayName="Wall">
+										<Polygon3D offset="24.75 0.25 3.3" normal="1 0 0" localX="0 1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="79" displayName="Wall">
+										<Polygon3D offset="24.75 5.15 3.3" normal="0 1 0" localX="-1 0 0">0 0, 9.15 0, 9.15 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="80" displayName="Wall">
+										<Polygon3D offset="15.6 5.15 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 4.9 0, 4.9 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="81" displayName="flur">
+								<Surfaces>
+									<Surface id="82" displayName="Floor">
+										<Polygon3D offset="0.25 5.35 3.3" normal="0 0 1" localX="1 0 0">0 0, 24.5 0, 24.5 1.8, 0 1.8</Polygon3D>
+									</Surface>
+									<Surface id="83" displayName="Roof">
+										<Polygon3D offset="0.25 5.35 6.3" normal="0 0 1" localX="1 0 0">0 0, 24.5 0, 24.5 1.8, 0 1.8</Polygon3D>
+									</Surface>
+									<Surface id="84" displayName="Wall">
+										<Polygon3D offset="0.25 5.35 3.3" normal="0 -1 0" localX="1 0 0">0 0, 24.5 0, 24.5 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="85" displayName="Wall">
+										<Polygon3D offset="24.75 5.35 3.3" normal="1 0 0" localX="0 1 0">0 0, 1.8 0, 1.8 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="86" displayName="Wall">
+										<Polygon3D offset="24.75 7.15 3.3" normal="0 1 0" localX="-1 0 0">0 0, 24.5 0, 24.5 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="87" displayName="Wall">
+										<Polygon3D offset="0.25 7.15 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 1.8 0, 1.8 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="88" displayName="hinten0">
+								<Surfaces>
+									<Surface id="89" displayName="Floor">
+										<Polygon3D offset="0.25 7.35 3.3" normal="0 0 1" localX="1 0 0">0 0, 5.275 0, 5.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="90" displayName="Roof">
+										<Polygon3D offset="0.25 7.35 6.3" normal="0 0 1" localX="1 0 0">0 0, 5.275 0, 5.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="91" displayName="Wall">
+										<Polygon3D offset="0.25 7.35 3.3" normal="0 -1 0" localX="1 0 0">0 0, 5.275 0, 5.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="92" displayName="Wall">
+										<Polygon3D offset="5.525 7.35 3.3" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="93" displayName="Wall">
+										<Polygon3D offset="5.525 15.75 3.3" normal="0 1 0" localX="-1 0 0">0 0, 5.275 0, 5.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="94" displayName="Wall">
+										<Polygon3D offset="0.25 15.75 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="95" displayName="hinten1">
+								<Surfaces>
+									<Surface id="96" displayName="Floor">
+										<Polygon3D offset="5.725 7.35 3.3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="97" displayName="Roof">
+										<Polygon3D offset="5.725 7.35 6.3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="98" displayName="Wall">
+										<Polygon3D offset="5.725 7.35 3.3" normal="0 -1 0" localX="1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="99" displayName="Wall">
+										<Polygon3D offset="11.9 7.35 3.3" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="100" displayName="Wall">
+										<Polygon3D offset="11.9 15.75 3.3" normal="0 1 0" localX="-1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="101" displayName="Wall">
+										<Polygon3D offset="5.725 15.75 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="102" displayName="hinten2">
+								<Surfaces>
+									<Surface id="103" displayName="Floor">
+										<Polygon3D offset="12.1 7.35 3.3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="104" displayName="Roof">
+										<Polygon3D offset="12.1 7.35 6.3" normal="0 0 1" localX="1 0 0">0 0, 6.175 0, 6.175 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="105" displayName="Wall">
+										<Polygon3D offset="12.1 7.35 3.3" normal="0 -1 0" localX="1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="106" displayName="Wall">
+										<Polygon3D offset="18.275 7.35 3.3" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="107" displayName="Wall">
+										<Polygon3D offset="18.275 15.75 3.3" normal="0 1 0" localX="-1 0 0">0 0, 6.175 0, 6.175 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="108" displayName="Wall">
+										<Polygon3D offset="12.1 15.75 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+							<Room id="109" displayName="hinten3">
+								<Surfaces>
+									<Surface id="110" displayName="Floor">
+										<Polygon3D offset="18.475 7.35 3.3" normal="0 0 1" localX="1 0 0">0 0, 6.275 0, 6.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="111" displayName="Roof">
+										<Polygon3D offset="18.475 7.35 6.3" normal="0 0 1" localX="1 0 0">0 0, 6.275 0, 6.275 8.4, 0 8.4</Polygon3D>
+									</Surface>
+									<Surface id="112" displayName="Wall">
+										<Polygon3D offset="18.475 7.35 3.3" normal="0 -1 0" localX="1 0 0">0 0, 6.275 0, 6.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="113" displayName="Wall">
+										<Polygon3D offset="24.75 7.35 3.3" normal="1 0 0" localX="0 1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="114" displayName="Wall">
+										<Polygon3D offset="24.75 15.75 3.3" normal="0 1 0" localX="-1 0 0">0 0, 6.275 0, 6.275 3, 0 3</Polygon3D>
+									</Surface>
+									<Surface id="115" displayName="Wall">
+										<Polygon3D offset="18.475 15.75 3.3" normal="-1 0 0" localX="0 -1 0">0 0, 8.4 0, 8.4 3, 0 3</Polygon3D>
+									</Surface>
+								</Surfaces>
+							</Room>
+						</Rooms>
+					</BuildingLevel>
+				</BuildingLevels>
+			</Building>
+		</Buildings>
+		<PlainGeometry />
+		<EmbeddedDatabase />
+		<FMIDescription />
+	</Project>
+</VicusProject>

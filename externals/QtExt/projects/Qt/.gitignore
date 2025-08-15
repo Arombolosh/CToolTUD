@@ -1,0 +1,9 @@
+/debug_x64/
+/moc/
+/ui/
+/qrc_QtExt.cpp
+/debug/
+/release/
+/release_x64/
+/Makefile.QtExt.Debug
+/Makefile.QtExt.Release

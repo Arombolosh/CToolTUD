@@ -1,0 +1,15 @@
+HeatExchangerDynamic.fmu	Tout	Tout
+TRTSonde.fmu	supply_0a-PipeCollectorTr	supply_0a-PipeCollectorTr
+TRTSonde.fmu	supply_0a-PipeCollectorQdot	supply_0a-PipeCollectorQdot
+TRTSonde.fmu	return_0a-PipeCollectorTr	return_0a-PipeCollectorTr
+TRTSonde.fmu	return_0a-PipeCollectorQdot	return_0a-PipeCollectorQdot
+TRTSonde.fmu	supply_0b-PipeCollectorTr	supply_0b-PipeCollectorTr
+TRTSonde.fmu	supply_0b-PipeCollectorQdot	supply_0b-PipeCollectorQdot
+TRTSonde.fmu	return_0b-PipeCollectorTr	return_0b-PipeCollectorTr
+TRTSonde.fmu	return_0b-PipeCollectorQdot	return_0b-PipeCollectorQdot
+steadyDetailedPipe.fmu	Tout	Tout
+steadyDetailedPipe.fmu	Qdot_one_pipe	Qdot_one_pipe
+steadyDetailedPipe.fmu	qdot_Delphin	qdot_Delphin
+steadyDetailedPipe.fmu	Convection_coefficient	Convection_coefficient
+steadyDetailedPipe.fmu	Reynolds_number	Reynolds_number
+FMUAverage.fmu	avg	avg

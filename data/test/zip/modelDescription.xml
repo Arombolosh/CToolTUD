@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+	fmiVersion="2.0"
+	modelName="TRTSonde"
+	guid="{471a3b52-4923-44d8-ab4b-fcdb813c7322}"
+	description="A DELPHIN Simulation Model"
+	version="6.1.5"
+	author="Andreas Nicolai@IBK"
+	copyright="Bauklimatik Dresden Software GmbH (see DELPHIN license)"
+	license="BSD"
+	generationTool="DEPLPHIN 6, using FMI support functions from IBK@TU Dresden"
+	generationDateAndTime="2023-07-20T10:16:25"
+	variableNamingConvention="flat"
+	numberOfEventIndicators="0">
+
+	<!-- The following properties are the defaults and can be omitted
+		needsExecutionTool="false"
+		canBeInstantiatedOnlyOncePerProcess="false"
+		providesDirectionalDerivative="false"
+
+		CoSim only:
+		canRunAsynchronuously = "false"
+
+	-->
+
+	<CoSimulation
+		modelIdentifier="TRTSonde"
+		canHandleVariableCommunicationStepSize="true"
+		canInterpolateInputs="false"
+		maxOutputDerivativeOrder="0"
+		canNotUseMemoryManagementFunctions="true"
+		canGetAndSetFMUstate="false"
+		canSerializeFMUstate="false"
+	/>
+
+	<UnitDefinitions>
+		<Unit name="C"/>
+		<Unit name="W"/>
+		<Unit name="W/m2K"/>
+		<Unit name="kg/s"/>
+	</UnitDefinitions>
+
+
+	<LogCategories>
+		<Category name="logStatusWarning" />
+		<Category name="logStatusError" />
+		<Category name="logAll" />
+		<Category name="logFmi2Call" />
+	</LogCategories>
+
+	<DefaultExperiment startTime="0.0" stopTime="3.1536e+07" tolerance="1e-06"/>
+
+	<ModelVariables>
+		<!-- Index of variable = "1" -->
+		<ScalarVariable
+			name="ClimateCond.Tin"
+			valueReference="101"
+			variability="continuous"
+			causality="input">
+			<Real start="23" unit="C"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "2" -->
+		<ScalarVariable
+			name="ClimateCond.mdot"
+			valueReference="102"
+			variability="continuous"
+			causality="input">
+			<Real start="0" unit="kg/s"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "3" -->
+		<ScalarVariable
+			name="ClimateCond.hconv"
+			valueReference="103"
+			variability="continuous"
+			causality="input">
+			<Real start="0" unit="W/m2K"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "4" -->
+		<ScalarVariable
+			name="supply_0a-PipeCollectorTr"
+			valueReference="104"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="C"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "5" -->
+		<ScalarVariable
+			name="supply_0a-PipeCollectorQdot"
+			valueReference="105"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="W"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "6" -->
+		<ScalarVariable
+			name="return_0a-PipeCollectorTr"
+			valueReference="106"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="C"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "7" -->
+		<ScalarVariable
+			name="return_0a-PipeCollectorQdot"
+			valueReference="107"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="W"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "8" -->
+		<ScalarVariable
+			name="supply_0b-PipeCollectorTr"
+			valueReference="108"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="C"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "9" -->
+		<ScalarVariable
+			name="supply_0b-PipeCollectorQdot"
+			valueReference="109"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="W"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "10" -->
+		<ScalarVariable
+			name="return_0b-PipeCollectorTr"
+			valueReference="110"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="C"/>
+		</ScalarVariable>
+
+		<!-- Index of variable = "11" -->
+		<ScalarVariable
+			name="return_0b-PipeCollectorQdot"
+			valueReference="111"
+			variability="continuous"
+			causality="output"
+			initial="calculated">
+			<Real unit="W"/>
+		</ScalarVariable>
+
+
+		<ScalarVariable name="ResultsRootDir" valueReference="42" description="Root path for simulation results and log files." variability="fixed" causality="parameter">
+			<String start="" />
+		</ScalarVariable>
+	</ModelVariables>
+
+	<ModelStructure>
+		<Outputs>
+ 			<Unknown index="4"/>
+ 			<Unknown index="5"/>
+ 			<Unknown index="6"/>
+ 			<Unknown index="7"/>
+ 			<Unknown index="8"/>
+ 			<Unknown index="9"/>
+ 			<Unknown index="10"/>
+ 			<Unknown index="11"/>
+
+		</Outputs>
+	</ModelStructure>
+
+</fmiModelDescription>
+

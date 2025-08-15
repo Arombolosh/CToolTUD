@@ -1,0 +1,5 @@
+2023-08-21 10:03:20	[Progress]	[MasterSim::writeVersionInfo]           	MasterSimulator, version 0.9.5
+2023-08-21 10:03:20	[Progress]	[MasterSim::writeVersionInfo]           	Copyright by Andreas Nicolai, released under GPL license (see LICENSE file).
+2023-08-21 10:03:20	[Progress]	[MasterSim::writeVersionInfo]           	
+2023-08-21 10:03:20	[Error   ]	[main]                                  	Project file 'calcTRT.msim' doesn't exist.
+2023-08-21 10:03:20	[Error   ]	[main]                                  	Try running with --verbosity-level=4 for more detailed outputs to track down errors.

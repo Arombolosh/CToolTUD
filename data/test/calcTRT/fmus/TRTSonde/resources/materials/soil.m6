@@ -1,0 +1,45 @@
+D6MARLZ! 006.001
+
+[IDENTIFICATION]
+  NAME                     = DE: sandiger Lehm |EN: Sandy Loam |IT: Limo sabbioso
+  AQUISITION_ID            = -1
+  PRODUCER                 = DE: Daten vom Mualem / Van Genuchten Modell transformiert |EN: Data transformed from Mualem / Van Genuchten Model |IT: Dati dal modello Mualem / Van Genuchten transformato
+  LABORATORY               = DE: Dr. Arbeit von Klaus Ramming, Dresden, 2007 |EN: PhD Thesis by Klaus Ramming, Dresden, 2007 |IT: Tesi di dottorato di Klaus Ramming, Dresda, 2007
+  DATE                     = 14.01.2020
+  SAMPLING_DATE            = 01.01.2007
+  COLOUR                   = #ffff8040
+  FLAGS                    = AIR_TIGHT 
+  CATEGORY                 = SOIL
+  COMMENTS                 = DE: Dissertation zur Erlangung des akademischen Grades Doktoringenieur (Dr.-Ing.) by Dipl.-Ing. (FH) Klaus Ramming geb. am: 04.08.1981 in: Kulmbach;Titel: "Bewertung und Optimierung oberflächennaher Erdwärmekollektoren für verschiedene Lastfälle" ;Fakultät Maschinenwesen der Technischen Universität Dresden ;Tag der Einreichung: 26.04.2007 Tag der Verteidigung: 24.07.2007 |EN: Dissertation zur Erlangung des akademischen Grades Doktoringenieur (Dr.-Ing.) by Dipl.-Ing. (FH) Klaus Ramming geb. am: 04.08.1981 in: Kulmbach Titel: "Bewertung und Optimierung oberflächennaher Erdwärmekollektoren für verschiedene Lastfälle" Fakultät Maschinenwesen der Technischen Universität Dresden Tag der Einreichung: 26.04.2007 Tag der Verteidigung: 24.07.2007 |IT: Tesi per ottenere il titolo Doktoringenieur (Dr.-Ing.) di Dipl.-Ing. (FH) Klaus Ramming, nato il 04.08.1981 a Kulmbach, titelo: "Bewertung und Optimierung oberflächennaher Erdwärmekollektoren für verschiedene Lastfälle", facoltà Maschinenwesen, Technische Universität Dresden, giorno di consegna: 26.04.2007, giorno della discussione: 24.07.2007
+  DBTYPE                   = 1,7
+  HATCHING                 = 13
+
+
+[STORAGE_BASE_PARAMETERS]
+  RHO                      = 2000 kg/m3
+  CE                       = 1275 J/kgK
+  THETA_POR                = 0.4223 m3/m3
+  THETA_EFF                = 0.4223 m3/m3
+
+
+[TRANSPORT_BASE_PARAMETERS]
+  LAMBDA                   = 2.88 W/mK
+  LAMBDA_DESIGN            = 3.4 W/mK
+  AW                       = 0.661343 kg/m2s05
+  MEW                      = 20.9785 -
+
+
+[MOISTURE_STORAGE]
+  FUNCTION =              Theta_l(pC)_de
+      0                0.2              0.4              0.6              0.8              1                1.2              1.4              1.6              1.8              2                2.2              2.4              2.6              2.8              3                3.2              3.4              3.6              3.8              4                4.2              4.4              4.6              4.8              5                5.2              5.4              5.6              5.783            6                6.2              6.4              6.6              6.8              7                7.2              7.4              7.6              7.8              8                8.2              8.4              8.6              8.8              9                9.2              9.4              9.6              9.8              10               
+      0.4223           0.420629283589   0.419956902316   0.419117996265   0.418111108951   0.416947746197   0.415652269813   0.41425860249    0.412800556029   0.411281581631   0.409575601497   0.407151974607   0.402523562887   0.392617366507   0.372923417371   0.339506196571   0.292488218786   0.23810100787    0.186374453433   0.145599087154   0.118313492393   0.101820418506   0.0915498659968  0.0838464651739  0.0767610839353  0.0695882131039  0.0622246425662  0.0547850902397  0.0474435083771  0.0409633686781  0.0337467811768  0.0276797074079  0.0222672484009  0.017559494952   0.0135670762144  0.0102659545337  0.00760467832363  0.00551287287953  0.0039097917083  0.00271196883668  0.00183933402673  0.00121950017813  0.000790239756313  0.000500392503427  0.000309574086862  0.000187091564643  0.000110438298847  6.36658740541e-05  3.58398112801e-05  1.96993382621e-05  1.05711761e-05   
+  FUNCTION =              pC(Theta_l)_de
+      1.05711761e-05   1.96993382621e-05  3.58398112801e-05  6.36658740541e-05  0.000110438298847  0.000187091564643  0.000309574086862  0.000500392503427  0.000790239756313  0.00121950017813  0.00183933402673  0.00271196883668  0.0039097917083  0.00551287287953  0.00760467832363  0.0102659545337  0.0135670762144  0.017559494952   0.0222672484009  0.0276797074079  0.0337467811768  0.0409633686781  0.0474435083771  0.0547850902397  0.0622246425662  0.0695882131039  0.0767610839353  0.0838464651739  0.0915498659968  0.101820418506   0.118313492393   0.145599087154   0.186374453433   0.23810100787    0.292488218786   0.339506196571   0.372923417371   0.392617366507   0.402523562887   0.407151974607   0.409575601497   0.411281581631   0.412800556029   0.41425860249    0.415652269813   0.416947746197   0.418111108951   0.419117996265   0.419956902316   0.420629283589   0.4223           
+      10               9.8              9.6              9.4              9.2              9                8.8              8.6              8.4              8.2              8                7.8              7.6              7.4              7.2              7                6.8              6.6              6.4              6.2              6                5.783            5.6              5.4              5.2              5                4.8              4.6              4.4              4.2              4                3.8              3.6              3.4              3.2              3                2.8              2.6              2.4              2.2              2                1.8              1.6              1.4              1.2              1                0.8              0.6              0.4              0.2              0                
+
+
+[MOISTURE_TRANSPORT]
+  FUNCTION =              lgKl(Theta_l)
+      0                0.004223         0.008446         0.016892         0.025338         0.033784         0.04223          0.050676         0.059122         0.067568         0.076014         0.08446          0.092906         0.101352         0.109798         0.118244         0.12669          0.135136         0.143582         0.152028         0.160474         0.16892          0.177366         0.185812         0.194258         0.202704         0.21115          0.219596         0.228042         0.236488         0.244934         0.25338          0.261826         0.270272         0.278718         0.287164         0.29561          0.304056         0.312502         0.320948         0.329394         0.33784          0.346286         0.354732         0.363178         0.371624         0.38007          0.388516         0.396962         0.405408         0.413854         0.4223           
+      -20              -16.051          -14.6219         -13.1926         -12.3564         -11.7628         -11.3021         -10.9253         -10.6065         -10.3301         -10.0859         -9.86711         -9.66887         -9.48755         -9.32038         -9.16524         -9.02043         -8.88458         -8.75656         -8.63545         -8.52047         -8.41094         -8.3063          -8.20605         -8.10977         -8.01709         -7.92765         -7.84117         -7.75738         -7.67603         -7.59689         -7.51976         -7.44445         -7.37077         -7.29854         -7.2276          -7.15778         -7.08891         -7.02081         -6.9533          -6.88618         -6.81923         -6.75218         -6.68474         -6.61651         -6.54699         -6.47545         -6.40081         -6.32129         -6.23337         -6.12793         -5.90245         
+

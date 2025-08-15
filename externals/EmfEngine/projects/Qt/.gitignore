@@ -1,0 +1,8 @@
+/debug/
+/debug_x64/
+/moc/
+/release/
+/release_x64/
+/Makefile.EmfEngine
+/Makefile.EmfEngine.Debug
+/Makefile.EmfEngine.Release

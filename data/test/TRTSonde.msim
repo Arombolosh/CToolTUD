@@ -1,0 +1,47 @@
+# Created:	Mi Jun 15 14:55:23 2022
+# LastModified:	Do Jul 20 10:17:30 2023
+
+tStart                   0 a
+tEnd                     60 h
+hMax                     30 min
+hMin                     1e-05 s
+hFallBackLimit           0.001 s
+hStart                   5 min
+hOutputMin               1 h
+outputTimeUnit           s
+adjustStepSize           no
+preventOversteppingOfEndTime yes
+absTol                   1e-06
+relTol                   1e-05
+MasterMode               GAUSS_SEIDEL
+ErrorControlMode         NONE
+maxIterations            1
+writeInternalVariables   yes
+
+simulator 0 0 HeatExchangerDynamicFMU #4682b4 "fmus/HeatExchangerDynamic.fmu"
+simulator 1 0 TRTSonde #ffd700 "fmus/TRTSonde.fmu"
+simulator 2 0 steadyDetailedPipe #4682b4 "fmus/steadyDetailedPipe.fmu"
+simulator 3 0 Measurements #ff8c00 "fmus/profiles.tsv"
+simulator 4 0 MeanReturnTemperature #fa8072 "fmus/FMUAverage.fmu"
+simulator 5 0 Tf #6a5acd "fmus/FMUAverage.fmu"
+
+graph HeatExchangerDynamicFMU.Tout steadyDetailedPipe.Tin
+graph steadyDetailedPipe.Convection_coefficient TRTSonde.ClimateCond.hconv
+graph HeatExchangerDynamicFMU.Tout TRTSonde.ClimateCond.Tin
+graph Measurements.Heizleistung HeatExchangerDynamicFMU.Qdot
+graph Measurements.Massenstrom HeatExchangerDynamicFMU.mdot
+graph Measurements.Massenstrom steadyDetailedPipe.mdot 0 0.5
+graph Measurements.Massenstrom TRTSonde.ClimateCond.mdot 0 0.5
+graph TRTSonde.return_0a-PipeCollectorTr MeanReturnTemperature.in2
+graph TRTSonde.return_0b-PipeCollectorTr MeanReturnTemperature.in4
+graph MeanReturnTemperature.avg HeatExchangerDynamicFMU.Tin
+graph MeanReturnTemperature.avg Tf.in2
+graph HeatExchangerDynamicFMU.Tout Tf.in1
+parameter steadyDetailedPipe.Fluid_Density   1000
+parameter steadyDetailedPipe.Fluid_heat_capacity   4180
+parameter steadyDetailedPipe.Fluid_kinematic_viscosity   1e-6
+parameter steadyDetailedPipe.Pipe_wall_thickness   0.003
+# parameter MeanReturnTemperature.y_init   15
+# parameter Tf.y_init   15
+
+

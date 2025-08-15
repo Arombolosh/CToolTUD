@@ -1,0 +1,4189 @@
+{
+  "geo": {
+    "lat": "00",
+    "lon": "00"
+  },
+  "id": "222f",
+  "segments": [
+    {
+      "name": "flur_Storey0",
+      "zone": "Floor",
+      "area": 27,
+      "volume": 81,
+      "floor": {
+        "SurfaceID": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            250,
+            0
+          ],
+          [
+            13750,
+            250,
+            0
+          ],
+          [
+            13750,
+            2150,
+            0
+          ],
+          [
+            250,
+            2150,
+            0
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 1000,
+            "constTemperature": 10
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              250,
+              0,
+              13750,
+              250,
+              0,
+              13750,
+              2150,
+              0,
+              250,
+              2150,
+              0,
+              250,
+              250,
+              0
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "ceiling": {
+        "SurfaceID": 1,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            250,
+            3000
+          ],
+          [
+            13750,
+            250,
+            3000
+          ],
+          [
+            13750,
+            2150,
+            3000
+          ],
+          [
+            250,
+            2150,
+            3000
+          ]
+        ],
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              250,
+              3000,
+              13750,
+              250,
+              3000,
+              13750,
+              2150,
+              3000,
+              250,
+              2150,
+              3000,
+              250,
+              250,
+              3000
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 20
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 2,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              250,
+              0
+            ],
+            [
+              13750,
+              250,
+              0
+            ],
+            [
+              13750,
+              250,
+              3000
+            ],
+            [
+              250,
+              250,
+              3000
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win0",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  2250,
+                  250,
+                  1000
+                ],
+                [
+                  5250,
+                  250,
+                  1000
+                ],
+                [
+                  5250,
+                  250,
+                  2000
+                ],
+                [
+                  2250,
+                  250,
+                  2000
+                ]
+              ]
+            },
+            {
+              "name": "Win1",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  8750,
+                  250,
+                  1000
+                ],
+                [
+                  11750,
+                  250,
+                  1000
+                ],
+                [
+                  11750,
+                  250,
+                  2000
+                ],
+                [
+                  8750,
+                  250,
+                  2000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                250,
+                0,
+                13750,
+                250,
+                0,
+                13750,
+                250,
+                3000,
+                250,
+                250,
+                3000,
+                250,
+                250,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 3,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              250,
+              0
+            ],
+            [
+              13750,
+              2150,
+              0
+            ],
+            [
+              13750,
+              2150,
+              3000
+            ],
+            [
+              13750,
+              250,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                250,
+                0,
+                13750,
+                2150,
+                0,
+                13750,
+                2150,
+                3000,
+                13750,
+                250,
+                3000,
+                13750,
+                250,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 4,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              2150,
+              0
+            ],
+            [
+              250,
+              2150,
+              0
+            ],
+            [
+              250,
+              2150,
+              3000
+            ],
+            [
+              6900,
+              2150,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                2150,
+                0,
+                250,
+                2150,
+                0,
+                250,
+                2150,
+                3000,
+                6900,
+                2150,
+                3000,
+                6900,
+                2150,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 10
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 5,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              2150,
+              0
+            ],
+            [
+              6900,
+              2150,
+              0
+            ],
+            [
+              6900,
+              2150,
+              3000
+            ],
+            [
+              7100,
+              2150,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#ff5300",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                2150,
+                0,
+                6900,
+                2150,
+                0,
+                6900,
+                2150,
+                3000,
+                7100,
+                2150,
+                3000,
+                7100,
+                2150,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall4",
+          "SurfaceID": 6,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              2150,
+              0
+            ],
+            [
+              7100,
+              2150,
+              0
+            ],
+            [
+              7100,
+              2150,
+              3000
+            ],
+            [
+              13750,
+              2150,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                2150,
+                0,
+                7100,
+                2150,
+                0,
+                7100,
+                2150,
+                3000,
+                13750,
+                2150,
+                3000,
+                13750,
+                2150,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 16
+        },
+        {
+          "name": "wall5",
+          "SurfaceID": 7,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              2150,
+              0
+            ],
+            [
+              250,
+              250,
+              0
+            ],
+            [
+              250,
+              250,
+              3000
+            ],
+            [
+              250,
+              2150,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                2150,
+                0,
+                250,
+                250,
+                0,
+                250,
+                250,
+                3000,
+                250,
+                2150,
+                3000,
+                250,
+                2150,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hinten0_Storey0",
+      "zone": "Residential",
+      "area": 64.125,
+      "volume": 192.375,
+      "floor": {
+        "SurfaceID": 8,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            2350,
+            0
+          ],
+          [
+            6900,
+            2350,
+            0
+          ],
+          [
+            6900,
+            11750,
+            0
+          ],
+          [
+            250,
+            11750,
+            0
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 1000,
+            "constTemperature": 10
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              2350,
+              0,
+              6900,
+              2350,
+              0,
+              6900,
+              11750,
+              0,
+              250,
+              11750,
+              0,
+              250,
+              2350,
+              0
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "ceiling": {
+        "SurfaceID": 9,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            2350,
+            3000
+          ],
+          [
+            6900,
+            2350,
+            3000
+          ],
+          [
+            6900,
+            11750,
+            3000
+          ],
+          [
+            250,
+            11750,
+            3000
+          ]
+        ],
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              2350,
+              3000,
+              6900,
+              2350,
+              3000,
+              6900,
+              11750,
+              3000,
+              250,
+              11750,
+              3000,
+              250,
+              2350,
+              3000
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 28
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 10,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              2350,
+              0
+            ],
+            [
+              6900,
+              2350,
+              0
+            ],
+            [
+              6900,
+              2350,
+              3000
+            ],
+            [
+              250,
+              2350,
+              3000
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                2350,
+                0,
+                6900,
+                2350,
+                0,
+                6900,
+                2350,
+                3000,
+                250,
+                2350,
+                3000,
+                250,
+                2350,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 4
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 11,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              2350,
+              0
+            ],
+            [
+              6900,
+              11750,
+              0
+            ],
+            [
+              6900,
+              11750,
+              3000
+            ],
+            [
+              6900,
+              2350,
+              3000
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                2350,
+                0,
+                6900,
+                11750,
+                0,
+                6900,
+                11750,
+                3000,
+                6900,
+                2350,
+                3000,
+                6900,
+                2350,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 19
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 12,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              11750,
+              0
+            ],
+            [
+              250,
+              11750,
+              0
+            ],
+            [
+              250,
+              11750,
+              3000
+            ],
+            [
+              6900,
+              11750,
+              3000
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win2",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  5250,
+                  11750,
+                  1000
+                ],
+                [
+                  2250,
+                  11750,
+                  1000
+                ],
+                [
+                  2250,
+                  11750,
+                  2000
+                ],
+                [
+                  6250,
+                  11750,
+                  2000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                11750,
+                0,
+                250,
+                11750,
+                0,
+                250,
+                11750,
+                3000,
+                6900,
+                11750,
+                3000,
+                6900,
+                11750,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 13,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              11750,
+              0
+            ],
+            [
+              250,
+              2350,
+              0
+            ],
+            [
+              250,
+              2350,
+              3000
+            ],
+            [
+              250,
+              11750,
+              3000
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win3",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  250,
+                  7350,
+                  1000
+                ],
+                [
+                  250,
+                  4350,
+                  1000
+                ],
+                [
+                  250,
+                  4350,
+                  2000
+                ],
+                [
+                  250,
+                  7350,
+                  2000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                11750,
+                0,
+                250,
+                2350,
+                0,
+                250,
+                2350,
+                3000,
+                250,
+                11750,
+                3000,
+                250,
+                11750,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hinten1_Storey0",
+      "zone": "Residential",
+      "area": 64.125,
+      "volume": 192.375,
+      "floor": {
+        "SurfaceID": 14,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            7100,
+            2350,
+            0
+          ],
+          [
+            13750,
+            2350,
+            0
+          ],
+          [
+            13750,
+            11750,
+            0
+          ],
+          [
+            7100,
+            11750,
+            0
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 1000,
+            "constTemperature": 10
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              7100,
+              2350,
+              0,
+              13750,
+              2350,
+              0,
+              13750,
+              11750,
+              0,
+              7100,
+              11750,
+              0,
+              7100,
+              2350,
+              0
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "ceiling": {
+        "SurfaceID": 15,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            7100,
+            2350,
+            3000
+          ],
+          [
+            13750,
+            2350,
+            3000
+          ],
+          [
+            13750,
+            11750,
+            3000
+          ],
+          [
+            7100,
+            11750,
+            3000
+          ]
+        ],
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              7100,
+              2350,
+              3000,
+              13750,
+              2350,
+              3000,
+              13750,
+              11750,
+              3000,
+              7100,
+              11750,
+              3000,
+              7100,
+              2350,
+              3000
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 34
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 16,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              2350,
+              0
+            ],
+            [
+              13750,
+              2350,
+              0
+            ],
+            [
+              13750,
+              2350,
+              3000
+            ],
+            [
+              7100,
+              2350,
+              3000
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                2350,
+                0,
+                13750,
+                2350,
+                0,
+                13750,
+                2350,
+                3000,
+                7100,
+                2350,
+                3000,
+                7100,
+                2350,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 6
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 17,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              2350,
+              0
+            ],
+            [
+              13750,
+              11750,
+              0
+            ],
+            [
+              13750,
+              11750,
+              3000
+            ],
+            [
+              13750,
+              2350,
+              3000
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win4",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  13750,
+                  4350,
+                  1000
+                ],
+                [
+                  13750,
+                  7350,
+                  1000
+                ],
+                [
+                  13750,
+                  7350,
+                  2000
+                ],
+                [
+                  13750,
+                  4350,
+                  2000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                2350,
+                0,
+                13750,
+                11750,
+                0,
+                13750,
+                11750,
+                3000,
+                13750,
+                2350,
+                3000,
+                13750,
+                2350,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 18,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              11750,
+              0
+            ],
+            [
+              7100,
+              11750,
+              0
+            ],
+            [
+              7100,
+              11750,
+              3000
+            ],
+            [
+              13750,
+              11750,
+              3000
+            ]
+          ],"EmbeddedObjects": [
+            {
+              "name": "Win5",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  11750,
+                  11750,
+                  1000
+                ],
+                [
+                  8750,
+                  11750,
+                  1000
+                ],
+                [
+                  8750,
+                  11750,
+                  2000
+                ],
+                [
+                  11750,
+                  11750,
+                  2000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                11750,
+                0,
+                7100,
+                11750,
+                0,
+                7100,
+                11750,
+                3000,
+                13750,
+                11750,
+                3000,
+                13750,
+                11750,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 19,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              11750,
+              0
+            ],
+            [
+              7100,
+              2350,
+              0
+            ],
+            [
+              7100,
+              2350,
+              3000
+            ],
+            [
+              7100,
+              11750,
+              3000
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                11750,
+                0,
+                7100,
+                2350,
+                0,
+                7100,
+                2350,
+                3000,
+                7100,
+                11750,
+                3000,
+                7100,
+                11750,
+                0
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 11
+        }
+      ]
+    },
+    {
+      "name": "flur_Storey1",
+      "zone": "Floor",
+      "area": 27,
+      "volume": 170.10000000000002,
+      "floor": {
+        "SurfaceID": 20,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            250,
+            3300
+          ],
+          [
+            13750,
+            250,
+            3300
+          ],
+          [
+            13750,
+            2150,
+            3300
+          ],
+          [
+            250,
+            2150,
+            3300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 160
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              250,
+              3300,
+              13750,
+              250,
+              3300,
+              13750,
+              2150,
+              3300,
+              250,
+              2150,
+              3300,
+              250,
+              250,
+              3300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 1
+      },
+      "ceiling": {
+        "SurfaceID": 21,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            250,
+            6300
+          ],
+          [
+            13750,
+            250,
+            6300
+          ],
+          [
+            13750,
+            2150,
+            6300
+          ],
+          [
+            250,
+            2150,
+            6300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            },
+            {
+              "idx": 1,
+              "name": "Schaumglasplatte",
+              "heatConductivity": 0.65,
+              "density": 130,
+              "specHeatCapacity": 840,
+              "thickness": 120
+            },
+            {
+              "idx": 2,
+              "name": "Schotter einfacher Granulat",
+              "heatConductivity": 0.814,
+              "density": 1500,
+              "specHeatCapacity": 840,
+              "thickness": 30
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 25,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              250,
+              6300,
+              13750,
+              250,
+              6300,
+              13750,
+              2150,
+              6300,
+              250,
+              2150,
+              6300,
+              250,
+              250,
+              6300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 22,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              250,
+              3300
+            ],
+            [
+              13750,
+              250,
+              3300
+            ],
+            [
+              13750,
+              250,
+              6300
+            ],
+            [
+              250,
+              250,
+              6300
+            ]
+          ],"EmbeddedObjects": [
+            {
+              "name": "Win6",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  2250,
+                  250,
+                  4000
+                ],
+                [
+                  5250,
+                  250,
+                  4000
+                ],
+                [
+                  5250,
+                  250,
+                  5000
+                ],
+                [
+                  2250,
+                  250,
+                  5000
+                ]
+              ]
+            },
+            {
+              "name": "Win7",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  8750,
+                  250,
+                  4000
+                ],
+                [
+                  11750,
+                  250,
+                  4000
+                ],
+                [
+                  11750,
+                  250,
+                  5000
+                ],
+                [
+                  8750,
+                  250,
+                  5000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                250,
+                3300,
+                13750,
+                250,
+                3300,
+                13750,
+                250,
+                6300,
+                250,
+                250,
+                6300,
+                250,
+                250,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 23,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              250,
+              3300
+            ],
+            [
+              13750,
+              2150,
+              3300
+            ],
+            [
+              13750,
+              2150,
+              6300
+            ],
+            [
+              13750,
+              250,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                250,
+                3300,
+                13750,
+                2150,
+                3300,
+                13750,
+                2150,
+                6300,
+                13750,
+                250,
+                6300,
+                13750,
+                250,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 24,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              2150,
+              3300
+            ],
+            [
+              250,
+              2150,
+              3300
+            ],
+            [
+              250,
+              2150,
+              6300
+            ],
+            [
+              6900,
+              2150,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                2150,
+                3300,
+                250,
+                2150,
+                3300,
+                250,
+                2150,
+                6300,
+                6900,
+                2150,
+                6300,
+                6900,
+                2150,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 30
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 25,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              2150,
+              3300
+            ],
+            [
+              6900,
+              2150,
+              3300
+            ],
+            [
+              6900,
+              2150,
+              6300
+            ],
+            [
+              7100,
+              2150,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#ff5300",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                2150,
+                3300,
+                6900,
+                2150,
+                3300,
+                6900,
+                2150,
+                6300,
+                7100,
+                2150,
+                6300,
+                7100,
+                2150,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall4",
+          "SurfaceID": 26,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              2150,
+              3300
+            ],
+            [
+              7100,
+              2150,
+              3300
+            ],
+            [
+              7100,
+              2150,
+              6300
+            ],
+            [
+              13750,
+              2150,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                2150,
+                3300,
+                7100,
+                2150,
+                3300,
+                7100,
+                2150,
+                6300,
+                13750,
+                2150,
+                6300,
+                13750,
+                2150,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 36
+        },
+        {
+          "name": "wall5",
+          "SurfaceID": 27,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              2150,
+              3300
+            ],
+            [
+              250,
+              250,
+              3300
+            ],
+            [
+              250,
+              250,
+              6300
+            ],
+            [
+              250,
+              2150,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                2150,
+                3300,
+                250,
+                250,
+                3300,
+                250,
+                250,
+                6300,
+                250,
+                2150,
+                6300,
+                250,
+                2150,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hinten0_Storey1",
+      "zone": "Residential",
+      "area": 64.125,
+      "volume": 403.9875,
+      "floor": {
+        "SurfaceID": 28,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            2350,
+            3300
+          ],
+          [
+            6900,
+            2350,
+            3300
+          ],
+          [
+            6900,
+            11750,
+            3300
+          ],
+          [
+            250,
+            11750,
+            3300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 160
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              2350,
+              3300,
+              6900,
+              2350,
+              3300,
+              6900,
+              11750,
+              3300,
+              250,
+              11750,
+              3300,
+              250,
+              2350,
+              3300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 9
+      },
+      "ceiling": {
+        "SurfaceID": 29,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            250,
+            2350,
+            6300
+          ],
+          [
+            6900,
+            2350,
+            6300
+          ],
+          [
+            6900,
+            11750,
+            6300
+          ],
+          [
+            250,
+            11750,
+            6300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            },
+            {
+              "idx": 1,
+              "name": "Schaumglasplatte",
+              "heatConductivity": 0.65,
+              "density": 130,
+              "specHeatCapacity": 840,
+              "thickness": 120
+            },
+            {
+              "idx": 2,
+              "name": "Schotter einfacher Granulat",
+              "heatConductivity": 0.814,
+              "density": 1500,
+              "specHeatCapacity": 840,
+              "thickness": 30
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 25,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              250,
+              2350,
+              6300,
+              6900,
+              2350,
+              6300,
+              6900,
+              11750,
+              6300,
+              250,
+              11750,
+              6300,
+              250,
+              2350,
+              6300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 30,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              2350,
+              3300
+            ],
+            [
+              6900,
+              2350,
+              3300
+            ],
+            [
+              6900,
+              2350,
+              6300
+            ],
+            [
+              250,
+              2350,
+              6300
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                2350,
+                3300,
+                6900,
+                2350,
+                3300,
+                6900,
+                2350,
+                6300,
+                250,
+                2350,
+                6300,
+                250,
+                2350,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 24
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 31,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              2350,
+              3300
+            ],
+            [
+              6900,
+              11750,
+              3300
+            ],
+            [
+              6900,
+              11750,
+              6300
+            ],
+            [
+              6900,
+              2350,
+              6300
+            ]
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                2350,
+                3300,
+                6900,
+                11750,
+                3300,
+                6900,
+                11750,
+                6300,
+                6900,
+                2350,
+                6300,
+                6900,
+                2350,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 39
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 32,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              6900,
+              11750,
+              3300
+            ],
+            [
+              250,
+              11750,
+              3300
+            ],
+            [
+              250,
+              11750,
+              6300
+            ],
+            [
+              6900,
+              11750,
+              6300
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win8",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  5250,
+                  11750,
+                  4000
+                ],
+                [
+                  2250,
+                  11750,
+                  4000
+                ],
+                [
+                  2250,
+                  11750,
+                  5000
+                ],
+                [
+                  6250,
+                  11750,
+                  5000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                6900,
+                11750,
+                3300,
+                250,
+                11750,
+                3300,
+                250,
+                11750,
+                6300,
+                6900,
+                11750,
+                6300,
+                6900,
+                11750,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 33,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              250,
+              11750,
+              3300
+            ],
+            [
+              250,
+              2350,
+              3300
+            ],
+            [
+              250,
+              2350,
+              6300
+            ],
+            [
+              250,
+              11750,
+              6300
+            ]
+          ],
+           "EmbeddedObjects": [
+            {
+              "name": "Win9",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  250,
+                  7350,
+                  4000
+                ],
+                [
+                  250,
+                  4350,
+                  4000
+                ],
+                [
+                  250,
+                  4350,
+                  5000
+                ],
+                [
+                  250,
+                  7350,
+                  5000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                250,
+                11750,
+                3300,
+                250,
+                2350,
+                3300,
+                250,
+                2350,
+                6300,
+                250,
+                11750,
+                6300,
+                250,
+                11750,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hinten1_Storey1",
+      "zone": "Residential",
+      "area": 64.125,
+      "volume": 403.9875,
+      "floor": {
+        "SurfaceID": 34,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            7100,
+            2350,
+            3300
+          ],
+          [
+            13750,
+            2350,
+            3300
+          ],
+          [
+            13750,
+            11750,
+            3300
+          ],
+          [
+            7100,
+            11750,
+            3300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "schwimmender Zementestrich 2 Boden",
+              "heatConductivity": 1.4,
+              "density": 1990,
+              "specHeatCapacity": 1000,
+              "thickness": 40
+            },
+            {
+              "idx": 1,
+              "name": "EPS 040 15",
+              "heatConductivity": 0.04,
+              "density": 15,
+              "specHeatCapacity": 1500,
+              "thickness": 60
+            },
+            {
+              "idx": 2,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 160
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              7100,
+              2350,
+              3300,
+              13750,
+              2350,
+              3300,
+              13750,
+              11750,
+              3300,
+              7100,
+              11750,
+              3300,
+              7100,
+              2350,
+              3300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "ConnectedSurfaceID": 15
+      },
+      "ceiling": {
+        "SurfaceID": 35,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "facet": [
+          [
+            7100,
+            2350,
+            6300
+          ],
+          [
+            13750,
+            2350,
+            6300
+          ],
+          [
+            13750,
+            11750,
+            6300
+          ],
+          [
+            7100,
+            11750,
+            6300
+          ]
+        ],
+        "profile": {
+          "layers": [
+            {
+              "idx": 0,
+              "name": "Beton CEM II BS325R wz05",
+              "heatConductivity": 2.1,
+              "density": 2420,
+              "specHeatCapacity": 1000,
+              "thickness": 150
+            },
+            {
+              "idx": 1,
+              "name": "Schaumglasplatte",
+              "heatConductivity": 0.65,
+              "density": 130,
+              "specHeatCapacity": 840,
+              "thickness": 120
+            },
+            {
+              "idx": 2,
+              "name": "Schotter einfacher Granulat",
+              "heatConductivity": 0.814,
+              "density": 1500,
+              "specHeatCapacity": 840,
+              "thickness": 30
+            }
+          ],
+          "inside": {
+            "heatConvectionCoeff": 8,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          },
+          "outside": {
+            "heatConvectionCoeff": 25,
+            "emissivity": 0.9,
+            "shortWaveAbsorption": 0.6
+          }
+        },
+        "meshes": [
+          {
+            "name": "basic_shell",
+            "color": "#e0bd4d",
+            "opacity": 0.2,
+            "positions": [
+              7100,
+              2350,
+              6300,
+              13750,
+              2350,
+              6300,
+              13750,
+              11750,
+              6300,
+              7100,
+              11750,
+              6300,
+              7100,
+              2350,
+              6300
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "walls": [
+        {
+          "name": "wall0",
+          "SurfaceID": 36,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              2350,
+              3300
+            ],
+            [
+              13750,
+              2350,
+              3300
+            ],
+            [
+              13750,
+              2350,
+              6300
+            ],
+            [
+              7100,
+              2350,
+              6300
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                2350,
+                3300,
+                13750,
+                2350,
+                3300,
+                13750,
+                2350,
+                6300,
+                7100,
+                2350,
+                6300,
+                7100,
+                2350,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 26
+        },
+        {
+          "name": "wall1",
+          "SurfaceID": 37,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              2350,
+              3300
+            ],
+            [
+              13750,
+              11750,
+              3300
+            ],
+            [
+              13750,
+              11750,
+              6300
+            ],
+            [
+              13750,
+              2350,
+              6300
+            ]
+          ],
+          "EmbeddedObjects": [
+            {
+              "name": "Win10",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  13750,
+                  4350,
+                  4000
+                ],
+                [
+                  13750,
+                  7350,
+                  4000
+                ],
+                [
+                  13750,
+                  7350,
+                  5000
+                ],
+                [
+                  13750,
+                  4350,
+                  5000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                2350,
+                3300,
+                13750,
+                11750,
+                3300,
+                13750,
+                11750,
+                6300,
+                13750,
+                2350,
+                6300,
+                13750,
+                2350,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall2",
+          "SurfaceID": 38,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              13750,
+              11750,
+              3300
+            ],
+            [
+              7100,
+              11750,
+              3300
+            ],
+            [
+              7100,
+              11750,
+              6300
+            ],
+            [
+              13750,
+              11750,
+              6300
+            ]
+          ],"EmbeddedObjects": [
+            {
+              "name": "Win11",
+              "uValue": 1.3,
+              "SHGC": 0.6,
+              "FrameFraction": 0.1,
+              "facet": [
+                [
+                  11750,
+                  11750,
+                  4000
+                ],
+                [
+                  8750,
+                  11750,
+                  4000
+                ],
+                [
+                  8750,
+                  11750,
+                  5000
+                ],
+                [
+                  11750,
+                  11750,
+                  5000
+                ]
+              ]
+            }
+          ],
+          "profile": {
+            "layers": [
+              {
+                "idx": 0,
+                "name": "Beton CEM II BS325R wz05",
+                "heatConductivity": 2.1,
+                "density": 2420,
+                "specHeatCapacity": 1000,
+                "thickness": 200
+              },
+              {
+                "idx": 1,
+                "name": "Daemmung",
+                "heatConductivity": 1.2,
+                "density": 2000,
+                "specHeatCapacity": 1000,
+                "thickness": 100
+              },
+              {
+                "idx": 2,
+                "name": "Putz",
+                "heatConductivity": 0.14,
+                "density": 800,
+                "specHeatCapacity": 1500,
+                "thickness": 5
+              }
+            ],
+            "inside": {
+              "heatConvectionCoeff": 8,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            },
+            "outside": {
+              "heatConvectionCoeff": 25,
+              "emissivity": 0.9,
+              "shortWaveAbsorption": 0.6
+            }
+          },
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                13750,
+                11750,
+                3300,
+                7100,
+                11750,
+                3300,
+                7100,
+                11750,
+                6300,
+                13750,
+                11750,
+                6300,
+                13750,
+                11750,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall3",
+          "SurfaceID": 39,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "facet": [
+            [
+              7100,
+              11750,
+              3300
+            ],
+            [
+              7100,
+              2350,
+              3300
+            ],
+            [
+              7100,
+              2350,
+              6300
+            ],
+            [
+              7100,
+              11750,
+              6300
+            ]
+          ],
+          "meshes": [
+            {
+              "name": "basic_shell",
+              "color": "#e0bd4d",
+              "opacity": 0.2,
+              "positions": [
+                7100,
+                11750,
+                3300,
+                7100,
+                2350,
+                3300,
+                7100,
+                2350,
+                6300,
+                7100,
+                11750,
+                6300,
+                7100,
+                11750,
+                3300
+              ],
+              "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "ConnectedSurfaceID": 31
+        }
+      ]
+    }
+  ]
+}
